@@ -436,7 +436,7 @@ export const AppTranslations: Translations = {
     id: "Pertandingan", // #toBeUpdated
     fil: "Pareha", // #toBeUpdated
     zh: "匹配", // #toBeUpdated
-    br: "Partida", 
+    br: "Partida",
     es: "Partido", // #toBeUpdated
   },
   Result: {
@@ -2839,7 +2839,7 @@ export const AppTranslations: Translations = {
     en: "Make sure to add '-gamestateintegration' to your Dota launch options (<span id='webLink'>click here to see guide</span>).<br><br>Costumize Dota Coach to your needs. Head to the settings menu in the top right corner!<br><hr>Interact with timers and infoboxes during the game to get the competetive edge:<br>- Press<b> LEFT-CLICK </b>to start Roshan-, Glyph-, Buyback-, Ultimate-Timers.<br>- Press<b> the red X </b>to stop Roshan-, Glyph-, Buyback-, Ultimate-Timers.<br>- Press<b> LEFT-CLICK</b> to open infoboxes at the top and at the minimap.<br><hr>You are now an important member of the Dota Coach community and we want to hear from you:<br>- Join our <span id='webLink'>Discord Server</span> to speak directly with us, find like-minded players and suggest Dota Coach changes!<br>- Join our <span id='webLink'>Subreddit</span> or follow Dota Coach on <span id='webLink'>social media</span> to get live updates on upcoming changes and improvements!<hr>Still got questions? No worries, we got you covered:<br>- <span id='webLink'>FAQ</span><br>- <span id='webLink'>Heropedia</span><br><hr>Do you want to unleash the full power of Dota Coach in 3 minutes? Watch our video guide:<br><br><button id='webLink'>Video Guide</button><br><br>",
     webLinks: [
       "https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2",
-      "https://discord.gg/rMfM5VM9Qc",
+      "https://discord.gg/zgrYW8p3kV",
       "https://www.reddit.com/r/DotaCoachApp/",
       "https://twitter.com/coach_dota",
       "https://dota-coach.github.io/faqs.html",
