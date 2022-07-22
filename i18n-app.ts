@@ -2998,7 +2998,7 @@ export const AppTranslations: Translations = {
 
   buttonEnable: {
     en: "Enable",
-    de: "Ermöglichen", // #toBeUpdated
+    de: "Aktiviert",
     fr: "Activer", // #toBeUpdated
     ru: "Включить", // #toBeUpdated
     id: "Aktifkan", // #toBeUpdated
