@@ -2262,7 +2262,7 @@ export const AppTranslations: Translations = {
   ShowhideOverlay: {
     en: "Show/hide in-game overlay",
     de: "Spieloverlay ein-/ausblenden",
-    fr: "Afficher/masquer l'app dans le jeu",
+    fr: "Afficher/masquer l'wv rapp dans le jeu",
     ru: "Показать/скрыть внутриигровой оверлей",
     id: "Tampilkan/sembunyikan overlay dalam game",
     fil: "Ipakita/itago ang overlay ng in-game",

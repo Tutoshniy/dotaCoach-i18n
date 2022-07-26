@@ -203,10 +203,11 @@ export function getLanguage(): string {
  * @returns Full language name of language code; if language is not provided, then the funciton returns the name of the current language
  */
 export function getLanguageName(language?: string): string {
-  DL.log(`i18n.getLanguageName(): currentLanguage = ${currentLanguage}`);
+  DL.log(
+    `i18n.getLanguageName(language=${language}): Called (currentLanguage; ${currentLanguage})`
+  );
   if (language == undefined) {
     language = currentLanguage;
-    //return i18n.config.languages[currentLanguage];
   }
 
   for (const l of Languages) {
