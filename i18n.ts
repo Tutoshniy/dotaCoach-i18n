@@ -26,7 +26,7 @@ export type Translation = {
 
 export interface Language {
   code: string;
-  pollyConfig: PollyConfig;
+  pollyConfig?: PollyConfig;
   name: string;
 }
 

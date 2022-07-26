@@ -44,8 +44,8 @@ export const Languages: Language[] = [
       Engine: "standard",
     },
   },
-  { code: "id", pollyConfig: null, name: "Indonesia" },
-  { code: "fil", pollyConfig: null, name: "Filipino" },
+  { code: "id", pollyConfig: undefined, name: "Indonesia" },
+  { code: "fil", pollyConfig: undefined, name: "Filipino" },
   {
     code: "zh",
     name: "中文",
