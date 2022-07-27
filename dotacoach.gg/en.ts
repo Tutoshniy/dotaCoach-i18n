@@ -1,4 +1,4 @@
-{
+export default {
 	"navbar.app": "App",
 	"navbar.app.features": "Features",
 	"navbar.app.instructions": "Instructions",
