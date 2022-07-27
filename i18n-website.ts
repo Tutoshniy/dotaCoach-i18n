@@ -28,7 +28,7 @@ export const WebsiteTranslations: Translations = {
     en: "Why are you leaving us?",
     de: "Warum verlässt du uns?",
     fr: "Pourquoi est-ce que tu nous quittes ?",
-    ru: "Почему вы нас покидаете?",
+    ru: "Почему вы уходите?",
     id: "Kenapa kau meninggalkan kami?", // #toBeUpdated
     fil: "Bakit mo kami iniiwan?", // #toBeUpdated
     zh: "你为什么要离开我们？", // #toBeUpdated
@@ -139,7 +139,7 @@ export const WebsiteTranslations: Translations = {
     en: "What could we have done better?",
     de: "Was hätten wir besser machen können?",
     fr: "Qu'aurions-nous pu faire de mieux ?",
-    ru: "Что мы могли сделать лучше?",
+    ru: "Что мы могли бы улучшить?",
     id: "Apa yang bisa kita lakukan lebih baik?", // #toBeUpdated
     fil: "Ano ang maaari nating gawin nang mas mahusay?", // #toBeUpdated
     zh: "我们能做得更好些什么？", // #toBeUpdated
