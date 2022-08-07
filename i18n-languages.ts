@@ -7,6 +7,50 @@
  */
 import { Language } from "./i18n";
 
+/**
+ * Function to transform locale to language cdoe
+ * 
+ * Currently used in dotacoach.gg
+ * 
+ * Source for locales: https://www.localeplanet.com/icu/
+ * 
+ * @param locale 
+ */
+export function getLanguage(locale: string): string {
+  switch (true) {
+    case (locale.startsWith('en')): {
+      return "en"
+    }
+    case (locale.startsWith('de')): {
+      return "de"
+    }
+    case (locale.startsWith('fr')): {
+      return "fr"
+    }
+    case (locale.startsWith('ru')): {
+      return "ru"
+    }
+    case (locale.startsWith('id')): {
+      return "id"
+    }
+    case (locale.startsWith('fil')): {
+      return "fil"
+    }
+    case (locale.startsWith('zh')): {
+      return "zh"
+    }
+    case (locale.startsWith('br')): {
+      return "br"
+    }
+    case (locale.startsWith('es')): {
+      return "es"
+    }
+    default:
+      return "en"
+  }
+}
+
+
 export const Languages: Language[] = [
   {
     code: "en",
