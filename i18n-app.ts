@@ -2577,7 +2577,7 @@ export const AppTranslations: Translations = {
     es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
   },
   DotaConnectivityError: {
-    en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
+    en: "Connection to Dota 2 could not be established.<br>Please try to restart app again later.<br>Error: '####'.", // NOT, ALL UPDATED
     de: `Verbindung zu Dota 2 konnte nicht hergestellt werden. <br>Bitte versuche es später erneut. <br>Fehler: '####'.`,
     fr: `La connexion à Dota 2 n'a pas pu être établie. <br>Réessaye plus tard. <br>Erreur : « #### ».`,
     ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
