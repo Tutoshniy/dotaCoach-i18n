@@ -14,6 +14,7 @@ export default {
 	"navbar.selectLanguage": "Select Language",
 
 	// Footer
+	"footer.disclaimer": "Dota 2 is a registered trademark of Valve Corporation. This site is not affiliated with Valve Corporation.All game images and names are property of Valve Corporation.",
 
 	// Main page
 	"index.title": "Dota Coach makes Dota 2 more fun to play!",
@@ -87,5 +88,6 @@ export default {
 	"generic.matches": "Matches",
 	"generic.heroMatrix": "Hero Matrix",
 	"generic.roshanManagement": "Roshan Management",
-	"generic.medalProgressoin": "Medal Progression"
+	"generic.medalProgressoin": "Medal Progression",
+	"generic.privacy": "Privacy"
 }
