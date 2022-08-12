@@ -6,6 +6,7 @@
  */
 import { Languages } from "./i18n-languages";
 import * as DL from "../../submodules/utilities/log";
+import "@overwolf/types";
 
 export type Translations = {
   [key: string]: Translation;
@@ -26,6 +27,7 @@ export type Translation = {
 
 export interface Language {
   code: string;
+  "dota2.com"?: string; // languge code used by dota2.com
   pollyConfig?: PollyConfig;
   name: string;
 }
@@ -46,7 +48,9 @@ const i18nVarToken = "####";
  * Variable Token values for a given i18n token.
  * Example: "isSmurf":[name,winrate]
  */
-const i18nVarTokenValues = {};
+const i18nVarTokenValues: {
+  [key: string]: string[]
+} = {};
 
 /**
  * Variable for current language
@@ -54,7 +58,7 @@ const i18nVarTokenValues = {};
  */
 let currentLanguage = "en";
 
-let activeTranslations = {};
+let activeTranslations: any = {};
 
 export function setTranslations(translations: Translations) {
   DL.log(
@@ -92,7 +96,7 @@ export function replaceVarTokens(buildSpan: boolean, i18nT: string, ...tokens: s
   // Checks if variable occurances do not match parameter length
   if (occuCount != tokens.length) {
     DL.error("i18n.replaceVarTokens: Params length != Variable count");
-    return;
+    return "";
   }
 
   // Replaces every var orrucance with the called parameter array in order.
@@ -136,16 +140,16 @@ export function t(token: string): string {
     console.warn(err.stack);
 
     if (Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)) {
-      return errorTranslation[currentLanguage];
+      return (errorTranslation as any)[currentLanguage];
     } else {
       return errorTranslation.en;
     }
   }
 
-  if (Object.prototype.hasOwnProperty.call(activeTranslations[token], currentLanguage)) {
-    return activeTranslations[token][currentLanguage];
+  if (Object.prototype.hasOwnProperty.call((activeTranslations as any)[token], currentLanguage)) {
+    return (activeTranslations as any)[token][currentLanguage];
   } else {
-    return activeTranslations[token].en;
+    return (activeTranslations as any)[token].en;
   }
 }
 
@@ -225,11 +229,11 @@ export function getLanguageName(language?: string): string {
  */
 export function getPollyLanguageConfig(language: string): PollyConfig {
   for (const l of Languages) {
-    if (l.code == language) {
+    if ((l.code == language) && (l.pollyConfig != undefined)) {
       return l.pollyConfig;
     }
   }
-  return Languages[0].pollyConfig; // Returns english if no name is found
+  return Languages[0].pollyConfig as PollyConfig; // Returns english if no name is found
 }
 
 /**
@@ -272,9 +276,12 @@ function updatei18nElement(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
+  if (i18nToken == null) return // Nothing to be done, as element is not of type i18n
   /*console.log(
     `*** i18nVarTokenValues=${JSON.stringify(i18nVarTokenValues, null, 2)}`
   );*/
+
+
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
     /*console.log(`*** here we go`);*/
     element.innerHTML = replaceVarTokens(false, i18nToken, ...i18nVarTokenValues[i18nToken]);
@@ -292,6 +299,8 @@ function configureWebLinks(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
+  if (i18nToken == null) return
+
   let linkId = 0;
 
   // Create unique IDs for webLinks
@@ -304,7 +313,7 @@ function configureWebLinks(element: Element) {
   // Add listeners for webLinks
   for (let i = 0; i < linkId; i++) {
     //console.log(`*** webLink-${i18nToken}-${i}`);
-    const e = document.getElementById(`webLink-${i18nToken}-${i}`);
+    const e = document.getElementById(`webLink-${i18nToken}-${i}`) as HTMLElement;
     e.addEventListener("click", () => {
       let webLink = activeTranslations[i18nToken].webLinks[i];
       if (webLink == "https://dota-coach.com/video/DotaCoachTutorial.mp4") {
@@ -315,6 +324,7 @@ function configureWebLinks(element: Element) {
         }
       }
       //overwolf.utils.openUrlInOverwolfBrowser(webLink);
+
       overwolf.utils.openUrlInDefaultBrowser(webLink); // Overwolf recommends to use default browser (30.6.2022)
     });
   }

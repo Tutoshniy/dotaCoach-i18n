@@ -50,11 +50,28 @@ export function getLanguage(locale: string): string {
   }
 }
 
+/**
+ * Converts Dota Coach language code into parameter for dota2.com
+ * 
+ * @param language E.g. en, de, etc.
+ * @returns e.g., l=german
+ */
+export function getDota2DotComLocale(language?: string): string {
+  if (language != undefined) {
+    for (const l of Languages) {
+      if (l.code == language && l["dota2.com"] != undefined) {
+        return `l=${l["dota2.com"]}`
+      }
+    }
+  }
+  return `l=english` // If language is not provided dota2.com, then use english
+}
 
 export const Languages: Language[] = [
   {
     code: "en",
     name: "English",
+    "dota2.com": "english",
     pollyConfig: {
       LanguageCode: "en-US",
       VoiceId: "Joanna",
@@ -64,6 +81,7 @@ export const Languages: Language[] = [
   {
     code: "de",
     name: "Deutsch",
+    "dota2.com": "german",
     pollyConfig: {
       LanguageCode: "de-DE",
       VoiceId: "Vicki",
@@ -73,6 +91,7 @@ export const Languages: Language[] = [
   {
     code: "fr",
     name: "Français",
+    "dota2.com": "french",
     pollyConfig: {
       LanguageCode: "fr-FR",
       VoiceId: "Lea",
@@ -82,17 +101,25 @@ export const Languages: Language[] = [
   {
     code: "ru",
     name: "Русский",
+    "dota2.com": "russian",
     pollyConfig: {
       LanguageCode: "ru-RU",
       VoiceId: "Tatyana",
       Engine: "standard",
     },
   },
-  { code: "id", pollyConfig: undefined, name: "Indonesia" },
-  { code: "fil", pollyConfig: undefined, name: "Filipino" },
+  {
+    code: "id", "dota2.com": undefined, // language is not offered on dota2.com
+    pollyConfig: undefined, name: "Indonesia"
+  },
+  {
+    code: "fil", "dota2.com": undefined, // language is not offered on dota2.com
+    pollyConfig: undefined, name: "Filipino"
+  },
   {
     code: "zh",
     name: "中文",
+    "dota2.com": "schinese", // simplified chinese
     pollyConfig: {
       LanguageCode: "cmn-CN",
       VoiceId: "Zhiyu",
@@ -102,6 +129,7 @@ export const Languages: Language[] = [
   {
     code: "br",
     name: "Português - Brasil",
+    "dota2.com": "portuguese",
     pollyConfig: {
       LanguageCode: "pt-BR",
       VoiceId: "Camila",
@@ -111,6 +139,7 @@ export const Languages: Language[] = [
   {
     code: "es",
     name: "Español",
+    "dota2.com": "spanish",
     pollyConfig: {
       LanguageCode: "es-ES",
       VoiceId: "Lucia",

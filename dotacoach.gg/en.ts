@@ -2,7 +2,8 @@ export default {
 	// Navigation bar
 	"navbar.app": "App",
 	"navbar.app.features": "Features",
-	"navbar.app.instructions": "Instructions",
+	"navbar.app.videos": "Videos",
+	//"navbar.app.instructions": "Instructions",
 	"navbar.app.FAQs": "FAQs",
 	"navbar.app.Pricing": "Pricing",
 	"navbar.heroes": "Heroes",
@@ -69,7 +70,7 @@ export default {
 	"app.feature.matchAnalytics.descr": "See how your performed in your games played with the app.",
 	//Link: "Watch the performance tracker teaser video"(https://dota-coach.com/content/instructions.html#PerfTrackerTeaser)
 
-	"app.feature.stats": "Statistics",
+	"app.feature.stats": "Stats",
 	"app.feature.stats.descr": "Overall win rate as well as win rate of most played heroes for each player during the hero selection phase, including detection of smurfs.Once a hero is selected, the app shows you the player’s item purchases in his last games.Additionally, it will also show you with whom you recently played.",
 
 	"app.feature.voting": "Voting",
@@ -81,13 +82,27 @@ export default {
 
 	// APP FAQs - Translations are in separate files
 
+	// APP Pricing
+	//Download App
+
+
+	// Heroes - Hero Guides
+	"heroGuides.subscriber": "Subscribe to Guide",
+
+	// Heroes - Heropedia
+	"heropedia.getGuide": "{lane} guide",
 
 	//...
-	"generic.get.app": "Get the app",
+	"generic.app.download": "Download app",
+	"generic.app.subscribe": "Subscribe",
+	"generic.app.get": "Get the app",
 	"generic.heropedia": "Heropedia",
 	"generic.matches": "Matches",
 	"generic.heroMatrix": "Hero Matrix",
 	"generic.roshanManagement": "Roshan Management",
 	"generic.medalProgressoin": "Medal Progression",
-	"generic.privacy": "Privacy"
+	"generic.privacy": "Privacy",
+	"generic.contactUs": "Contact us",
+	"generic.submit": "Submit",
+
 }
