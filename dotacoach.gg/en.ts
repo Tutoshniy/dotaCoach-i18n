@@ -92,7 +92,7 @@ export default {
 	// Heroes - Heropedia
 	"heropedia.getGuide": "{lane} guide",
 
-	//...
+	// Generic text
 	"generic.app.download": "Download app",
 	"generic.app.subscribe": "Subscribe",
 	"generic.app.get": "Get the app",

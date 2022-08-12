@@ -9,5 +9,9 @@ export default {
 	"navbar.heroes.herobuilds": "Helden-Builds",
 
 	"home.title": "Gewinne Spiele mit Dota Coach",
-	"home.subtitle": "Spiele intelligenter und besser mit Unterstützung im Spiel"
+	"home.subtitle": "Spiele intelligenter und besser mit Unterstützung im Spiel",
+
+	// Generic text
+	"generic.submit": "Senden",
+
 }

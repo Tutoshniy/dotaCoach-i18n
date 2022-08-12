@@ -1,0 +1,17 @@
+export default {
+  "uninstall.sorryToGo": "Нам жаль, что вы ушли...",
+  "uninstall.whyLeaving": "Почему вы уходите?",
+  "uninstall.languageNotSupported": "Мой язык не поддерживается",
+  "uninstall.tooManyAds": "Слишком много рекламы",
+  "uninstall.performanceIssues": "Проблемы с производительностью (низкий FPS)",
+  "uninstall.appDidntWork": "Приложение не работает",
+  "uninstall.tooManyBugs": "Слишком много багов",
+  "uninstall.UXUIBad": "Плохой UX/UI интерфейс",
+  "uninstall.otherAppsBetter": "Другие приложения лучше",
+  "uninstall.dontPlayDota": "Я больше не играю в Dota 2",
+  "uninstall.otherReason": "Другое",
+  "uninstall.whatDoneBetter": "Что мы могли бы улучшить?",
+  "uninstall.whatDoneBetter.placeholder": "Например, баги, малое количество функций и т.д.",
+  "uninstall.thankYouForMarkingAppBetter": "Надеемся, вы сможете опробовать нас снова в будущем. Спасибо, что сделали Dota Coach лучше.",
+  "uninstall.thankYouForFeedback": "Спасибо за ваш отзыв!",
+};

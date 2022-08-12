@@ -39,8 +39,8 @@ export function getLanguage(locale: string): string {
     case (locale.startsWith('zh')): {
       return "zh"
     }
-    case (locale.startsWith('br')): {
-      return "br"
+    case (locale.startsWith('pt')): {
+      return "br" // Brazilian-portuges
     }
     case (locale.startsWith('es')): {
       return "es"
