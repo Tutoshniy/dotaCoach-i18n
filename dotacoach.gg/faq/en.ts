@@ -67,7 +67,9 @@ export default {
 	"app.faqs.application.videoGuide.question":
 		"Do you have a video guide?",
 	"app.faqs.application.videoGuide.answer":
-		`<p>You can find our 3 minute video guide <a_tutorial_video>here</a_tutorial_video>.</p>`,
+		`<p>
+			You can find our 3 minute video guide <a_tutorial_video>here</a_tutorial_video>.
+		</p>`,
 
 	"app.faqs.application.gameStateIntegration.question":
 		"What is Game State Integration?",
@@ -177,7 +179,9 @@ export default {
 	"app.faqs.timers.stop.question":
 		"How do I stop a timer?",
 	"app.faqs.timers.stop.answer":
-		`<p>Click on the red-cross to stop the timer.</p>`,
+		`<p>
+			Click on the red-cross to stop the timer.
+		</p>`,
 
 	"app.faqs.timers.sharing.question":
 		"How do I announce a timer?",

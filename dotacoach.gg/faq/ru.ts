@@ -1,7 +1,3 @@
-/**
- * Translation of dotacoach.gg into Russian.
- * 
- */
 export default {
 	// Headers
 	"app.faqs.title": "Часто задаваемые вопросы (FAQ)",
