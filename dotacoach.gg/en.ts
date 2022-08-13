@@ -104,5 +104,7 @@ export default {
 	"generic.privacy": "Privacy",
 	"generic.contactUs": "Contact us",
 	"generic.submit": "Submit",
+	"generic.languages": "Languages",
+
 
 }
