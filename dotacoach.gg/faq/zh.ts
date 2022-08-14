@@ -12,7 +12,7 @@ export default {
 		"我该如何开始？",
 	"app.faqs.application.getStarted.answer":
 		`<p>
-			第一步是在你的 Dota 2 启动选项中添加 “-gamestateintegration”。<br>如果你已经添加了它，但仍然收到警告消息，请务必登录你的 Steam 账户。<br>有关如何添加 Dota 2 启动参数的指南可 <a_GSI>在此处</a_GSI> 找到。
+			第一步是在你的 Dota 2 启动选项中添加 “-gamestateintegration”。如果你已经添加了它，但仍然收到警告消息，请务必登录你的 Steam 账户。有关如何添加 Dota 2 启动参数的指南可 <a_GSI>在此处</a_GSI> 找到。
 		</p>
 		<p>
 			之后，您可以根据需要自定义应用程序。前往右上角的设置菜单:
@@ -30,7 +30,7 @@ export default {
 			<img_hero_selection></img_hero_selection>
 		</p>
 		<p>
-			英雄 后，你可以选择自己的角色（携带/安全通道、mid、offlane、core 或软/硬支援）和你期望对抗的英雄。基于此，Dota Coach将为对线阶段推荐反击物品。<br>请注意，您应该将这些物品与我们的指南在Dota 2中推荐的物品组合使用。
+			英雄 后，你可以选择自己的角色（携带/安全通道、mid、offlane、core 或软/硬支援）和你期望对抗的英雄。基于此，Dota Coach将为对线阶段推荐反击物品。请注意，您应该将这些物品与我们的指南在Dota 2中推荐的物品组合使用。
 		</p>
 		<p>
 			<img_items_recommendation></img_items_recommendation>
@@ -48,11 +48,10 @@ export default {
 			<img_roshan_timer_active_32></img_roshan_timer_active_32>
 		</p>
 		<p>
-			If other players in your team are using Dota Coach, the activation of timers will be shared among the team.
-			So if you forget to activate a timer, don't worry, a teammate might have activated it!
+			如果是其他你队伍中的玩家正在使用Dota Coach，激活的计时器将在队伍中共享。因此，如果你忘记激活计时器，别担心，队友可能已经激活了它！
 		</p>
 		<p>
-			如果是其他你队伍中的玩家正在使用Dota Coach，激活的计时器将在队伍中共享。<br>因此，如果你忘记激活计时器，别担心，队友可能已经激活了它！<p>订阅者可以获得所有 123 位英雄的英雄指导、终极计时器、移除广告以及支持 app 的开发。<br>订阅费为每月1.99美元。
+			订阅者可以获得所有 123 位英雄的英雄指导、终极计时器、移除广告以及支持 app 的开发。订阅费为每月1.99美元。
 		</p>
 		<p>
 			想要查看该应用程序的运行情况并了解其功能吗？<a_tutorial_video>加入我们的Discord社区服务器</a_tutorial_video>!<br></br> 想和我们谈谈吗？没问题：<a_discord>加入我们的Discord社区服务器</a_discord>!
@@ -72,7 +71,7 @@ export default {
 			游戏状态集成是 Dota Coach 不可或缺的一部分。它由Valve提供，用于访问Dota 2游戏中的所有事件。
 		</p>
 		<p>
-			你必须添加 “-gamestateintegration” 作为 Dota 2 启动参数。<br>没有它，Dota教练将无法工作！
+			你必须添加 “-gamestateintegration” 作为 Dota 2 启动参数。没有它，Dota教练将无法工作！
 		</p>
 		<p>
 			有关如何启用它的更多信息，请单击 <a_GSI>此处</a_GSI>。
@@ -85,7 +84,7 @@ export default {
 			<b>Dota Coach 应用程序不会让你被禁赛。</b>
 		</p>
 		<p>
-			Dota Coach 应用程序建立在 Overwolf 平台之上。<br>Overwolf 平台是与 Valve 和 Dota 2 团队合作构建的。Valve自成立以来就一直支持第三方应用程序创建可增强玩家体验的内容和系统的努力。
+			Dota Coach 应用程序建立在 Overwolf 平台之上。Overwolf 平台是与 Valve 和 Dota 2 团队合作构建的。Valve自成立以来就一直支持第三方应用程序创建可增强玩家体验的内容和系统的努力。
 		</p>
 		<p>
 			你可以在这里阅读更多：<a_overwolf_banned>Overwolf 不会让你被禁赛</a_overwolf_banned>
@@ -111,7 +110,7 @@ export default {
 			语言设置位于右下角。
 		</p>
 		<p>
-			请注意，我们只支持一组特定的语言。<br>如果缺少您的母语，请告知我们或帮助翻译！
+			请注意，我们只支持一组特定的语言。如果缺少您的母语，请告知我们或帮助翻译！
 		</p>
 		<p>
 			<img_settings_language></img_settings_language>
@@ -154,8 +153,8 @@ export default {
 		"如何启动计时器？",
 	"app.faqs.timers.start.answer":
 		`<p>
-			左键单击计时器以激活它们。这适用于 Roshan、设防符文、回购和终极版。
-		</p>
+			左键单击计han、设防符文、回购和终极版。
+		</p>时器以激活它们。这适用于 Ros
 		<div_flex>
 			<div_width_40>
 				激活前的 Roshan 计时器：<br></br>
@@ -203,7 +202,7 @@ export default {
 		"如何禁用计时器？",
 	"app.faqs.timers.disable.answer":
 		`<p>
-			打开设置窗口。<br>您可以在右上角的 “更改设置” 下找到它。
+			打开设置窗口。您可以在右上角的 “更改设置” 下找到它。
 		</p>
 		<p>
 			你可以使用你不想看到的计时器组件。
@@ -264,7 +263,7 @@ export default {
 			是的，你可以！刀塔教练在旁观者模式下工作。
 		</p>
 		<p>
-			由于提供了额外的信息，它将增强你的整体观众体验。<br>试试吧！
+			由于提供了额外的信息，它将增强你的整体观众体验。试试吧！
 		</p>`,
 
 	"app.faqs.gameModes.trounament.question":
@@ -387,26 +386,26 @@ export default {
 		</p>`,
 
 	"app.faqs.windows.showHide.question":
-		"How can I hide/show the in-game overlay while playing?",
+		"如何在玩游戏时隐藏/显示窗口？",
 	"app.faqs.windows.showHide.answer":
 		`<p>
-			To Hide/Show in-game overlay while playing, press the assigned hotkey.
+			要在玩游戏时隐藏/显示游戏内窗口，请按指定的热键。
 		</p>
 		<p>
-			The standard hotkey is 'CTRL + b'.
+			标准的热键是'CTRL+b'。
 		</p>
 		<p>
-			If you want to change the hotkey, head to the overwolf app settings.
+			如果你想更改热键，请前往overwolf应用程序设置。
 		</p>
 		<p>
-			Check our FAQ under 'Hotkeys' if you are not sure where to find it.
+			如果您不确定在哪里可以找到它，请查看 “Hotkeys” 下的常见问题解答。
 		</p>`,
 
 	"app.faqs.windows.missing.question":
 		"为什么有些窗户不见了？",
 	"app.faqs.windows.missing.answer":
 		`<p>
-			计时器未显示的原因有很多。<br>如果找不到Dota 2游戏协调员，Dota Coach不会获得比赛的任何数据，这将导致没有计时器。
+			计时器未显示的原因有很多。如果找不到Dota 2游戏协调员，Dota Coach不会获得比赛的任何数据，这将导致没有计时器。
 		</p>
 		<ul>
 			<li>
@@ -416,7 +415,7 @@ export default {
 				另一个原因是缺少启动参数 “-gamestateintegration”。确保它已添加。查看我们的常见问题解答以了解如何添加它。
 			</li>
 			<li>
-				有时，在重新定位期间，计时器可能会丢失。<br>只需在设置窗口中点击 “重置” 按钮即可。<br></br>
+				有时，在重新定位期间，计时器可能会丢失。只需在设置窗口中点击 “重置” 按钮即可。<br></br>
 				<img_reset_position></img_reset_position>
 			</li>
 		</ul>`,
@@ -520,7 +519,7 @@ export default {
 		</ul>`,  // #toBeUpdated
 
 	// Account FAQs
-	"app.faqs.account": "Account",
+	"app.faqs.account": "账号问题",
 
 	"app.faqs.account.create.question":
 		"如何创建账户？",
@@ -550,7 +549,7 @@ export default {
 			您可以通过 overwolf 客户端注销，也可以直接在我们的应用程序中注销。
 		</p>
 		<p>
-			<br>两个注销都位于其窗口的右上角。只需单击 overwolf 徽标即可打开注销对话框。
+			两个注销都位于其窗口的右上角。只需单击 overwolf 徽标即可打开注销对话框。
 		</p>
 		<p>
 			<img_loginout></img_loginout>
@@ -708,7 +707,7 @@ export default {
 		"你的英雄向导好吗？",
 	"app.faqs.heroGuides.quality.answer":
 		`<p>
-			我们提供的所有英雄指南都是由专业的Dota 2教练和玩家创建和维护的。<br>他们在游戏中的排名介于不朽等级 1000 和不朽等级 100（8000-10000 MMR）之间。
+			我们提供的所有英雄指南都是由专业的Dota 2教练和玩家创建和维护的。他们在游戏中的排名介于不朽等级 1000 和不朽等级 100（8000-10000 MMR）之间。
 		</p>
 		<p>
 			你可以在官方的Dota 2 <a_dota_leaderboard_europe>Leaderboards</a_dota_leaderboard_europe>.
@@ -742,7 +741,7 @@ export default {
 		"为什么英雄指南没有显示？",
 	"app.faqs.heroGuides.missing.answer":
 		`<p>
-			如果你已经订阅了我们的英雄指南，但它们没有在游戏中显示，<br>请务必重启 Dota 2！
+			如果你已经订阅了我们的英雄指南，但它们没有在游戏中显示，请务必重启 Dota 2！
 		</p>
 		<p>
 			你可以加入 “Demo Hero” 大厅，检查指南是否已正确加载。

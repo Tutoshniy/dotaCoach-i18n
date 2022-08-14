@@ -54,8 +54,7 @@ export default {
 			<img_roshan_timer_active_32></img_roshan_timer_active_32>
 		</p>
 		<p>
-			If other players in your team are using Dota Coach, the activation of timers will be shared among the team.
-			So if you forget to activate a timer, don't worry, a teammate might have activated it!
+			If other players in your team are using Dota Coach, the activation of timers will be shared among the team. So if you forget to activate a timer, don't worry, a teammate might have activated it!
 		</p>
 		<p>
 			Subscribers get hero coaching for all 123 heroes, access to ultimate timers, ads removed and support the development of the app. The subscription fee is USD 1.99 per month.
@@ -144,7 +143,7 @@ export default {
 		"How does Dota Coach make money?",
 	"app.faqs.application.money.answer":
 		`<p>
-			May features of the app are available to all players for free.
+			Many features of the app are available to all players for free.
 		</p>
 		<p>
 			The Dota Coach app makes money through displaying ads in some parts of the app.
@@ -518,8 +517,12 @@ export default {
 	"app.faqs.streaming.partnership.question":
 		"Can I get a partnership?",
 	"app.faqs.streaming.partnership.answer":
-		`<p>Yes, we offer partnerships to streamers, coaches and content creators!</p> 
-		<p>Please contact us with your proposal:</p>
+		`<p>
+			Yes, we offer partnerships to streamers, coaches and content creators!
+		</p> 
+		<p>
+			Please contact us with your proposal:
+		</p>
 		<ul>
 			<li>E-Mail: info(at)dota-coach.com</li>
 			<li>Discord: Dota Coach#4076</li>
@@ -531,7 +534,9 @@ export default {
 	"app.faqs.account.create.question":
 		"How do I create an account?",
 	"app.faqs.account.create.answer":
-		`<p>Follow the overwolf step by step <a_overwolf_account>tutorial</a_overwolf_account> on how to create an account.</p>`,
+		`<p>
+			Follow the overwolf step by step <a_overwolf_account>tutorial</a_overwolf_account> on how to create an account.
+		</p>`,
 
 	"app.faqs.account.login.question":
 		"How do I log in?",
