@@ -421,7 +421,7 @@ export default {
 				Another reason is the missing launchparameter '-gamestateintegration'. Make sure that it is added. Check our FAQ on how to add it.
 			</li>
 			<li>
-				Sometimes, the timers can go missing during repositon.Simply hit the 'reset' button in the settings window.<br></br>
+				Sometimes, the timers can go missing during repositon. Simply hit the 'reset' button in the settings window.<br></br>
 				<img_reset_position></img_reset_position>
 			</li>
 		</ul>`,

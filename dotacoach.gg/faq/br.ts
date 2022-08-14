@@ -64,68 +64,68 @@ export default {
 		</p>`,
 
 	"app.faqs.application.videoGuide.question":
-		"Do you have a video guide?",
+		"Você tem um guia em vídeo?",
 	"app.faqs.application.videoGuide.answer":
 		`<p>
-			You can find our 3 minute video guide <a_tutorial_video>here</a_tutorial_video>.
+			Você pode encontrar nosso guia de vídeo de 3 minutos <a_tutorial_video>aqui</a_tutorial_video>.
 		</p>`,
 
 	"app.faqs.application.gameStateIntegration.question":
-		"What is Game State Integration?",
+		"O que é a integração do Gamestate?",
 	"app.faqs.application.gameStateIntegration.answer":
 		`<p>
-			The Game State Integration is an integral part of Dota Coach. It is provided by Valve to access all events in Dota 2 games.
+			A integração do GameState é parte integrante do Dota Coach. É fornecido pela Valve para acessar todos os eventos em um jogo Dota 2.
 		</p>
 		<p>
-			You must add '-gamestateintegration' as a Dota 2 launch parameter. Without it, Dota Coach will not work!
+			Você deve adicionar '-gamestateintegration' como um parâmetro de lançamento do Dota 2. Sem isso, o Dota Coach não funcionará!
 		</p>
 		<p>
-			For further information on how to enable it click <a_GSI>here</a_GSI>.
+			Para mais informações sobre como ativá-lo, clique <a_GSI>aqui</a_GSI>.
 		</p>`,
 
 	"app.faqs.application.getBanned.question":
-		"Can I get banned for using Dota Coach?",
+		"Posso ser banido por usar o Dota Coach?",
 	"app.faqs.application.getBanned.answer":
 		`<p>
-			<b>The Dota Coach app will NOT get you banned.</b>
+			<b>O aplicativo Dota Coach NÃO fará com que você seja banido.</b>
 		</p>
 		<p>
-			The app is built on top of the Overwolf platform. The Overwolf platform is built in collaboration with Valve and the Dota 2 team.
+			O aplicativo Dota Coach é construído sobre a plataforma Overwolf. A plataforma Overwolf é construída em colaboração com a Valve e a equipe Dota 2.
 		</p>
 		<p>
-			You can read more here: <a_overwolf_banned>Overwolf Won't Get You Banned</a_overwolf_banned>
+			Você pode ler mais aqui: <a_overwolf_banned>Overwolf não fará com que você seja banido</a_overwolf_banned>
 		</p>`,
 
 	"app.faqs.application.update.question":
-		"How do I update to the newest Version?",
+		"Como atualizo para a versão mais recente?",
 	"app.faqs.application.update.answer":
 		`<p>
-			When a new version gets released, simply shut down Dota Coach and Overwolf. After that, restart Overwolf, as well as Dota Coach. Once Dota Coach has fully loaded, it should be updated to the newest version!
+			Quando uma nova versão for lançada, basta desligar o Dota Coach e o Overwolf. Depois disso, reinicie o Overwolf, assim como o Dota Coach. Assim que o Dota Coach estiver totalmente carregado, ele deve ser atualizado para a versão mais recente!
 		</p>
 		<p>
-			You can check the version in the settings menu!
+			Você pode conferir a versão no menu de configurações!
 		</p>`,
 
 	"app.faqs.application.languages.question":
-		"How can I change the language?",
+		"Como posso mudar o idioma?",
 	"app.faqs.application.languages.answer":
 		`<p>
-			Open the settings window. You can find it in the menu in the top right corner of the desktop window. The languge setting is located at the bottom.
+			Abra a janela de configurações. Você pode encontrá-lo no menu no canto superior direito da janela da área de trabalho. A configuração do idioma está localizada no canto inferior direito.
 		</p>
 		<p>
-			Please be aware, that we only support a certain set of languages.
+			Esteja ciente de que só suportamos um determinado conjunto de idiomas. 
 		</p>
 		<p>
-			If your native language is missing, let us know or help with the translation!
+			Se sua língua nativa estiver faltando, informe-nos ou ajude-nos com a tradução! 
 		</p>
 		<p>
 			<img_settings_language></img_settings_language>
 		</p>`,
 
 	"app.faqs.application.translations.question":
-		"Can I help with translation?",
+		"Posso ajudar com a tradução?",
 	"app.faqs.application.translations.answer":
-		`<p>Yes of course! Contact us here:</p>
+		`<p>Sim, claro! Entre em contato conosco aqui:</p>
 		<ul>
 			<li><a_discord>Discord</a_discord></li>
 			<li><a_github_i18n>Github</a_github_i18n></li>
@@ -133,42 +133,42 @@ export default {
 		</ul>`,
 
 	"app.faqs.application.getHelp.question":
-		"Where can I get additional help?",
+		"Onde posso obter ajuda adicional?",
 	"app.faqs.application.getHelp.answer":
 		`<p>
-			Join our Discord community server for live support <a_discord>here</a_discord>.
+			Junte-se ao nosso Discord para suporte ao vivo <a_discord>aqui</a_discord>.
 		</p>`,
 
 	"app.faqs.application.money.question":
-		"How does Dota Coach make money?",
+		"Como o Dota Coach ganha dinheiro?",
 	"app.faqs.application.money.answer":
 		`<p>
-			Many features of the app are available to all players for free.
+			A maioria dos recursos do aplicativo está disponível para todos os jogadores gratuitamente.
 		</p>
 		<p>
-			The Dota Coach app makes money through displaying ads in some parts of the app.
+			O aplicativo Dota Coach ganha dinheiro exibindo anúncios em algumas partes do aplicativo.
 		</p>
 		<p>
-			Players can also pay a monthly subscription fee to get access to some exclusive features. The pro subscription also turns off the ads.
+			Além disso, os jogadores podem pagar uma taxa de assinatura mensal para obter acesso a alguns recursos exclusivos. A assinatura profissional também desativa os anúncios. 
 		</p>`,
 
 	// Timers FAQs
-	"app.faqs.timers": "Timers",
+	"app.faqs.timers": "Cronômetros",
 
 	"app.faqs.timers.start.question":
-		"How do I start a timer?",
+		"Como faço para iniciar um cronômetro?",
 	"app.faqs.timers.start.answer":
 		`<p>
-			Left-click on timers to activate them. This works for Roshan, Glyph of Fortification, Buybacks and Ultimates.
+			Clique com o botão esquerdo nos cronômetros para ativá-los. Isso funciona para Roshan, Glifo da Fortificação, Recompras e Ultimates.
 		</p>
 		<div_flex>
 			<div_width_40>
-				Roshan timer before activation:<br></br>
+				Cronômetro Roshan antes da ativação:<br></br>
 				<divider></divider>
 				<img_roshan_timer_inactive></img_roshan_timer_inactive>
 			</div_width_40>
 			<div_width_40>
-				Roshan timer after activation:<br></br>
+				Roshan após a ativação:<br></br>
 				<divider></divider>
 				<img_roshan_timer_active></img_roshan_timer_active>
 			</div_width_40>
@@ -176,352 +176,352 @@ export default {
 		`,
 
 	"app.faqs.timers.stop.question":
-		"How do I stop a timer?",
+		"Como faço para parar um cronômetro?",
 	"app.faqs.timers.stop.answer":
 		`<p>
-			Click on the red-cross to stop the timer.
+			Clique na cruz vermelha para parar o cronômetro.
 		</p>`,
 
 	"app.faqs.timers.sharing.question":
-		"How do I announce a timer?",
+		"Como anuncio um cronômetro?",
 	"app.faqs.timers.sharing.answer":
 		`<p>
-			You can share active timers by left-clicking on them.The app then automatically posts the timer status onto the team chat.
+			Você pode compartilhar cronômetros ativos clicando com o botão esquerdo neles. Em seguida, o aplicativo publica automaticamente o status do cronômetro no bate-papo da equipe.
 		</p>
 		<p>
-			Example buyback timers during a match:
+			Exemplo de cronômetros de recompra durante uma partida:
 		</p>
 		<p>
 			<img_buyback_timers></img_buyback_timers>
 		</p>
 		<p>
-			Resulting post on team chat:
+			Postagem resultante no bate-papo da equipe:
 		</p>
 		<p>
 			<img_buyback_timers_chat></img_buyback_timers_chat>
 		</p>
 		<p>
-			This works for Roshan, Aegis, Glyph of Fortification, Buybacks and Ultimates.
+			Isso funciona para Roshan, Aegis, Glifo da Fortificação, Recompras e Ultimates.
 		</p>`,
 
 	"app.faqs.timers.disable.question":
-		"How do I disable a timer?",
+		"Como desativo um cronômetro?",
 	"app.faqs.timers.disable.answer":
 		`<p>
-			Open the settings window.You can find it in the top right corner under 'change settings'.
+			Abra a janela de configurações. Você pode encontrá-lo no canto superior direito em “alterar configurações”.
 		</p>
 		<p>
-			You can then select the timers components you don't want to see.
+			Você pode ver os componentes dos cronômetros que você não deseja ver.
 		</p>
 		<p>
 			<img_settings_timers></img_settings_timers>
 		</p>`,
 
 	"app.faqs.timers.missing.question":
-		"Why do I not see timers?",
+		"Por que não vejo os cronômetros?",
 	"app.faqs.timers.missing.answer":
 		`<p>
-			There are multiple reasons why your timers are not shown.
+			Existem vários motivos pelos quais seus cronômetros não são exibidos.
 		</p>
 		<p>
-			If the Dota 2 game coordinator is not found, Dota Coach does not get any Data on the match which will result in no timers.
+			Se o coordenador de jogo do Dota 2 não for encontrado, o Dota Coach não obterá nenhum dado sobre a partida, o que resultará em nenhum cronômetro.
 		</p>
 	 	<p>
-			Another reason is the missing launch parameter '-gamestateintegration'. Make sure that it is added. Check our FAQ on how to add it.
+			Outro motivo é o parâmetro de lançamento ausente '-gamestateintegration'. Certifique-se de que ele seja adicionado. Consulte nossas perguntas frequentes sobre como adicioná-lo. 
 		</p>
 		<p>
-			Sometimes, the timers can go missing during repositon. Simply hit the 'reset' button in the settings window.
+			Às vezes, os cronômetros podem desaparecer durante o reposicionamento. Basta clicar no botão 'redefinir' na janela de configurações.
 		</p>
 		<p>
 			<img_reset_position></img_reset_position>
 		</p>`,
 
 	"app.faqs.timers.ultimate.question":
-		"Why do I not see ultimate timers?",
+		"Por que não vejo os cronômetros Ultimate?",
 	"app.faqs.timers.ultimate.answer":
 		`<p>
-			Ultimate timers are a premium feature that is only available to our subscribers.
+			Os cronômetros Ultimate são um recurso premium que está disponível apenas para nossos assinantes.
 		</p>
 		<p>
-			A subscription is 1.99$ / month. To subscribe open the application menu and click on 'manage subscription'.
+			A assinatura custa 1,99 $/mês. Abra o menu do aplicativo e clique em gerenciar assinatura.
 		</p>
 		<p>
 			<img_subscribe></img_subscribe>
 		</p>`,
 
 	// Game Modes FAQs
-	"app.faqs.gameModes": "Game Modes",
+	"app.faqs.gameModes": "Modos de jogo",
 
 	"app.faqs.gameModes.supported.question":
-		"What game modes do you support?",
+		"Quais modos de jogo você suporta?",
 	"app.faqs.gameModes.supported.answer":
 		`<p>
-			Dota Coach works in all Game Modes.
+			O Dota Coach funciona em todos os modos de jogo.
 		</p>
 		<p>
-			But be aware that some timers and timings might be not fully operational in Turbo matches. Ability Draft is also not fully supported.
+			Mas esteja ciente de que alguns cronômetros e horários podem não estar totalmente operacionais em partidas Turbo. O Ability Draft também não é totalmente suportado.
 		</p>`,
 
 	"app.faqs.gameModes.spectating.question":
-		"Can I spectate games?",
+		"Posso assistir a jogos?",
 	"app.faqs.gameModes.spectating.answer":
 		`<p>
-			Yes, you can! Dota Coach works in spectator mode.
+			Sim, você pode! O Dota Coach funciona no modo espectador.
 		</p>
 		<p>
-			It will enhance your overall spectator experience due to providing additional information. Try it out!
+			Isso melhorará sua experiência geral do espectador ao fornecer informações adicionais. Experimente!
 		</p>`,
 
 	"app.faqs.gameModes.trounament.question":
-		"Can I use the app in offical tournaments / ticketed games?",
+		"Posso usar o aplicativo em torneios oficiais/jogos com ingressos?",
 	"app.faqs.gameModes.trounament.answer":
 		`<p>
-			The short answer is no.
+			A resposta curta é não.
 		</p>
 		<p>
-			Offical games send the gamestateintegration data delayed, which results in delayed timers and bad app functionality.
+			Os jogos oficiais enviam os dados de integração do estado do jogo atrasados, o que resulta em cronômetros atrasados e funcionalidade ruim do aplicativo.
 		</p>
 		<p>
-			You can not use Dota Coach during offical tournament games (ticketed games).
+			Você não pode usar o Dota Coach durante os jogos oficiais do torneio (jogos com ingressos).
 		</p>`,
 
 	// Audio FAQs
-	"app.faqs.audio": "Audio",
+	"app.faqs.audio": "Áudio",
 
 	"app.faqs.audio.enable.question":
-		"The audio is not playing, how can I enable it?",
+		"O áudio não está sendo reproduzido, como posso ativá-lo?",
 	"app.faqs.audio.enable.answer":
 		`<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'.
 		</p>
 		<p>
-			You can find the sound output control in the top right corner of the settings window. Make sure to select the proper speaker (audio-output) and that the volume is not zero percent.
+			Você pode encontrar o controle de saída de som no canto superior direito da janela de configurações. Certifique-se de selecionar o alto-falante adequado (saída de áudio) e se o volume não é zero por cento.
 		</p>
 		<p>
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
 	"app.faqs.audio.volume.question":
-		"How can I adjust the sound volume?",
+		"Como posso ajustar o volume do som?",
 	"app.faqs.audio.volume.answer":
 		`<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'.
 		</p>
 		<p>
-			You can find the volume adjustment control in the top right corner of the settings window.
+			Você pode encontrar o controle de ajuste de volume no canto superior direito da janela de configurações.
 		</p>
 		<p>
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
 	"app.faqs.audio.disable.question":
-		"How do I disable audio messages?",
+		"Como desativo as mensagens de áudio?",
 	"app.faqs.audio.disable.answer":
 		`<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'.
 		</p>
 		<p>
-			You can disable the following voice components individually:
+			Você pode desativar os seguintes componentes de voz individualmente:
 		</p>
 		<ul>
-			<li>Notifcations</li>
-			<li>Voice coaching own hero</li>
-			<li>Voice coaching enemy heroes</li>
+			<li>Notificações</li>
+			<li>Treinamento de voz próprio herói</li>
+			<li>Treinamento de voz heróis inimigos</li>
 		</ul>`,
 
 	// Windows FAQs
-	"app.faqs.windows": "Windows",
+	"app.faqs.windows": "Janela",
 
 	"app.faqs.windows.ban.question":
-		"How can I see pick/ban suggestions?",
+		"Como posso ver sugestões de escolha/banimento?",
 	"app.faqs.windows.ban.answer":
 		`<p>
-			Once you enter a game and the draft begins, a Dota Coach logo will appear in the top left corner. Click it to show or hide the draft information.
+			Depois de entrar em um jogo e o rascunho começar, um logotipo do Dota Coach aparecerá no canto superior esquerdo. Clique nele para mostrar ou ocultar as informações do rascunho.
 		</p>
 		<p>
 			<img_buttondraft></img_buttondraft>
 		</p>`,
 
 	"app.faqs.windows.role.question":
-		"How can I open the role selection?",
+		"Como posso abrir a seleção de função?",
 	"app.faqs.windows.role.answer":
 		`<p>
-			Once you enter a game, a Dota Coach logo will appear above the minimap. Click it to show or hide the role selection and laning information.
+			Depois de entrar em um jogo, um logotipo do Dota Coach aparecerá acima do minimapa. Clique nele para mostrar ou ocultar a seleção de função e as informações de rota.
 		</p>`,
 
 	"app.faqs.windows.secondScreen.question":
-		"How do I enable the second desktop window?",
+		"Como posso desativar as janelas que não gosto?",
 	"app.faqs.windows.secondScreen.answer":
 		`<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'.
 		</p>
 		<p>
-			Select your second or main monitor to enable the window.
+			Selecione seu segundo monitor ou principal para ativar a janela.
 		</p>
 		<p>
 			<img_settings_secondscreen></img_settings_secondscreen>
 		</p>`,
 
 	"app.faqs.windows.reposition.question":
-		"How can I reposition windows?",
+		"Como posso reposicionar janelas?",
 	"app.faqs.windows.reposition.answer":
 		`<p>
-			Open the settings menu in the top right corner of the desktop window.
+			Abra o menu de configurações no canto superior direito da janela da área de trabalho.
 		</p>
 		<p>
-			Activate the Reposition slider in the bottom right corner of the settings window. De-activate the Reposition slider once you are done to safe your new positions.
+			tive o controle deslizante Reposicionar no canto inferior direito da janela de configurações. Desative o controle deslizante Reposicionar quando terminar para proteger suas novas posições.
 		</p>
 		<p>
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
 	"app.faqs.windows.green.question":
-		"Why are all windows green?",
+		"Por que todas as janelas estão verdes?",
 	"app.faqs.windows.green.answer":
 		`<p>
-			Your windows turn green if the reposition slider in the settings menu is set to active.
+			Suas janelas ficarão verdes se o controle deslizante de reposição no menu de configurações estiver definido como ativo.
 		</p>
 		<p>
-			Open the settings menu in the top right corner of the desktop window.
+			Abra o menu de configurações no canto superior direito da janela da área de trabalho.
 		</p>
 		<p>
-			De-activate the Reposition slider in the bottom right corner of the settings window.
+			Desative o controle deslizante Reposicionar no canto inferior direito da janela de configurações.
 		</p>
 		<p>
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
 	"app.faqs.windows.showHide.question":
-		"How can I hide/show the in-game overlay while playing?",
+		"Como posso ocultar/mostrar janelas enquanto jogo?",
 	"app.faqs.windows.showHide.answer":
 		`<p>
-			To Hide/Show in-game overlay while playing, press the assigned hotkey.
+			Para ocultar/mostrar janelas do jogo durante o jogo, pressione a tecla de atalho atribuída. 
 		</p>
 		<p>
-			The standard hotkey is 'CTRL + b'.
+			A tecla de atalho padrão é 'CTRL + b'.
 		</p>
 		<p>
-			If you want to change the hotkey, head to the overwolf app settings.
+			Se você quiser alterar a tecla de atalho, vá para as configurações do aplicativo overwolf.
 		</p>
 		<p>
-			Check our FAQ under 'Hotkeys' if you are not sure where to find it.
+			Verifique nossas perguntas frequentes em “Teclas de atalho” se não tiver certeza de onde encontrá-las.
 		</p>`,
 
 	"app.faqs.windows.missing.question":
-		"Why are some windows missing?",
+		"Por que algumas janelas estão faltando?",
 	"app.faqs.windows.missing.answer":
 		`<p>
-			There can be multiple reasons why your timers are not shown:
+			Existem vários motivos pelos quais seus cronômetros não são exibidos:
 		</p>
 		<ul>
 			<li>
-				If the Dota 2 game coordinator is not found, Dota Coach does not get any Data on the match which will result in no timers.
+				Se o coordenador de jogo do Dota 2 não for encontrado, o Dota Coach não obterá nenhum dado sobre a partida, o que resultará em nenhum cronômetro.
 			</li>
 			<li>
-				Another reason is the missing launchparameter '-gamestateintegration'. Make sure that it is added. Check our FAQ on how to add it.
+				Outro motivo é o parâmetro de lançamento ausente 'gamestateintegration'. Certifique-se de que ele seja adicionado. Consulte nossas perguntas frequentes sobre como adicioná-lo.
 			</li>
 			<li>
-				Sometimes, the timers can go missing during repositon.Simply hit the 'reset' button in the settings window.<br></br>
+				Às vezes, os cronômetros podem desaparecer durante o reposicionamento. Basta clicar no botão 'redefinir' na janela de configurações.<br></br>
 				<img_reset_position></img_reset_position>
 			</li>
 		</ul>`,
 
 	"app.faqs.windows.disable.question":
-		"How can I disable windows I do not like?",
+		"Como posso desativar as janelas que não gosto?",
 	"app.faqs.windows.disable.answer":
 		`<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'.
 		</p>
 		<p>
-			You can disable the following window components:
+			Você pode desativar os seguintes componentes da janela:
 		</p>
 		<ul>
-			<li>Infoboxes</li>
-			<li>All individual timers (Own and enemy team)</li>
-			<li>Rune Countdowns</li>
-			<li>Performance Tracker</li>
-			<li>Subtitle Window</li>
+			<li>Infoboxes</li> 
+			<li>Todos os cronômetros individuais (equipe própria e inimiga)</li> 
+			<li>Contagens regressivas de runas</li>
+			<li>Rastreador de desempenho</li> 
+			<li>Janela de legenda</li>
 		</ul>`,
 
 	// Hotkeys FAQs
-	"app.faqs.hotkeys": "Hotkeys & Misclick Protection",
+	"app.faqs.hotkeys": "Proteção de teclas de atalho e cliques incorretos",
 
 	"app.faqs.hotkeys.change.question":
-		"Where can I change the hotkeys?",
+		"Onde posso mudar as teclas de atalho?",
 	"app.faqs.hotkeys.change.answer":
 		`<p>
-			The app hotkey are changed in the overwolf application settings.
+			A tecla de atalho do aplicativo é alterada nas configurações do aplicativo overwolf.
 		</p>
 		<ul>
-			<li>Right click the overwolf symbol in your taskbar.</li>
-			<li>Select settings.</li>
-			<li>Select Overlay & Hotkeys in the top left corner.</li>
-			<li>Select Dota 2 as game.</li>
-			<li>Go to the Dota Coach Section.</li>
-			<li>Change the hotkeys to your needs.</li>
+			<li>Clique com o botão direito do mouse no símbolo do overwolf na barra de tarefas.</li>
+			<li>Selecione as configurações.</li>
+			<li>Selecione Sobreposição e teclas de atalho no canto superior esquerdo.</li>
+			<li>Selecione Dota 2 como jogo.</li>
+			<li>Vá para a seção de treinadores do Dota.</li>
+			<li>Mude as teclas de atalho para suas necessidades.</li>
 		</ul>
 		<p>
 			<img_overwolf_hotkeys></img_overwolf_hotkeys>
 		</p>`,
 
 	"app.faqs.hotkeys.misclick.question":
-		"How can I enable the misclick protection?",
+		"Como posso ativar a proteção contra cliques errados?",
 	"app.faqs.hotkeys.misclick.answer":
 		`<p>
-			To avoid misclicks on in-game windows, you can enable a misclick protection modifer. This will make windows only interactive if the modifier pressed while mouse-clicking. We support 'alt', 'ctrl' and 'shift'.
+			Para evitar cliques errados nas janelas do jogo, você pode ativar um modificador de proteção contra cliques errados. Isso tornará as janelas apenas interativas se o modificador for pressionado ao clicar com o mouse. Nós suportamos 'alt', 'ctrl' e 'shift'.
 		</p>
 		<p>
-			Open the settings in the top right corner of the desktop window and select 'change settings'. You can find the 'Mouse Click Modifier' Key in the top right corner of the settings window.
+			Abra as configurações no canto superior direito da janela da área de trabalho e selecione 'alterar configurações'. Você pode encontrar a tecla 'Modificador de clique do mouse' no canto superior direito da janela de configurações.
 		</p>
 		<p>
-			Please note that if you select 'shift' or 'ctrl' as modifier, announcing timers in chat will no longer work.
+			Observe que se você selecionar 'shift' ou 'ctrl' como modificador, anunciar cronômetros no chat não funcionará mais. 
 		</p>
 		<p>
 			<img_settings_mouseclieckmod></img_settings_mouseclieckmod>
 		</p>`,
 
 	"app.faqs.hotkeys.modifier.question":
-		"What is the modifier key?",
+		"O que é a tecla modificadora?",
 	"app.faqs.hotkeys.modifier.answer":
 		`<p>
-			The modifier key was introduced to avoid misclicks on window elements.
+			A tecla modificadora foi introduzida para evitar erros de cliques nos elementos da janela.
 		</p>
 		<p>
-			If you have encounter problems with misclicks on windows, make sure to enable the modifier key.
+			Se você tiver problemas com cliques errados nas janelas, certifique-se de habilitar a tecla modificadora.
 		</p>`,
 
 	// Streaming
-	"app.faqs.streaming": "Streaming",
+	"app.faqs.streaming": "Transmissão",
 
 	"app.faqs.streaming.allowed.question":
-		"Am I allowed to stream with the App?",
+		"Posso transmitir com o aplicativo?",
 	"app.faqs.streaming.allowed.answer":
 		`<p>
-			You are allowed to stream with our app at any given time!
+			Você tem permissão para transmitir com nosso aplicativo a qualquer momento!
 		</p>`,
 
 	"app.faqs.streaming.windows.question":
-		"Why are some windows missing on stream?",
+		"Por que algumas janelas estão faltando no stream?",
 	"app.faqs.streaming.windows.answer":
 		`<p>
-			OBS offers a variety of possibilites to capture in-game overlays.
+			O OBS oferece uma variedade de possibilidades para capturar sobreposições no jogo.
 		</p>
 		<p>
-			If some of the app windows are missing on your stream, you should try the following:
+			Se algumas das janelas do aplicativo estiverem faltando no seu stream, tente o seguinte:
 		</p>
 		<ul>
-			<li>Get the Dota2 window with game capture (right click Source -> Add -> Gamecapture)</li>
-			<li>Get the Dota2 window with monitor capture (right click Source -> Add -> Monitorcapture)</li>
+			<li>Obtenha a janela do Dota2 com a captura do jogo (clique com o botão direito em Source -> Add -> Gamecapture)</li>
+			<li>Obtenha a janela Dota2 com captura de monitor (clique com o botão direito em Source -> Add -> Monitorcapture)</li>
 		</ul>`,
 
 	"app.faqs.streaming.partnership.question":
-		"Can I get a partnership?",
+		"Posso fazer uma parceria?",
 	"app.faqs.streaming.partnership.answer":
 		`<p>
-			Yes, we offer partnerships to streamers, coaches and content creators!
+			Sim, oferecemos parcerias para streamers, coaches e criadores de conteúdo!
 		</p> 
 		<p>
-			Please contact us with your proposal:
+			Entre em contato conosco com sua proposta:
 		</p>
 		<ul>
 			<li>E-Mail: info(at)dota-coach.com</li>
@@ -529,237 +529,237 @@ export default {
 		</ul>`,
 
 	// Account FAQs
-	"app.faqs.account": "Account",
+	"app.faqs.account": "Conta",
 
 	"app.faqs.account.create.question":
-		"How do I create an account?",
+		"Como eu crio uma conta?",
 	"app.faqs.account.create.answer":
 		`<p>
-			Follow the overwolf step by step <a_overwolf_account>tutorial</a_overwolf_account> on how to create an account.
+			Siga o tutorial passo a passo do overwolf <a_overwolf_account>sobre</a_overwolf_account> como criar uma conta.
 		</p>`,
 
 	"app.faqs.account.login.question":
-		"How do I log in?",
+		"Como eu faço login?",
 	"app.faqs.account.login.answer":
 		`<p>
-			You can log in via the overwolf client, or directly within our application.
+			Você pode fazer login através do cliente overwolf ou diretamente em nosso aplicativo.
 		</p>
 		<p>
-			Both logins are located at the top right corner of their windows.
+			Ambos os logins estão localizados no canto superior direito de suas janelas.
 		</p>
 		<p>
-			Simply click the overwolf logo to open the login dialog.
+			Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de login.
 		</p>
 		<p>
 			<img_loginout></img_loginout>
 		</p>`,
 
 	"app.faqs.account.logout.question":
-		"How do I log out?",
+		"Como faço para sair?",
 	"app.faqs.account.logout.answer":
 		`<p>
-			You can log out via the overwolf client, or directly within our application.
+			Você pode sair através do cliente overwolf ou diretamente em nosso aplicativo.
 		</p>
 		<p>
-			Both logouts are located at the top right corner of their windows. Simply click the overwolf logo to open the logout dialog.
+			Ambos os logouts estão localizados no canto superior direito das janelas. Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de logout.
 		</p>
 		<p>
 			<img_loginout></img_loginout>
 		</p>`,
 
 	"app.faqs.account.manage.question":
-		"Where can I manage my account?",
+		"Onde posso gerenciar minha conta?",
 	"app.faqs.account.manage.answer":
 		`<p>
-			You can manage your overwolf account directly in the overwolf client.
+			Você pode gerenciar sua conta overwolf diretamente no cliente overwolf.
 		</p>
 		<p>
-			Click on the overwolf logo in the top right corner.
+			Clique no logotipo do overwolf no canto superior direito.
 		</p>
 		<p>
 			<img_overwolf_accmgmt></img_overwolf_accmgmt>
 		</p>`,
 
 	// Subscription FAQs
-	"app.faqs.subscription": "Subscription",
+	"app.faqs.subscription": "Assinatura",
 
 	"app.faqs.subscription.features.question":
-		"What features do I get?",
+		"Quais recursos eu recebo?",
 	"app.faqs.subscription.features.answer":
 		`<p>
-			Our pro coach version comes a long with a number of features:
+			Nossa versão pro coach vem com vários recursos:
 		</p>
 		<ul>
-			<li>Voice coaching for all heroes Dota 2 has to offer.</li>
-			<li>Adjustable ultimate timers for the enemy and your team.</li>
-			<li>Advertisement free Dota Coach experience.</li>
-			<li>Supporter Discord role.</li>
+			<li>Coaching de voz para todos os heróis que Dota 2 tem a oferecer.</li>
+			<li>Cronômetros Ultimate ajustáveis do inimigo e sua equipe.</li>
+			<li>Adicione uma experiência gratuita do Dota Coach.</li>
+			<li>Cargo de apoiador no Discord.</li>
 		</ul>`,
 
 	"app.faqs.subscription.payment.question":
-		"Which payment options do I have?",
+		"Quais formas de pagamento eu tenho?",
 	"app.faqs.subscription.payment.answer":
 		`<p>
-			All payments are done through the <a_overwolf_subscription>Overwolf</a_overwolf_subscription> platform which collaborates with a broad variety of payment providers.
+			Todos os pagamentos são feitos através da plataforma <a_overwolf_subscription>Overwolf</a_overwolf_subscription>, que colabora com uma ampla variedade de provedores de pagamento.
 		</p>
 		<p>
-			Most popular payment methods:
+			Métodos de pagamento mais populares:
 		</p>
 		<ul>
-			<li>Credit & Debit Cards</li>
-			<li>Paypal</li>
-			<li>Amazon Pay</li>
-			<li>Skrill</li>
-			<li>Visa</li>
+			<li>Cartões de crédito e débito</li> 
+			<li>Paypal</li> 
+			<li>Amazon Pay</li> 
+			<li>Skrill</li> 
+			<li>Visa</li> 
 			<li>Maestro</li>
 		</ul>
 		<p>
-			Be aware that payment options can be limited depending on your current country of residence.
+			Esteja ciente de que as opções de pagamento podem ser limitadas dependendo do seu país de residência atual.
 		</p>`,
 
 	"app.faqs.subscription.proCoach.question":
-		"How can I get the pro Version?",
+		"Como posso obter a versão pro?",
 	"app.faqs.subscription.proCoach.answer":
 		`<p>
-			After installing Dota Coach you can subscribe to our services.
+			Depois de instalar o Dota Coach com o cliente overwolf, você pode se inscrever em nossos serviços.
 		</p>
 		<ul>
-			<li>Open the Overwolf Desktop Client.</li>
-			<li>Click on 'Library'.</li>
-			<li>Click on the small settings button next to the Dota Coach logo.</li>
-			<li>Click on 'view in appstore'</li>
-			<li>Click 'Subscribe' inside the new window.</li>
-			<li>Follow the promoted steps.</li>
+			<li>Abra o cliente de desktop Overwolf. </li>
+			<li>Clique em 'Biblioteca'. </li>
+			<li>Clique no pequeno botão de configurações ao lado do logotipo do Dota Coach. </li>
+			<li>Clique em 'visualizar na appstore'</li> 
+			<li>Clique em 'Inscrever-se' dentro da nova janela. </li>
+			<li>Siga as etapas promovidas. </li>
 		</ul>
 		<p>
-			Also check out the <a_overwolf_subscription>Overwolf FAQ</a_overwolf_subscription> on how to subscribe to apps.
+			Confira também as perguntas frequentes do <a_overwolf_subscription>Overwolf FAQ</a_overwolf_subscription> sobre como se inscrever em aplicativos.
 		</p>
 		<p>
 			<img_subscribesteps></img_subscribesteps>
 		</p>`,
 
 	"app.faqs.subscription.cancel.question":
-		"How can I cancel my subscription?",
+		"Como posso cancelar minha assinatura?",
 	"app.faqs.subscription.cancel.answer":
 		`<p>
-			All subscriptions are handled by Overwolf.
+			Todas as assinaturas são gerenciadas pela Overwolf. 
 		</p>
 		<p>
-			If you want to cancel your subscription, refund or forgot to cancel, please follow the offical <a_overwolf_subscription>Overwolf FAQ</a_overwolf_subscription>.
+			Se você deseja cancelar sua assinatura, reembolsar ou se esqueceu de cancelar, siga  <a_overwolf_subscription>o FAQ oficial do Overwolf</a_overwolf_subscription>.
 		</p>`,
 
 	// Issue FAQs
-	"app.faqs.issues": "Issues",
+	"app.faqs.issues": "Problemas",
 
 	"app.faqs.issues.appNotWorking.question":
-		"Why does the application not work?",
+		"Por que o aplicativo não funciona?",
 	"app.faqs.issues.appNotWorking.answer":
 		`<p>
-			You must add '-gamestateintegration' to your Dota 2 launch options for the app to work. Additional information how to add the launch parameter can be found <a_GSI>here</a_GSI>.
+			Você deve adicionar '-gamestateintegration' às suas opções de inicialização do Dota 2 para que o aplicativo funcione. Informações adicionais sobre como adicionar o parâmetro de lançamento podem ser encontradas <a_GSI>aqui</a_GSI>.
 		</p>`,
 
 	"app.faqs.issues.bug.question":
-		"How can I report an issue or bug?",
+		"Como posso relatar um problema ou bug?",
 	"app.faqs.issues.bug.answer":
 		`<p>
-			You can find the 'report issue' button in the top menu of the desktop application window.
+			Você pode encontrar o botão 'relatar problema' no menu superior da janela do aplicativo de desktop.
 		</p>
 		<p>
-			If you need further assistance, please join our <a_discord>Discord</a_discord> server!
+			Se precisar de mais ajuda, junte-se ao nosso servidor <a_discord>Discord</a_discord>!
 		</p>
 		<p>
 			<img_send_bug_report></img_send_bug_report>
 		</p>`,
 
 	"app.faqs.issues.fps.question":
-		"How can I improve my frames per second (FPS)?",
+		"Como posso melhorar meus quadros por segundo (FPS)?",
 	"app.faqs.issues.fps.answer":
 		`<p>
-			If you encounter low frames per second during games, please restart Dota 2, in most cases this will fix frame rate problems without any further actions.
+			Se você encontrar quadros baixos por segundo durante os jogos, reinicie o Dota 2, na maioria dos casos, isso corrigirá problemas de taxa de quadros sem nenhuma ação adicional. 
 		</p>
 		<p>
-			Tabbing (Alt+Tab) in between your desktop and Dota 2 will also cause frame rate problems overtime. If this happens, restart Dota 2.
+			Tabular (Alt+Tab) entre a área de trabalho e o Dota 2 também causará problemas de taxa de quadros ao longo do tempo. Se isso acontecer, reinicie o Dota 2.
 		</p>
 		<p>
-			The steam notifaction message display can also causes frame rate problems. You can disable it here:
+			A exibição da mensagem de notificação do Steam também causa problemas na taxa de quadros. Você pode desativá-lo aqui:
 		</p>
 		<ul>
-			<li>Open your frind list (Right click steam in the taskbar -> friends).</li>
-			<li>Left-click on the settings wheel on the top right corner.</li>
-			<li>Disable all notifactions as shown in the image below.</li>
+			<li>Abra sua lista de amigos (clique com o botão direito do mouse na barra de tarefas -> amigos). </li>
+			<li>Clique na roda de configurações no canto superior direito. </li>
+			<li>Desative todas as notificações conforme mostrado na imagem abaixo. </li>
 		</ul>
 		<p>
 			<img_steam_notifications></img_steam_notifications>
 		</p>`,
 
 	"app.faqs.issues.windowNotShowing.question":
-		"Why is a window not showing?",
+		"Por que uma janela não está aparecendo?",
 	"app.faqs.issues.windowNotShowing.answer":
 		`<p>
-			This can happen when you customize the location of the timers and then change the screen resolution. We suggest that you reset the position of the timers in the settings menu.
+			Isso pode acontecer quando você personaliza a localização dos cronômetros e altera a resolução da tela. Sugerimos que você redefina a posição dos cronômetros no menu de configurações.
 		</p>
 		<p>
 			<img_reset_position></img_reset_position>
 		</p>`,
 
 	"app.faqs.issues.fitScreen.question":
-		"Why does the window not fit my screen?",
+		"Por que a janela não cabe na minha tela?",
 	"app.faqs.issues.fitScreen.answer":
 		`<p>
-			Please make sure that the windows operating system scaling is set to 100%. Restart your operating system after you make these changes!
+			Certifique-se de que a escala do sistema operacional Windows esteja definida como 100%. Certifique-se de reiniciar o sistema operacional depois de fazer essas alterações!
 		</p>
 		<p>
-			If you have set it to 100%, and the windows are still no fit for your screen, please be aware that Dota Coach does not support screen resolutions below 1150px width.
+			Se você definiu para 100% e as janelas ainda não são adequadas para sua tela, esteja ciente de que o Dota Coach não suporta resoluções de tela abaixo de 1150px de largura.
 		</p>`,
 
 	// Hero Guides FAQs
-	"app.faqs.heroGuides": "Hero Guides",
+	"app.faqs.heroGuides": "Guias de heróis",
 
 	"app.faqs.heroGuides.quality.question":
-		"Are your Hero Guides good?",
+		"Seus guias de heróis são bons?",
 	"app.faqs.heroGuides.quality.answer":
 		`<p>
-			All Hero Guides that we provide are created and maintained by professional Dota 2 coaches and players. Their in-game ranks are bewteen Immortal Rank 1000 and Immortal Rank 100 (8 - 10k MMR).
+			Todos os Guias de Heróis que fornecemos são criados e mantidos por treinadores e jogadores profissionais do Dota 2. Suas classificações no jogo estão entre Immortal Rank 1000 e Immortal Rank 100 (8000 - 10000 MMR).
 		</p>
 		<p>
-			You can look up their ranks on the offical Dota 2 <a_dota_leaderboard_europe>Leaderboards</a_dota_leaderboard_europe>.
+			Você pode procurar suas classificações nas <a_dota_leaderboard_europe>tabelas de classificação</a_dota_leaderboard_europe> oficiais do Dota 2..
 		</p>`,
 
 	"app.faqs.heroGuides.get.question":
-		"How can I get your Hero Guides?",
+		"Como posso obter seus guias de heróis?",
 	"app.faqs.heroGuides.get.answer":
 		`<p>
-			We have created in-game guides for every hero in the game. They contain all the tips and item builds that are provided in the 'Dota Coach App'.
+			Criamos guias no jogo para cada herói do jogo. Eles contêm todas as dicas e compilações de itens que são fornecidas no 'Dota Coach App'.
 		</p>
 		<p>
-			Subscribe to the them <a_dota_guides>here</a_dota_guides>.
+			Assine-os <a_dota_guides>aqui</a_dota_guides>.
 		</p>
 		<p>
-			Select a hero and click on 'Get Steam Guide':
+			Selecione um herói e clique em 'Obter Guia Steam':
 		</p>
 		<ul>
-			<li>Scroll down until you see a green button 'Subscribe'.</li>
-			<li>Click 'Subscribe' on the Steam page.</li>
-			<li>If you're not logged in yet, please log into Steam.</li>
-			<li>The login is only necessary the first time.</li>
-			<li>Click 'Favorite' on the Steam page - this will make the guide appear on top of your guides list in the game</li>
-			<li>Click 'Thumbs Up' to make the guide more visible to other users - optional, but appreciated!</li>
-			<li>Repeat the process for all heroes that you like to play.</li>
-			<li>You have to restart Dota to see your selected guides in the game!</li>
+			<li>Role para baixo até ver um botão verde 'Inscrever'.</li>
+			<li>Clique em “Inscrever-se” na página do Steam.</li>
+			<li>Se você ainda não está logado, faça login no Steam.</li>
+			<li>O login só é necessário na primeira vez.</li>
+			<li>Clique em “Favorito” na página do Steam - isso fará com que o guia apareça no topo da sua lista de guias no jogo Clique em</li> 
+			<li>“Thumbs Up” para tornar o guia mais visível para outros usuários - opcional, mas encorajado! </li>
+			<li>Repita o processo para todos os heróis que você gosta de jogar.</li>
+			<li>Você precisa reiniciar o Dota para ver os guias selecionados no jogo!</li>
 		</ul>
 		<carousel_heroGuides></carousel_heroGuides>`,
 
 	"app.faqs.heroGuides.missing.question":
-		"Why are the Hero Guides not showning?",
+		"Por que os Guias de Heróis não são mostrados",
 	"app.faqs.heroGuides.missing.answer":
 		`<p>
-			If you already subscribed to our Hero Guides and they do not show in-game, make sure to restart Dota 2!
+			Se você já se inscreveu em nossos Guias de Heróis e eles não aparecem no jogo, certifique-se de reiniciar o Dota 2!
 		</p>
 		<p>
-			You can join a 'Demo Hero' lobby and check if the guides have been loaded properly.
+			Você pode entrar em um lobby 'Demonstrar herói' e verificar se os guias foram carregados corretamente.
 		</p>
 		<p>
-			It is important that you select them in-game in the shop interface after you subscribed to them.
+			É importante que você os selecione no jogo na interface da loja depois de assiná-los.
 		</p>
 		<p>
 			<img_heroguides></img_heroguides>
