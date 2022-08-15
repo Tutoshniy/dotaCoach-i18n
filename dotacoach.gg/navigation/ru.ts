@@ -1,19 +1,20 @@
 // To be reviewed
 export default {
-	// Navigation bar
-	"navbar.app": "App",
-	"navbar.app.features": "Features",
-	"navbar.app.videos": "Videos",
-	"navbar.app.FAQs": "FAQs",
-	"navbar.app.Pricing": "Pricing",
-	"navbar.heroes": "Heroes",
-	"navbar.heroes.heropedia": "Heropedia",
-	"navbar.heroes.herobuilds": "Hero Builds",
-	"navbar.dpc": "Pro Circuit",
-	"navbar.stats": "Stats",
-	"navbar.articles": "Articles",
-	"navbar.selectLanguage": "Select Language",
+  // Navigation bar
+  "navbar.app": "Приложение",
+  "navbar.app.features": "Особенности",
+  "navbar.app.videos": "Видео",
+  "navbar.app.FAQs": "Часто задаваемые вопросы",
+  "navbar.app.Pricing": "Цены",
+  "navbar.heroes": "Герои",
+  "navbar.heroes.heropedia": "Геропедия",
+  "navbar.heroes.herobuilds": "Сборки героев",
+  "navbar.dpc": "Профессиональная трасса",
+  "navbar.stats": "Статистика",
+  "navbar.articles": "Статьи",
+  "navbar.selectLanguage": "Выберите язык",
 
-	// Footer
-	"footer.disclaimer": "Dota 2 is a registered trademark of Valve Corporation. This site is not affiliated with Valve Corporation.All game images and names are property of Valve Corporation.",
-}
+  // Footer
+  "footer.disclaimer":
+    "Dota 2 является зарегистрированным товарным знаком корпорации Valve. Этот сайт не связан с корпорацией Valve. Все изображения и названия игр являются собственностью Valve Corporation.",
+};
