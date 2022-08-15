@@ -15,5 +15,5 @@ export default {
 	"navbar.selectLanguage": "Select Language",
 
 	// Footer
-	"footer.disclaimer": "Dota 2 is a registered trademark of Valve Corporation. This site is not affiliated with Valve Corporation.All game images and names are property of Valve Corporation.",
+	"footer.disclaimer": "Dota 2 is a registered trademark of Valve Corporation. This site is not affiliated with Valve Corporation. All game images and names are property of Valve Corporation.",
 }
