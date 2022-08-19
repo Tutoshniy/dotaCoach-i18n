@@ -6,7 +6,7 @@
  */
 import { Languages } from "./i18n-languages";
 import * as DL from "../../submodules/utilities/log";
-import "@overwolf/types";
+//import "@overwolf/types";
 
 export type Translations = {
   [key: string]: Translation;
@@ -49,7 +49,7 @@ const i18nVarToken = "####";
  * Example: "isSmurf":[name,winrate]
  */
 const i18nVarTokenValues: {
-  [key: string]: string[]
+  [key: string]: string[];
 } = {};
 
 /**
@@ -229,7 +229,7 @@ export function getLanguageName(language?: string): string {
  */
 export function getPollyLanguageConfig(language: string): PollyConfig {
   for (const l of Languages) {
-    if ((l.code == language) && (l.pollyConfig != undefined)) {
+    if (l.code == language && l.pollyConfig != undefined) {
       return l.pollyConfig;
     }
   }
@@ -276,11 +276,10 @@ function updatei18nElement(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
-  if (i18nToken == null) return // Nothing to be done, as element is not of type i18n
+  if (i18nToken == null) return; // Nothing to be done, as element is not of type i18n
   /*console.log(
     `*** i18nVarTokenValues=${JSON.stringify(i18nVarTokenValues, null, 2)}`
   );*/
-
 
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
     /*console.log(`*** here we go`);*/
@@ -299,7 +298,7 @@ function configureWebLinks(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
-  if (i18nToken == null) return
+  if (i18nToken == null) return;
 
   let linkId = 0;
 
