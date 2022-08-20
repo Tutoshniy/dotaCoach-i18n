@@ -2,16 +2,21 @@ export default {
 	// Main page
 	"index.title": "Dota Coach makes Dota 2 more fun to play!",
 	"index.title2": "Benefit from our 5 services",
-	"index.app": "I. Windows App",
-	"index.app.text": "The coaching app is available for Windows systems and has been developed with Overwolf. You can find the app in Overwolf's appstore or download it here.",
-	"index.dpcMeta": "II. DPC Meta",
-	"index.dpcMeta.text": "DPC Meta is a dedicated website providing insights on the Dota 2's Pro Circuit.",
-	"index.articles": "III. Articles",
-	"index.articles.text": "Articles to improve your Dota 2 skills.",
-	"index.guides": "IV. Hero Guides",
-	"index.guides.text": "Dota Coach provides in-game guides for all heroes as an integral part of Dota 2. You can subscribe to them on Steam.",
-	"index.heropedia": "V. Heropedia",
-	"index.heropedia.text": "Dota Coach's heropedia provides insights on all {noOfDota2Heroes} Dota 2 heroes.",
+	/*"index.app": "I. Windows App",*/
+	"index.app.text": "Our coaching app is available for Windows systems and has been developed with Overwolf. You can find the app on Overwolf's appstore or download it from here.",
+	/*"index.dpcMeta": "II. DPC Meta",*/
+	"index.dpcMeta.text": "DPC Meta is a website where we provide insights on Dota 2's Pro Circuit. You will find information about pro teams, tournaments and heroes.<p>Visit DPC Meta or Dota 2's DPC site to learn more about the Pro Circuit.</p>",
+	"index.dpcMeta.link": "Go to DPC Meta",
+	//"index.articles": "III. Articles",
+	"index.articles.link1": "Roshan Management",
+	"index.articles.link2": "Medal Progression",
+	"index.articles.text": "Dota Coach provides insightful articles written by pro players for you to improve your Dota 2 skills.",
+	//"index.herobuilds": "IV. Hero Guides",
+	"index.herobuilds.text": "Dota Coach provides in-game builds for all heroes as an integral part of Dota 2. You can subscribe to all our guides on Steam, follow the link below.",
+	"index.herobuilds.link": "View Hero Builds",
+	//"index.heropedia": "V. Heropedia",
+	"index.heropedia.text": "Dota Coach's heropedia provides you insights on all {noOfDota2Heroes} Dota 2 heroes.",
+	"index.heropedia.link": "Heropedia",
 
 
 	// App - Features
