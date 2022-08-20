@@ -1,8 +1,7 @@
 export default {
   QuickSetup: "Schnelle Einrichtung",
   EasyWayShort: "Ein einfacher Weg.",
-  EasyWayLong:
-    "Für neue Spieler und die, die eine schnelle Einrichtung wünschen, ist dies der richtige Weg.",
+  EasyWayLong: "Für neue Spieler und die, die eine schnelle Einrichtung wünschen.",
 
   CoachingTooltip:
     "Coaching (Stimme) für eigener Held und feindliche Helden kann hier eingestellt werden.",
