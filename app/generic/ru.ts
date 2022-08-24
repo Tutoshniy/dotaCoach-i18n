@@ -33,7 +33,7 @@ export default {
 
   RemoveAds: "Убрать рекламу",
 
-  ToggleOverlay: "Переключить внутриигровой оверлей с помощью {username}",
+  ToggleOverlay: "Переключить внутриигровой оверлей с помощью {hotkey}", // Texted should be shortened by about 30%. It looks bad right now
 
   /*
   //

@@ -41,6 +41,23 @@ export default {
   // Hotkey
   ToggleOverlay: "Toggle in-game overlay with {hotkey}",
 
+  // ADD TO OTHER LANGUAGES
+
+  // Roles
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  // Damage types
+  MagicalDamage: "Magical damage",
+  PhysicalDamange: "Physical damage",
+  PureDamage: "Pure damage",
+  NeutralDamage: "Neutral damage",
+  UnknownDamage: "Unknown damage type",
+
   //Maybe move to generic across platforms?!
   /*
   
