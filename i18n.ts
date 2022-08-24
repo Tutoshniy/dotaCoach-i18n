@@ -6,8 +6,6 @@
  */
 import { Languages } from "./i18n-languages";
 import * as DL from "../../submodules/utilities/log";
-//import "@overwolf/types";
-import "@overwolf/types";
 
 export type Translations = {
   [key: string]: Translation;
