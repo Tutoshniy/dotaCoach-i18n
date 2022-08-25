@@ -1,5 +1,6 @@
 //import messagesEn from "../../../submodules/dotaCoach-i18n/app/desktop/en";
 import notificationsEn from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/en";
+import bugReportEn from "../../../submodules/dotaCoach-i18n/app/desktop/bugReport/en";
 import settingsBr from "../../../submodules/dotaCoach-i18n/app/desktop/settings/br";
 import settingsDe from "../../../submodules/dotaCoach-i18n/app/desktop/settings/de";
 import settingsEn from "../../../submodules/dotaCoach-i18n/app/desktop/settings/en";
@@ -24,6 +25,7 @@ const langDe = { ...settingsDe, ...genericDe };
 const langEn = {
   //...messagesEn,
   ...notificationsEn,
+  ...bugReportEn,
   ...settingsEn,
   ...genericEn,
 };
