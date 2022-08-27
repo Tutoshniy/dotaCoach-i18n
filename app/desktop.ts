@@ -1,5 +1,13 @@
 //import messagesEn from "../../../submodules/dotaCoach-i18n/app/desktop/en";
+import notificationsBr from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/br";
+import notificationsDe from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/de";
 import notificationsEn from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/en";
+import notificationsEs from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/es";
+import notificationsFil from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/fil";
+import notificationsFr from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/fr";
+import notificationsId from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/id";
+import notificationsRu from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/ru";
+import notificationsZh from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/zh";
 import bugReportEn from "../../../submodules/dotaCoach-i18n/app/desktop/bugReport/en";
 import settingsBr from "../../../submodules/dotaCoach-i18n/app/desktop/settings/br";
 import settingsDe from "../../../submodules/dotaCoach-i18n/app/desktop/settings/de";
@@ -20,8 +28,8 @@ import genericId from "../../../submodules/dotaCoach-i18n/app/generic/id";
 import genericRu from "../../../submodules/dotaCoach-i18n/app/generic/ru";
 import genericZh from "../../../submodules/dotaCoach-i18n/app/generic/zh";
 
-const langBr = { ...settingsBr, ...genericBr };
-const langDe = { ...settingsDe, ...genericDe };
+const langBr = { ...notificationsBr, ...settingsBr, ...genericBr };
+const langDe = { ...notificationsDe, ...settingsDe, ...genericDe };
 const langEn = {
   //...messagesEn,
   ...notificationsEn,
@@ -29,12 +37,12 @@ const langEn = {
   ...settingsEn,
   ...genericEn,
 };
-const langEs = { ...settingsEs, ...genericEs };
-const langFil = { ...settingsFil, ...genericFil };
-const langFr = { ...settingsFr, ...genericFr };
-const langId = { ...settingsId, ...genericId };
-const langRu = { ...settingsRu, ...genericRu };
-const langZh = { ...settingsZh, ...genericZh };
+const langEs = { ...notificationsEs, ...settingsEs, ...genericEs };
+const langFil = { ...notificationsFil, ...settingsFil, ...genericFil };
+const langFr = { ...notificationsFr, ...settingsFr, ...genericFr };
+const langId = { ...notificationsId, ...settingsId, ...genericId };
+const langRu = { ...notificationsRu, ...settingsRu, ...genericRu };
+const langZh = { ...notificationsZh, ...settingsZh, ...genericZh };
 const messages = {
   br: langBr,
   de: langDe,

@@ -19,11 +19,11 @@ export default {
   // Connecting to Dota 2
   DotaConnectivityStart: "Connecting to Dota 2...",
   DotaConnectivityStatus:
-    "Connecting to Dota 2...<br></br>Current status: '{currentStatus}' ({attempt}/{maxAttempts} attempts)",
+    "Connecting to Dota 2...<br></br>Current status: ''{currentStatus}'' ({attempt}/{maxAttempts} attempts)",
   DotaConnectivityError:
-    "Connection to Dota 2 could not be established.<br></br>Please try to restart app again later.<br></br>(error: '{finalStatus}')",
+    "Connection to Dota 2 could not be established.<br></br>Please try to restart app again later.<br></br>(error: ''{finalStatus}'')",
   DotaConnectivityMissingEvents:
-    "Connection to Dota 2 could not register to all required events. <br></br>Please try to restart app again later.<br></br>(missing events: '{missingEvents}')",
+    "Connection to Dota 2 could not register to all required events. <br></br>Please try to restart app again later.<br></br>(missing events: ''{missingEvents}'')",
   // Plugin errors
   // {"plugin_error": "failed_initializing_monitor"}
   DotaConnectivityFailed:
@@ -31,7 +31,7 @@ export default {
   // {"plugin_error":"crashed_on_present"}
   DotaConnectivityCrashed: "Connection to Dota 2 crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
   // {"plugin_error": <all other messages>}
-  DotaConnectivityUnknownError: "Connection to Dota 2 has unknown error ({error})",
+  DotaConnectivityUnknownError: "Connection to Dota 2 has unknown error ({error}).",
 
   // First Time User Experience
   // 0) Quick start guide
@@ -103,7 +103,7 @@ export default {
       LEFT-CLICK on the timer to share it with your friends. Click on red X to stop it.
     </p>`,
 
-  // App Management
+  // App Management (note that release updates are only provided in english)
   AppUpgraded: "App Upgraded to version {version}",
   Release_1_3_0: `
     <p>
