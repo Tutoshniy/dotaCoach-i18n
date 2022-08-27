@@ -1,16 +1,40 @@
 export default {
+  // Olverlay in Overwolf
   OverlayEnabeld:
     "Dota Coach needs overlay for Dota 2 to be enabled in Overwolf. Please update Overwolf settings.",
   OverlayEnabeldSettings: "OPEN SETTINGS",
   OverlayEnabeldRestart:
-    "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to be effective.",
+    "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to take effect.",
+
+  // GameStateIntegration in Steam
   GameStateIntegration:
     "Dota Coach needs access to the Game State Integration API provided by Dota 2. Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
   GameStateIntegrationTypo:
-    "There is a typo in your Dota 2 launch options for Game State Integration. Please replace '####' with '-gamestateintegration'.",
-  GameStateIntegrationMore: "MORE",
+    "There is a typo in your Dota 2 launch options for Game State Integration. Please replace ''{typo}'' with '-gamestateintegration'.",
+  GameStateIntegrationMore: "MORE INFO",
+
+  // Launching Dota 2
   LaunchDota:
     "Launch Dota 2 to benefit from in-game features such as player stats, timers, performance tracking and coaching.",
+  // Connecting to Dota 2
+  DotaConnectivityStart: "Connecting to Dota 2...",
+  DotaConnectivityStatus:
+    "Connecting to Dota 2...<br></br>Current status: '{currentStatus}' ({attempt}/{maxAttempts} attempts)",
+  DotaConnectivityError:
+    "Connection to Dota 2 could not be established.<br></br>Please try to restart app again later.<br></br>(error: '{finalStatus}')",
+  DotaConnectivityMissingEvents:
+    "Connection to Dota 2 could not register to all required events. <br></br>Please try to restart app again later.<br></br>(missing events: '{missingEvents}')",
+  // Plugin errors
+  // {"plugin_error": "failed_initializing_monitor"}
+  DotaConnectivityFailed:
+    "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
+  // {"plugin_error":"crashed_on_present"}
+  DotaConnectivityCrashed: "Connection to Dota 2 crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
+  // {"plugin_error": <all other messages>}
+  DotaConnectivityUnknownError: "Connection to Dota 2 has unknown error ({error})",
+
+  // First Time User Experience
+  // 0) Quick start guide
   QuickStart: "Quick Start",
   QuickStartMessage: `
     <p>
@@ -47,5 +71,42 @@ export default {
     <hr></hr>
     <p>
       Do you want to unleash the full power of Dota Coach in 3 minutes? Watch our video guide: <a_tutorial_video>Video Guide</a_tutorial_video>
+    </p>`,
+  // 1) Infoboxes
+  UseInfoboxes: "How to use Infoboxes",
+  UseInfoboxesMessage: `
+    <p>
+      LEFT-CLICK on infoboxes above players to see their stats.
+    </p>
+    <p>
+      Once a player selected a hero you will see other relevante information.
+    </p>
+    <p>
+      Note: Stats are shown for players with public profiles.
+    </p>`,
+  // 2) Activate Timers
+  ActivateTimers: "How to activate Timers",
+  ActivateTimersMessage: `
+    <p>
+      LEFT-CLICK will activate Roshan, Glyph, Buybacks, Ultimate timers and Infoboxes
+    </p>
+    <p>
+      Note that Ultimate timers are only available to subscribers.
+    </p>`,
+  // 3) Share Timers
+  ShareTimers: "How to share and stop Timers",
+  ShareTimersMessage: `
+    <p>
+      Congratulations! You successfully activated the {timer} timer!
+    </p>
+    <p>
+      LEFT-CLICK on the timer to share it with your friends. Click on red X to stop it.
+    </p>`,
+
+  // App Management
+  AppUpgraded: "App Upgraded to version {version}",
+  Release_1_3_0: `
+    <p>
+      App was upgraded to bla bla
     </p>`,
 };

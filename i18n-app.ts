@@ -895,64 +895,6 @@ export const AppTranslations: Translations = {
     es: `Dota 2 se está ejecutando y la conexión está completamente operativa.`, // #toBeUpdated
   },
 
-  DotaConnectivityStart: {
-    en: "Connecting to Dota 2...",
-    de: `Verbindung zu Dota 2 wird hergestellt...`,
-    fr: `Connexion à Dota 2 en cours...`,
-    ru: "Подключение к Dota 2...",
-    id: `Menghubungkan ke Dota 2...`, // #toBeUpdated
-    fil: `Kumokonekta sa Dota 2...`, // #toBeUpdated
-    zh: `正在连接到 Dota 2...`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2...`,
-    es: `Conectándose a Dota 2...`, // #toBeUpdated
-  },
-  DotaConnectivityStatus: {
-    en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
-    de: `Verbindung zu Dota 2 wird hergestellt... <br>Aktueller Stand: '####' (####/#### Versuchen)`,
-    fr: `Connexion à Dota 2... <br>État actuel : '####' (####/#### tentatives)`,
-    ru: "Подключение к Dota 2...<br>Текущий статус: '####' (####/#### попытки)",
-    id: `Menghubungkan ke Dota 2... <br>Statussaat ini: '####' (####/#### upaya)`, // #toBeUpdated
-    fil: `Kumokonekta sa Dota 2... <br>Kasalukuyangkatayuan: '####' (####/#### pagtatangka)`, // #toBeUpdated
-    zh: `正在连接到 Dota 2...<br>当前状态：'####'（####/#### 次尝试）`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`,
-    es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
-  },
-  DotaConnectivityError: {
-    en: "Connection to Dota 2 could not be established.<br>Please try to restart app again later.<br>Error: '####'.", // NOT, ALL UPDATED
-    de: `Verbindung zu Dota 2 konnte nicht hergestellt werden. <br>Bitte versuche es später erneut. <br>Fehler: '####'.`,
-    fr: `La connexion à Dota 2 n'a pas pu être établie. <br>Réessaye plus tard. <br>Erreur : « #### ».`,
-    ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
-    id: `Koneksi ke Dota 2 tidak dapat dibuat. <br>Silakancoba lagi nanti. <br>Galat: '####'.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota 2 ay hindi maitatag. <br>Mangyaringsubukang muli mamaya. <br>Error: '####'.`, // #toBeUpdated
-    zh: `无法建立与 Dota 2 的连接。<br>请稍后再试。<br>错误：'####'。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`,
-    es: `No se pudo establecer la conexión con Dota 2. <br>Vuelva a intentarlo más tarde. <br>Error: '####'.`, // #toBeUpdated
-  },
-  DotaConnectivityFailed: {
-    // {"plugin_error": "failed_initializing_monitor"}
-    en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
-    de: `Die Verbindung zu Dota 2 ist unterbrochen. Wir arbeiten an einer Lösung, bitte versuche es später erneut.`,
-    fr: `La connexion à Dota 2 est interrompue. Nous travaillons sur un correctif, nous the prions de réessayer plus tard.`,
-    ru: "Соединение с Dota 2 прервано. Мы работаем над исправлением, повторите попытку позже.",
-    id: `Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.`, // #toBeUpdated
-    zh: `与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`,
-    es: `La conexión a Dota 2 está interrumpida. Estamos trabajando en una solución, inténtalo de nuevo más tarde.`, // #toBeUpdated
-  },
-  DotaConnectivityCrashed: {
-    // {""plugin_error"":""crashed_on_present""}
-    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
-    de: `Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.`,
-    fr: `La connexion à Dota s'est écrasée. Essaye de relancer l'application.`,
-    ru: "Сбой подключения к Dota. Попробуйте перезапустить приложение.",
-    id: `Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.`, // #toBeUpdated
-    zh: `与 Dota 的连接崩溃了。请尝试重新启动应用程序。`, // #toBeUpdated
-    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`,
-    es: `La conexión a Dota se bloqueó. Intente volver a iniciar la aplicación.`, // #toBeUpdated
-  },
-
   // Desktop status display
   InfoboxesOperational: {
     en: "Infoboxes are fully operational.",
