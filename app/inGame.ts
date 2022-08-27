@@ -31,15 +31,15 @@ const langId = { /*...inGameId,*/ ...genericId };
 const langRu = { /*...inGameRu,*/ ...genericRu };
 const langZh = { /*...inGameZh,*/ ...genericZh };
 const messages = {
-  br: langBr,
-  de: langDe,
-  en: langEn,
-  es: langEs,
-  fil: langFil,
-  fr: langFr,
-  id: langId,
-  ru: langRu,
-  zh: langZh,
+  br: { ...langEn, ...langBr },
+  de: { ...langEn, ...langDe },
+  en: { ...langEn, ...langEn },
+  es: { ...langEn, ...langEs },
+  fil: { ...langEn, ...langFil },
+  fr: { ...langEn, ...langFr },
+  id: { ...langEn, ...langId },
+  ru: { ...langEn, ...langRu },
+  zh: { ...langEn, ...langZh },
 };
 
 //console.log(`langEn = ${JSON.stringify(langEn, null, 2)}`);

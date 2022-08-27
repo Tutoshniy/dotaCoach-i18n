@@ -22,7 +22,8 @@ export default {
     "La connexion à Dota 2 n'a pas pu s'inscrire à tous les événements requis.<br></br>Réessaye de redémarrer l'application plus tard.<br></br > (événements manquants: ''{missingEvents}'') ",
   DotaConnectivityFailed:
     "La connexion à Dota 2 est interrompue. Nous travaillons sur un correctif, nous the prions de réessayer plus tard.",
-  DotaConnectivityCrashed: "La connexion à Dota s'est écrasée. Essaye de relancer l'application.", DotaConnectivityUnknownError: "La connexion à Dota 2 a une erreur inconnue({ error }).",
+  DotaConnectivityCrashed: "La connexion à Dota s'est écrasée. Essaye de relancer l'application.",
+  DotaConnectivityUnknownError: "La connexion à Dota 2 a une erreur inconnue({ error }).",
 
   QuickStart: "Démarrage rapide",
   QuickStartMessage: `
@@ -43,7 +44,7 @@ export default {
     </p>
     <hr></hr>
     <p>
-      Tu es maintenant un membre important de la communauté des entraîneurs Dota <br>et nous voulons avoir de vos nouvelles :
+      Tu es maintenant un membre important de la communauté des entraîneurs Dota et nous voulons avoir de vos nouvelles :
       <ul>
         <li>Rejoigne notre <a_discord>serveur Discord</a_discord> pour parler directement avec nos entraîneurs professionnels, trouver des joueurs partageant les mêmes idées et suggérer des changements d'entraîneur Dota !</li>
         <li>Rejoigne notre <a_reddit>Subreddit</a_reddit> ou suis Dota Coach sur les <a_twitter>réseaux sociaux</a_twitter> pour recevoir des mises à jour en direct sur les changements et améliorations à venir !</li>

@@ -22,8 +22,10 @@ export default {
     "Koneksi ke Dota 2 tidak dapat mendaftar ke semua acara yang diperlukan. <br></br>Coba mulai ulang aplikasi lagi nanti.<br></br>(peristiwa yang hilang: ''{missingEvents}'')",
   DotaConnectivityFailed:
     "Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.",
-  DotaConnectivityCrashed: "Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.",
-  DotaConnectivityUnknownError: "Koneksi ke Dota 2 memiliki kesalahan yang tidak diketahui({ error }).",
+  DotaConnectivityCrashed:
+    "Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.",
+  DotaConnectivityUnknownError:
+    "Koneksi ke Dota 2 memiliki kesalahan yang tidak diketahui({ error }).",
 
   QuickStart: "Mulai Cepat",
   QuickStartMessage: `
@@ -46,7 +48,7 @@ export default {
     <p>
       Anda sekarang menjadi anggota penting dari komunitas Dota Coach dan kami ingin mendengar dari Anda:
       <ul>
-        <li>Bergabunglah dengan <a_discord>Discord Server</a_discord> kami untuk berbicara langsung dengan Pelatih Pro-kami,<br>temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach!</li>
+        <li>Bergabunglah dengan <a_discord>Discord Server</a_discord> kami untuk berbicara langsung dengan Pelatih Pro-kami, temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach!</li>
         <li>Bergabunglah dengan <a_reddit>Subreddit</a_reddit> kami atau ikuti Dota Coach di <a_twitter>media sosial</a_twitter> untuk mendapatkan pembaruan langsung tentang perubahan dan peningkatan yang akan datang!</li>
       </ul>
     </p>

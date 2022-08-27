@@ -1,6 +1,5 @@
 export default {
-  OverlayEnabeld:
-    "刀塔教练需要在 Overwolf 中启用 Dota 2 的叠加层。请更新 Overwolf 设置。",
+  OverlayEnabeld: "刀塔教练需要在 Overwolf 中启用 Dota 2 的叠加层。请更新 Overwolf 设置。",
   OverlayEnabeldSettings: "OPEN SETTINGS",
   OverlayEnabeldRestart:
     "你成功启用了 Dota 2 叠加层。请关闭并重新打开 Dota Coach、Overwolf 和 Dota 2，以使更改生效。",
@@ -11,8 +10,7 @@ export default {
     "游戏状态集成的 Dota 2 启动选项中有错字。请将 ''{typo}'' 替换为 '-gamestateintegration'。",
   GameStateIntegrationMore: "更多",
 
-  LaunchDota:
-    "启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。",
+  LaunchDota: "启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。",
   DotaConnectivityStart: "正在连接到 Dota 2...",
   DotaConnectivityStatus:
     "`正在连接到 Dota 2...<br></br>当前状态：''{currentStatus}'' ({attempt}/{maxAttempts} 次尝试）",
@@ -20,9 +18,9 @@ export default {
     "无法建立与 Dota 2 的连接。<br></br>请稍后再试。<br></br>(错误: ''{finalStatus}'')",
   DotaConnectivityMissingEvents:
     "与 Dota 2 的连接无法注册到所有必需的事件。 <br></br>请稍后再尝试重启应用。<br></br>（缺少事件：''{missingEvents}''）",
-  DotaConnectivityFailed:
-    "与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。",
-  DotaConnectivityCrashed: "与 Dota 的连接崩溃了。请尝试重新启动应用程序。", DotaConnectivityUnknownError: "与 Dota 2 的连接出现未知错误 ({error})。",
+  DotaConnectivityFailed: "与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。",
+  DotaConnectivityCrashed: "与 Dota 的连接崩溃了。请尝试重新启动应用程序。",
+  DotaConnectivityUnknownError: "与 Dota 2 的连接出现未知错误 ({error})。",
 
   QuickStart: "快速入门",
   QuickStartMessage: `
@@ -43,7 +41,7 @@ export default {
     </p>
     <hr></hr>
     <p>
-      您现在是Dota Coach社区的重要成员，<br>我们希望收到您的来信：
+      您现在是Dota Coach社区的重要成员，我们希望收到您的来信：
       <ul>
         <li>加入我们的 <a_discord>Discord服务器</a_discord> 直接与我们的专业教练交谈，找到志同道合的玩家并建议Dota Coach的变化！</li>
         <li>加入我们的 <a_reddit>Subreddit</a_reddit> 或在 <a_twitter>社交媒体</a_twitter> 上关注Dota Coach，以获取有关即将发生的更改和改进的实时更新!</li>

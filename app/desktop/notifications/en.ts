@@ -46,28 +46,28 @@ export default {
     <hr></hr>
     <p>
       Interact with timers and infoboxes during the game to get the competetive edge:
+    </p>
       <ul>
         <li>Press <b>LEFT-CLICK</b> to start Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
         <li>Press <b>the red X</b> to stop Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
         <li>Press <b>LEFT-CLICK</b> to open infoboxes at the top and at the minimap.</li>
       </ul>
-    </p>
     <hr></hr>
     <p>
       You are now an important member of the Dota Coach community and we want to hear from you:
+    </p>
       <ul>
         <li>Join our <a_discord>Discord Server</a_discord> to speak directly with us, find like-minded players and suggest Dota Coach changes!</li>
         <li>Join our <a_reddit>Subreddit</a_reddit> or follow Dota Coach on <a_twitter>Social Media</a_twitter> to get live updates on upcoming changes and improvements!</li>
       </ul>
-    </p>
     <hr></hr>
     <p>
       Still got questions? No worries, we got you covered:
+    </p>
       <ul>
         <li><a_FAQs>FAQ</a_FAQs></li>
         <li><a_heropedia>Heropedia</a_heropedia></li>
       </ul>
-    </p>
     <hr></hr>
     <p>
       Do you want to unleash the full power of Dota Coach in 3 minutes? Watch our video guide: <a_tutorial_video>Video Guide</a_tutorial_video>
@@ -104,7 +104,7 @@ export default {
     </p>`,
 
   // App Management (note that release updates are only provided in english)
-  AppUpgraded: "App Upgraded to version {version}",
+  AppUpgraded: "App upgraded to Version {version}",
   Release_1_3_0: `
     <p>
       App was upgraded to bla bla

@@ -38,8 +38,8 @@ export default {
       Interactúa con temporizadores y cuadros de información durante el juego para obtener una ventaja competitiva:
       <ul>
         <li>Pulsa el BOTÓN <b>IZQUIERDO</b> para iniciar Roshan, Glyph, Buyback, Ultimate-Timers.</li>
-        <li>Press <b>Presione <b>la X roja</b> para detener Roshan, Glyph, Buyback, Ultimate-Timers.</li>
-        <li>Pulse <b>CLIC IZQUIERDO</b> para abrir cuadros de información en la parte superior y en el minimapa. </li>
+        <li>Presione <b>la X roja</b> para detener Roshan, Glyph, Buyback, Ultimate-Timers.</li>
+        <li>Pulse <b>CLIC IZQUIERDO</b> para abrir cuadros de información en la parte superior y en el minimapa.</li>
       </ul>
     </p>
     <hr></hr>
