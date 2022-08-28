@@ -22,7 +22,9 @@ export default {
     "Die Verbindung zu Dota 2 konnte nicht  alle erforderlichen Ereignisse registrieren. <br></br>Bitte starte die App später erneut.<br></br>(fehlende Ereignisse: ''{missingEvents}'')",
   DotaConnectivityFailed:
     "Die Verbindung zu Dota 2 ist unterbrochen. Wir arbeiten an einer Lösung, bitte versuche es später erneut.",
-  DotaConnectivityCrashed: "Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.", DotaConnectivityUnknownError: "Die Verbindung zu Dota 2 hat einen unbekannten Fehler ({error}).",
+  DotaConnectivityCrashed:
+    "Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.",
+  DotaConnectivityUnknownError: "Die Verbindung zu Dota 2 hat einen unbekannten Fehler ({error}).",
 
   QuickStart: "Schneller Einstieg",
   QuickStartMessage: `
@@ -35,28 +37,28 @@ export default {
     <hr></hr>
     <p>
       Interagiere während des Spiels mit Timern und Infoboxen, um dir einen Vorteil zu verschaffen:
-      <ul>
-        <li>Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.</li>
-        <li>Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.</li>
-        <li>rücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.</li>
-      </ul>
     </p>
+    <ul>
+      <li>Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.</li>
+      <li>Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.</li>
+      <li>rücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.</li>
+    </ul>
     <hr></hr>
     <p>
       Du bist jetzt ein wichtiges Mitglied der Dota Coach-Community und wir möchten von dir hören:
-      <ul>
-        <li>Tritt unserem <a_discord>Discord Server</a_discord> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!</li>
-        <li>Tritt unserem <a_reddit>Subreddit</a_reddit> bei oder folge uns in den <a_twitter>sozialen Medien</a_twitter>!</li>
-      </ul>
     </p>
+    <ul>
+      <li>Tritt unserem <a_discord>Discord Server</a_discord> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!</li>
+      <li>Tritt unserem <a_reddit>Subreddit</a_reddit> bei oder folge uns in den <a_twitter>sozialen Medien</a_twitter>!</li>
+    </ul>
     <hr></hr>
     <p>
-      ast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:
-      <ul>
-        <li><a_FAQs>FAQ</a_FAQs></li>
-        <li><a_heropedia>Heropedia</a_heropedia></li>
-      </ul>
+      Hast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:
     </p>
+    <ul>
+      <li><a_FAQs>FAQ</a_FAQs></li>
+      <li><a_heropedia>Heropedia</a_heropedia></li>
+    </ul>
     <hr></hr>
     <p>
       Möchtest du alle Funktionalitäten von Dota Coach in 3 Minuten kennenlernen? Dann schaue dir unser Tutorial-Video an: <a_tutorial_video>Video</a_tutorial_video>

@@ -1,73 +1,58 @@
 export default {
-  // Title & tabs
   ShowHide: "Show/Hide {hotkey}",
   BanningPlayers: "Banning & Players",
   RoleLaning: "Role & Laning",
 
-  //
-  // Baning & players
-  //
-
-  // Ban, don't bank & smurfs
   HeroBAN: "Hero <b>BAN</b>",
-  NoBan: "No spezific hero needs to be banned",
+  NoBan: "Нет героев, которых нужно забанить",
   DontBAN: "Don't <b>BAN</b>",
-  AllBan: "All heroes can be banned",
+  AllBan: "Всех героев можно забанить.",
   PossibleSmurf: "Possible <b>Smurf Player</b>",
   PossibleSmurfs: "Possible <b>Smurf Players</b>",
   NoSmurf: "No smurf detected",
-  // Timeframes
+
   OneMinuteAgo: "1 minute ago",
   MinutesAgo: "{minutes} minutes ago",
   OneHourAgo: "1 hour ago",
   HoursAgo: "{hours} hours ago",
   Yesterday: "1 day ago",
   DaysAgo: "{days} days ago",
-  // Ban and don't ban recommendations
-  YouWon4Games: "You won 4 games in a row",
-  MateWon4Games: "{playerName} in your team won 4 games in a row",
-  EnemyWon4Game: "{playerName} in the enemy team won 4 games in a row",
-  YouHighWinRate: "You have a high win rate of {winRate}% in the last {matchCount} matches",
+
+  YouWon4Games: "Вы выиграли 4 игры подряд",
+  MateWon4Games: "{playerName} в вашей команде выиграл 4 игры подряд",
+  EnemyWon4Game: "{playerName} во вражеской команде выиграл в 4 играх подряд",
+  YouHighWinRate: "У вас высокий {winRate}% процент побед в последних {matchCount} матчах",
   MateHighWinRate:
-    "{playerName} in your team has a high win rate of {winRate}% in the last {matchCount} matches",
+    "{playerName} в вашей команде имеет высокий {winRate}% процент побед в последних {matchCount} матчах",
   EnemyHighWinRate:
-    "{playerName} in the enemy team has a high win rate of {winRate}% in the last {matchCount} matches",
+    "{playerName} во вражеской команде высокий {winRate}% процент побед в последних {matchCount} матчах",
   EnemyLowWinRate:
-    "{playerName} in the enemy team has a low win rate of {winRate}% and picks hero frequently",
-  // Smurfs
+    "{playerName} во вражеской команде имеет низкий процент побед и часто выбирает героя",
+
   PlayerIsSmurf:
     "With a win rate of {winRate}% over the last {matchCount} matches likely to be a smurf.",
 
-  // Winning & losing streaks
-  WinningLosingStreaks: "Winning & Losing Streaks",
+  WinningLosingStreaks: "Серии побед/поражений",
   NoStreak: "No winning & losing streak",
   PlayerTeam: "Player Team",
   EnemyTeam: "Enemy Team",
   Victory: "Victory",
   Defeat: "Defeat",
 
-  // People you played with
-  PlayedWith: "People you played with",
+  PlayedWith: "Люди, с которыми вы играли",
   NoRecentMatch: "There is no person in the game you recently played with",
   YouWonWith: `You <green>won</green> with {playerName} as {otherHeroName}.`,
   YouWonAgainst: `You <green>won</green> against {playerName} as {otherHeroName}.`,
   YouLostWith: `You <red>lost</red> with {playerName} as {otherHeroName}.`,
   YouLostAgainst: `You <red>lost</red> against {playerName} as {otherHeroName}.`,
 
-  //
-  // Role & Laning
-  //
-
-  // MyRole
-  MyRole: "My Role",
+  MyRole: "Роль",
   SteamGuide: "Steam Guide",
 
-  // Enemy heroes
-  EnemyHeroes: "Enemy Heroes",
-  MyLane: "My Lane",
+  EnemyHeroes: "Héros ennemi",
+  MyLane: "Моя линия",
   WaitingHeroes: "Waiting for heroes to be selected",
 
-  // Laning items
-  CounteItemsConsider: "Counter items to consider (laning)",
+  CounteItemsConsider: "Контр предметы на рассмотрение (лайнинг)",
   SelectHeroes: "Select heroes in your lane",
 };

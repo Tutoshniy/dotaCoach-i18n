@@ -33,28 +33,28 @@ export default {
     <hr></hr>
     <p>
       游戏过程中与计时器和信息框互动以获得信息优势：
-      <ul>
-        <li>按下<b>左键单击</b>以启动 Roshan-、防御符文-、买活-、终极技能-计时器。</li>
-        <li>按下<b>红色的 X</b> 可停止 Roshan-、防御符文-、买活-、终极技能-计时器。</li>
-        <li>按下<b>左键单击</b>以打开顶部和小地图上的信息框。</li>
-      </ul>
     </p>
+    <ul>
+      <li>按下<b>左键单击</b>以启动 Roshan-、防御符文-、买活-、终极技能-计时器。</li>
+      <li>按下<b>红色的 X</b> 可停止 Roshan-、防御符文-、买活-、终极技能-计时器。</li>
+      <li>按下<b>左键单击</b>以打开顶部和小地图上的信息框。</li>
+    </ul>
     <hr></hr>
     <p>
       您现在是Dota Coach社区的重要成员，我们希望收到您的来信：
-      <ul>
-        <li>加入我们的 <a_discord>Discord服务器</a_discord> 直接与我们的专业教练交谈，找到志同道合的玩家并建议Dota Coach的变化！</li>
-        <li>加入我们的 <a_reddit>Subreddit</a_reddit> 或在 <a_twitter>社交媒体</a_twitter> 上关注Dota Coach，以获取有关即将发生的更改和改进的实时更新!</li>
-      </ul>
     </p>
+    <ul>
+      <li>加入我们的 <a_discord>Discord服务器</a_discord> 直接与我们的专业教练交谈，找到志同道合的玩家并建议Dota Coach的变化！</li>
+      <li>加入我们的 <a_reddit>Subreddit</a_reddit> 或在 <a_twitter>社交媒体</a_twitter> 上关注Dota Coach，以获取有关即将发生的更改和改进的实时更新!</li>
+    </ul>
     <hr></hr>
     <p>
       还有问题吗？不用担心，我们帮你解决了：
-      <ul>
-        <li><a_FAQs>常见问题</a_FAQs></li>
-        <li><a_heropedia>Heropedia</a_heropedia></li>
-      </ul>
     </p>
+    <ul>
+      <li><a_FAQs>常见问题</a_FAQs></li>
+      <li><a_heropedia>Heropedia</a_heropedia></li>
+    </ul>
     <hr></hr>
     <p>
       想在3分钟内释放Dota Coach的全部力量吗？观看完整的指南视频： <a_tutorial_video>指南视频</a_tutorial_video>

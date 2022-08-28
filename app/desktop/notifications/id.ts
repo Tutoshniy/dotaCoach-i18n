@@ -38,28 +38,28 @@ export default {
     <hr></hr>
     <p>
       Berinteraksi dengan timer dan infobox selama pertandingan untuk mendapatkan tepi kompetetif:
-      <ul>
-        <li>Tekan<b> KIR-KLIK </b>untuk memulai Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
-        <li>Tekan<b> X merah </b>untuk menghentikan Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
-        <li>Tekan<b> KIFT KLIK </b>untuk membuka infobox di bagian atas dan di minimap.</li>
-      </ul>
     </p>
+    <ul>
+      <li>Tekan<b> KIR-KLIK </b>untuk memulai Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
+      <li>Tekan<b> X merah </b>untuk menghentikan Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
+      <li>Tekan<b> KIFT KLIK </b>untuk membuka infobox di bagian atas dan di minimap.</li>
+    </ul>
     <hr></hr>
     <p>
       Anda sekarang menjadi anggota penting dari komunitas Dota Coach dan kami ingin mendengar dari Anda:
-      <ul>
-        <li>Bergabunglah dengan <a_discord>Discord Server</a_discord> kami untuk berbicara langsung dengan Pelatih Pro-kami, temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach!</li>
-        <li>Bergabunglah dengan <a_reddit>Subreddit</a_reddit> kami atau ikuti Dota Coach di <a_twitter>media sosial</a_twitter> untuk mendapatkan pembaruan langsung tentang perubahan dan peningkatan yang akan datang!</li>
-      </ul>
     </p>
+    <ul>
+      <li>Bergabunglah dengan <a_discord>Discord Server</a_discord> kami untuk berbicara langsung dengan Pelatih Pro-kami, temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach!</li>
+      <li>Bergabunglah dengan <a_reddit>Subreddit</a_reddit> kami atau ikuti Dota Coach di <a_twitter>media sosial</a_twitter> untuk mendapatkan pembaruan langsung tentang perubahan dan peningkatan yang akan datang!</li>
+    </ul>
     <hr></hr>
     <p>
       Masih punya pertanyaan? Jangan khawatir, kami punya Anda tertutup:
-      <ul>
-        <li><a_FAQs>FAQ</a_FAQs></li>
-        <li><a_heropedia>Heropedia</a_heropedia></li>
-      </ul>
     </p>
+    <ul>
+      <li><a_FAQs>FAQ</a_FAQs></li>
+      <li><a_heropedia>Heropedia</a_heropedia></li>
+    </ul>
     <hr></hr>
     <p>
       Ingin melepaskan kekuatan penuh Dota Coach dalam 3 menit? Tonton video panduan lengkap: <a_tutorial_video>Panduan Video</a_tutorial_video>

@@ -53,7 +53,7 @@ export default {
 
   // Damage types
   MagicalDamage: "Magical damage",
-  PhysicalDamange: "Physical damage",
+  PhysicalDamage: "Physical damage",
   PureDamage: "Pure damage",
   NeutralDamage: "Neutral damage",
   UnknownDamage: "Unknown damage type",

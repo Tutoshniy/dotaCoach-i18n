@@ -22,7 +22,9 @@ export default {
     "Ang koneksyon sa Dota 2 ay hindi makapagrehistro sa lahat ng kinakailangang kaganapan. <br></br>Pakisubukang i-restart muli ang app sa ibang pagkakataon.<br></br>(mga nawawalang kaganapan: ''{missingEvents}'')",
   DotaConnectivityFailed:
     "Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.",
-  DotaConnectivityCrashed: "Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.", DotaConnectivityUnknownError: "Ang koneksyon sa Dota 2 ay may hindi kilalang error ({error}).",
+  DotaConnectivityCrashed:
+    "Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.",
+  DotaConnectivityUnknownError: "Ang koneksyon sa Dota 2 ay may hindi kilalang error ({error}).",
 
   QuickStart: "Mabilis na Pagsisimula",
   QuickStartMessage: `
@@ -35,28 +37,28 @@ export default {
     <hr></hr>
     <p>
       Makipag-ugnay sa mga timers at infoboxes sa panahon ng laro upang makuha ang mapagkumpetensyang gilid:
-      <ul>
-        <li>Pindutin ang<b> LEFT-CLICK </b>upang simulan ang Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
-        <li>Pindutin<b> ang pulang X </b>upang ihinto ang Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
-        <li>Pindutin ang<b> LEFT-CLICK </b>upang buksan ang mga infobox sa itaas at sa minimap.</li>
-      </ul>
     </p>
+    <ul>
+      <li>Pindutin ang<b> LEFT-CLICK </b>upang simulan ang Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
+      <li>Pindutin<b> ang pulang X </b>upang ihinto ang Roshan-, Glyph-, Buyback-, Ultimate-Timers.</li>
+      <li>Pindutin ang<b> LEFT-CLICK </b>upang buksan ang mga infobox sa itaas at sa minimap.</li>
+    </ul>
     <hr></hr>
     <p>
       Ikaw ay isang mahalagang miyembro ng komunidad ng Dota Coach at gusto naming marinig mula sa iyo:
-      <ul>
-        <li>Sumali sa aming <a_discord>Discord Server</a_discord> upang makipag-usap nang direkta sa aming Pro-Coaches, maghanap ng mga tulad ng pag-iisip na mga manlalaro at magmungkahi ng mga pagbabago sa Dota Coach! </li>
-        <li>Sumali sa aming <a_reddit>Subreddit</a_reddit> o sundin ang Dota Coach sa <a_twitter>social media</a_twitter> upang makakuha ng mga live na update sa mga paparating na pagbabago at pagpapabuti!</li>
-      </ul>
     </p>
+    <ul>
+      <li>Sumali sa aming <a_discord>Discord Server</a_discord> upang makipag-usap nang direkta sa aming Pro-Coaches, maghanap ng mga tulad ng pag-iisip na mga manlalaro at magmungkahi ng mga pagbabago sa Dota Coach! </li>
+      <li>Sumali sa aming <a_reddit>Subreddit</a_reddit> o sundin ang Dota Coach sa <a_twitter>social media</a_twitter> upang makakuha ng mga live na update sa mga paparating na pagbabago at pagpapabuti!</li>
+    </ul>
     <hr></hr>
     <p>
       Nakakuha pa rin ng mga katanungan? Walang alalahanin, nakuha namin kayo sakop:
-      <ul>
-        <li><a_FAQs>FAQ</a_FAQs></li>
-        <li><a_heropedia>Heropedia</a_heropedia></li>
-      </ul>
     </p>
+    <ul>
+      <li><a_FAQs>FAQ</a_FAQs></li>
+      <li><a_heropedia>Heropedia</a_heropedia></li>
+    </ul>
     <hr></hr>
     <p>
       Gusto mong ipamalas ang buong lakas ng Dota Coach sa loob ng 3 minuto? Panoorin ang buong video ng gabay: <a_tutorial_video>Gabay sa Video</a_tutorial_video>

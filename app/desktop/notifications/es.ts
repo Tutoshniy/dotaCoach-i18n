@@ -36,28 +36,28 @@ export default {
     <hr></hr>
     <p>
       Interactúa con temporizadores y cuadros de información durante el juego para obtener una ventaja competitiva:
-      <ul>
-        <li>Pulsa el BOTÓN <b>IZQUIERDO</b> para iniciar Roshan, Glyph, Buyback, Ultimate-Timers.</li>
-        <li>Presione <b>la X roja</b> para detener Roshan, Glyph, Buyback, Ultimate-Timers.</li>
-        <li>Pulse <b>CLIC IZQUIERDO</b> para abrir cuadros de información en la parte superior y en el minimapa.</li>
-      </ul>
     </p>
+    <ul>
+      <li>Pulsa el BOTÓN <b>IZQUIERDO</b> para iniciar Roshan, Glyph, Buyback, Ultimate-Timers.</li>
+      <li>Presione <b>la X roja</b> para detener Roshan, Glyph, Buyback, Ultimate-Timers.</li>
+      <li>Pulse <b>CLIC IZQUIERDO</b> para abrir cuadros de información en la parte superior y en el minimapa.</li>
+    </ul>
     <hr></hr>
     <p>
       Ahora eres un miembro importante de la comunidad de entrenadores de Dota y queremos saber de ti: 
-      <ul>
-        <li>¡Únete a nuestro <a_discord>servidor de Discord</a_discord>  para hablar directamente con nuestros entrenadores profesionales, encontrar jugadores con ideas afines y sugerir cambios de entrenador de Dota!</li>
-        <li>¡Únete a nuestro <a_reddit>subreddit</a_reddit> o sigue a Dota Coach en <a_twitter>las redes sociales</a_twitter> para recibir actualizaciones en vivo sobre los próximos cambios y mejoras!</li>
-      </ul>
     </p>
+    <ul>
+      <li>¡Únete a nuestro <a_discord>servidor de Discord</a_discord>  para hablar directamente con nuestros entrenadores profesionales, encontrar jugadores con ideas afines y sugerir cambios de entrenador de Dota!</li>
+      <li>¡Únete a nuestro <a_reddit>subreddit</a_reddit> o sigue a Dota Coach en <a_twitter>las redes sociales</a_twitter> para recibir actualizaciones en vivo sobre los próximos cambios y mejoras!</li>
+    </ul>
     <hr></hr>
     <p>
       ¿Aún tienes preguntas? No te preocupes, te tenemos cubierto:
-      <ul>
-        <li><a_FAQs>FAQ</a_FAQs></li>
-        <li><a_heropedia>Heropedia</a_heropedia></li>
-      </ul>
     </p>
+    <ul>
+      <li><a_FAQs>FAQ</a_FAQs></li>
+      <li><a_heropedia>Heropedia</a_heropedia></li>
+    </ul>
     <hr></hr>
     <p>
       ¿Quieres liberar toda la potencia de Dota Coach en 3 minutos? Vea el vídeo guía completo: <a_tutorial_video>Video Guide</a_tutorial_video>

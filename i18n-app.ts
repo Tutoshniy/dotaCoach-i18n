@@ -883,6 +883,21 @@ export const AppTranslations: Translations = {
     es: "El jugador no tiene partidos recientes.",
   },
 
+  // ADDED AS QUICK FIX FOR VIDEO
+  Ultimate: {
+    en: "Ultimate",
+  },
+  Team: {
+    en: "Team",
+  },
+  profilePrivacy_public: {
+    en: "Public",
+  },
+  profilePrivacy_private: {
+    en: "Private",
+  },
+  // ADDED AS QUICK FIX FOR VIDEO
+
   FullyOperational: {
     en: "Dota 2 is running and connection is fully operational.",
     de: `Dota 2 läuft und die Verbindung ist voll funktionsfähig.`,
