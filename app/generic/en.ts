@@ -76,4 +76,30 @@ export default {
   statsTooltip: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
   
   */
+
+  // TO be moved to separate file
+  YourConfiguration: "Your configuration",
+  GSI: "Game state integration (Steam)",
+  DotaOverlay: "Dota 2 overlay (Overwolf)",
+  Enabled: "Enabled",
+  //Disabled: "Disabled", Exists already
+  Missing: "Missing",
+  Activated: "Activated",
+  Typo: "Typo",
+  Unknown: "Unknown",
+  RestartNeeded: "Restart needed",
+
+  // Services
+  Services: "Services",
+  InternetConnectivity: "Internet connectivity",
+  Online: "Online+",
+  Offline: "Offline+",
+  Dota2: "Dota 2",
+  Running: "Running",
+  OverwolfPlugin: "Overwolf plugin",
+  Operational: "Operational+",
+  PluginFailedInitializing: "Failed initializing+",
+  PluginCrashed: "Crashed+",
+  PluginUnknownError: "Unknown error+",
+  FurtherInformation: "For furter information go to notifications",
 };
