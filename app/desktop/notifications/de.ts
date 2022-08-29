@@ -1,8 +1,8 @@
 export default {
-  OverlayEnabeld:
+  OverlayEnabled:
     "Der Overlay für Dota 2 muss in Overwolf aktiviert werden. Bitte aktualisiere die Overwolf-Einstellungen.",
-  OverlayEnabeldSettings: "OPEN SETTINGS",
-  OverlayEnabeldRestart:
+  OverlayEnabledSettings: "OPEN SETTINGS",
+  OverlayEnabledRestart:
     "Du hast das Dota 2-Overlay erfolgreich aktiviert. Bitte schließe Dota Coach, Overwolf und Dota 2 und öffnen es dann erneut, damit die Änderung wirksam wird.",
 
   GameStateIntegration:

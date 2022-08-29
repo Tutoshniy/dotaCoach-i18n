@@ -1,8 +1,8 @@
 export default {
-  OverlayEnabeld:
+  OverlayEnabled:
     "Чтобы включить Dota 2 в Overwolf, тренер по Dota нуждается в оверлее. Пожалуйста, обновите настройки Overwolf",
-  OverlayEnabeldSettings: "OPEN SETTINGS",
-  OverlayEnabeldRestart:
+  OverlayEnabledSettings: "OPEN SETTINGS",
+  OverlayEnabledRestart:
     "Вы успешно включили оверлей Dota 2. Пожалуйста, закройте и снова откройте Dota Coach, Overwolf и Dota 2, чтобы изменения вступили в силу.",
 
   GameStateIntegration:

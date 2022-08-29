@@ -1,9 +1,9 @@
 export default {
   // Olverlay in Overwolf
-  OverlayEnabeld:
+  OverlayEnabled:
     "Dota Coach needs overlay for Dota 2 to be enabled in Overwolf. Please update Overwolf settings.",
-  OverlayEnabeldSettings: "OPEN SETTINGS",
-  OverlayEnabeldRestart:
+  OverlayEnabledSettings: "OPEN SETTINGS",
+  OverlayEnabledRestart:
     "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to take effect.",
 
   // GameStateIntegration in Steam

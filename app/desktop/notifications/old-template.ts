@@ -1,6 +1,6 @@
 export default {
   // Notifications
-  OverlayEnabeld: {
+  OverlayEnabled: {
     en: "Dota Coach needs overlay for Dota 2 to be enabled in Overwolf. Please update Overwolf settings.",
     de: `Der Overlay für Dota 2 muss in Overwolf aktiviert werden. Bitte aktualisiere die Overwolf-Einstellungen.`,
     fr: `Dota Coach a besoin que l'overlay pour Dota 2 soit activé dans Overwolf. Mets à jour le paramètre dans Overwolf.`,
@@ -11,7 +11,7 @@ export default {
     br: `O Dota Coach precisa que sobreposição para o Dota 2 seja ativado no Overwolf. Atualize as configurações do Overwolf.`,
     es: `Dota Coach necesita una superposición para que Dota 2 esté habilitado en Overwolf. Actualiza la configuración de Overwolf.`, // #toBeUpdated
   },
-  OverlayEnabeldSettings: {
+  OverlayEnabledSettings: {
     en: "OPEN SETTINGS",
     de: `EINSTELLUNGEN ÖFFNEN`,
     fr: `OUVRIR PARAMÈTRES`,
@@ -22,7 +22,7 @@ export default {
     br: `ABRIR CONFIGURAÇÕES`,
     es: `ABRIR CONFIGURACIÓN`, // #toBeUpdated
   },
-  OverlayEnabeldRestart: {
+  OverlayEnabledRestart: {
     en: "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to be effective.",
     de: `Du hast das Dota 2-Overlay erfolgreich aktiviert. Bitte schließe Dota Coach, Overwolf und Dota 2 und öffnen es dann erneut, damit die Änderung wirksam wird.`,
     fr: `Vous avez activé la superposition Dota 2 avec succès. Veuillez fermer et rouvrir Dota Coach, Overwolf et Dota 2 pour que le changement soit effectif.`,

@@ -1,8 +1,8 @@
 export default {
-  OverlayEnabeld:
+  OverlayEnabled:
     "Dota Coach necesita una superposición para que Dota 2 esté habilitado en Overwolf.Actualiza la configuración de Overwolf.",
-  OverlayEnabeldSettings: "OPEN SETTINGS",
-  OverlayEnabeldRestart:
+  OverlayEnabledSettings: "OPEN SETTINGS",
+  OverlayEnabledRestart:
     "Has habilitado correctamente la superposición de Dota 2. Cierra y vuelve a abrir Dota Coach, Overwolf y Dota 2 para que el cambio entre en vigor.",
 
   GameStateIntegration:
