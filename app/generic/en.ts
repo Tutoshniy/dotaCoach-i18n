@@ -88,6 +88,11 @@ export default {
   Typo: "Typo",
   Unknown: "Unknown",
   RestartNeeded: "Restart needed",
+  Partial: "Partial",
+  Connecting: "Connecting",
+  //  notAvailable: "Not available", REMOVE
+  Loading: "Loading...",
+  LoadingFailed: "Loading failed",
 
   // Services
   Services: "Services",
@@ -96,10 +101,15 @@ export default {
   Offline: "Offline+",
   Dota2: "Dota 2",
   Running: "Running",
+  NotRunning: "Not running",
   OverwolfPlugin: "Overwolf plugin",
   Operational: "Operational+",
   PluginFailedInitializing: "Failed initializing+",
   PluginCrashed: "Crashed+",
   PluginUnknownError: "Unknown error+",
   FurtherInformation: "For furter information go to notifications",
+  Dota2Connection: "Connection to Dota 2",
+  NotApplicable: "Not applicable",
+  OverwolfServices: "Overwolf services",
+  Down: "Down",
 };
