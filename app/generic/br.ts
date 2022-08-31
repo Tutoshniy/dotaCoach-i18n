@@ -37,6 +37,13 @@ export default {
 
   ToggleOverlay: "Alterne a sobreposição no jogo com {hotkey}",
 
+  OneMinuteAgo: "1 minute ago",
+  MinutesAgo: "{minutes} minutes ago",
+  OneHourAgo: "1 hour ago",
+  HoursAgo: "{hours} hours ago",
+  Yesterday: "1 day ago",
+  DaysAgo: "{days} days ago",
+
   /* No longer used?!
   production: "produção",
   beta: "beta",

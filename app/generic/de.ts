@@ -35,6 +35,13 @@ export default {
 
   ToggleOverlay: "Schalte das In-Game-Overlay mit {hotkey} um",
 
+  OneMinuteAgo: "vor 1 Minute",
+  MinutesAgo: "vor {minutes} Minuten",
+  OneHourAgo: "vor 1 Stunde",
+  HoursAgo: "vor {hours} Stunden",
+  Yesterday: "vor 1 Tag",
+  DaysAgo: "vor {days} Tagen",
+
   ///
   /*version: "Version",
   channel: "Kanal",

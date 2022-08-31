@@ -39,6 +39,12 @@ export default {
   // Hotkey
   ToggleOverlay: "Basculer la superposition dans le jeu avec {hotkey}",
 
+  OneMinuteAgo: "1 minute ago",
+  MinutesAgo: "{minutes} minutes ago",
+  OneHourAgo: "1 hour ago",
+  HoursAgo: "{hours} hours ago",
+  Yesterday: "1 day ago",
+  DaysAgo: "{days} days ago",
   ///
   /*
   version: "version",

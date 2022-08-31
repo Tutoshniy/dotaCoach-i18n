@@ -34,6 +34,14 @@ export default {
   RemoveAds: "Remove Ads",
 
   ToggleOverlay: "Alternar superposición en el juego con {hotkey}",
+
+  OneMinuteAgo: "1 minute ago",
+  MinutesAgo: "{minutes} minutes ago",
+  OneHourAgo: "1 hour ago",
+  HoursAgo: "{hours} hours ago",
+  Yesterday: "1 day ago",
+  DaysAgo: "{days} days ago",
+
   ///
   /*
     version: "versión",

@@ -8,6 +8,7 @@ import notificationsFr from "../../../submodules/dotaCoach-i18n/app/desktop/noti
 import notificationsId from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/id";
 import notificationsRu from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/ru";
 import notificationsZh from "../../../submodules/dotaCoach-i18n/app/desktop/notifications/zh";
+import matchAnaylticsEn from "../../../submodules/dotaCoach-i18n/app/desktop/matchAnalytics/en";
 import bugReportEn from "../../../submodules/dotaCoach-i18n/app/desktop/bugReport/en";
 import settingsBr from "../../../submodules/dotaCoach-i18n/app/desktop/settings/br";
 import settingsDe from "../../../submodules/dotaCoach-i18n/app/desktop/settings/de";
@@ -33,6 +34,7 @@ const langDe = { ...notificationsDe, ...settingsDe, ...genericDe };
 const langEn = {
   //...messagesEn,
   ...notificationsEn,
+  ...matchAnaylticsEn,
   ...bugReportEn,
   ...settingsEn,
   ...genericEn,

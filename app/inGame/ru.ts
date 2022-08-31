@@ -11,13 +11,6 @@ export default {
   PossibleSmurfs: "Possible <b>Smurf Players</b>",
   NoSmurf: "No smurf detected",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
-
   YouWon4Games: "Вы выиграли 4 игры подряд",
   MateWon4Games: "{playerName} в вашей команде выиграл 4 игры подряд",
   EnemyWon4Game: "{playerName} во вражеской команде выиграл в 4 играх подряд",

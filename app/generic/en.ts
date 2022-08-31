@@ -58,6 +58,14 @@ export default {
   NeutralDamage: "Neutral damage",
   UnknownDamage: "Unknown damage type",
 
+  // Timeframes
+  OneMinuteAgo: "1 minute ago",
+  MinutesAgo: "{minutes} minutes ago",
+  OneHourAgo: "1 hour ago",
+  HoursAgo: "{hours} hours ago",
+  Yesterday: "1 day ago",
+  DaysAgo: "{days} days ago",
+
   //Maybe move to generic across platforms?!
   /*
   

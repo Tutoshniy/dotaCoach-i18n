@@ -11,13 +11,6 @@ export default {
   PossibleSmurfs: "Possible <b>Smurf Players</b>",
   NoSmurf: "No smurf detected",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
-
   YouWon4Games: "Nanalo ka ng 4 na laro sa isang hilera",
   MateWon4Games: "{playerName} sa iyong koponan ay nanalo ng 4 na laro sa isang hilera",
   EnemyWon4Game: "{playerName} sa koponan ng kaaway ay nanalo ng 4 na laro sa isang hilera",
