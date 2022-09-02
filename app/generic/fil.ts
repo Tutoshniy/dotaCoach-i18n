@@ -35,12 +35,12 @@ export default {
 
   ToggleOverlay: "I-toggle ang in-game overlay gamit ang {hotkey}",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
+  OneMinuteAgo: "1 minuto ang nakalipas",
+  MinutesAgo: "{minutes} minuto ang nakalipas",
+  OneHourAgo: "1 oras ang nakalipas",
+  HoursAgo: "{hours} oras na nakalipas",
+  Yesterday: "1 araw ang nakalipas",
+  DaysAgo: "{days} mga araw na nakalipas",
 
   /*
   //

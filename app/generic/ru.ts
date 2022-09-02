@@ -35,12 +35,12 @@ export default {
 
   ToggleOverlay: "Переключить внутриигровой оверлей с помощью {hotkey}", // Texted should be shortened by about 30%. It looks bad right now
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
+  OneMinuteAgo: "1 минуту назад",
+  MinutesAgo: "{minutes} минут назад",
+  OneHourAgo: "1 час назад",
+  HoursAgo: "{hours} часов назад",
+  Yesterday: "1 день назад",
+  DaysAgo: "{days} дней назад",
   /*
   //
   production: "Разработка",

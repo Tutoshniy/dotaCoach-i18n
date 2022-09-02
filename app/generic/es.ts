@@ -35,12 +35,12 @@ export default {
 
   ToggleOverlay: "Alternar superposición en el juego con {hotkey}",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
+  OneMinuteAgo: "hace 1 minuto",
+  MinutesAgo: "hace {minutes} minutos",
+  OneHourAgo: "1 hora antes",
+  HoursAgo: "hace {hours} horas",
+  Yesterday: "hace 1 día",
+  DaysAgo: "hace {days} días",
 
   ///
   /*

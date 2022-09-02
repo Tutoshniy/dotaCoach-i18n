@@ -35,12 +35,12 @@ export default {
 
   ToggleOverlay: "Beralih overlay dalam game dengan {hotkey}",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
+  OneMinuteAgo: "1 menit yang lalu",
+  MinutesAgo: "{minutes} menit yang lalu",
+  OneHourAgo: "1 jam yang lalu",
+  HoursAgo: "{hours} 5 jam yang lalu",
+  Yesterday: "1 hari yang lalu",
+  DaysAgo: "{days} ari yang lalu",
   /*
     ///
     production: "produksi",

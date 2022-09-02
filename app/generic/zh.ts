@@ -35,12 +35,12 @@ export default {
 
   ToggleOverlay: "使用 {hotkey} 切换游戏内覆盖",
 
-  OneMinuteAgo: "1 minute ago",
-  MinutesAgo: "{minutes} minutes ago",
-  OneHourAgo: "1 hour ago",
-  HoursAgo: "{hours} hours ago",
-  Yesterday: "1 day ago",
-  DaysAgo: "{days} days ago",
+  OneMinuteAgo: "1 分钟前",
+  MinutesAgo: "{minutes} 分钟前",
+  OneHourAgo: "1小时前",
+  HoursAgo: "{hours} 小时前",
+  Yesterday: "1天前",
+  DaysAgo: "{days} 天前",
   /*
   CURRENTLY NOT USED
 
