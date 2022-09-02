@@ -29,11 +29,25 @@ export default {
   EMail: "Surel",
   Items: "Item",
 
-  ShowHideOverlay: "Tampilkan/sembunyikan hamparan dalam game:",
+  showhideOverlay: "Tampilkan/sembunyikan hamparan dalam game:",
+  showhideSecondWindow: "Tampilkan/sembunyikan jendela kedua:",
 
   RemoveAds: "Remove Ads",
 
   ToggleOverlay: "Beralih overlay dalam game dengan {hotkey}",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Kerusakan ajaib",
+  PhysicalDamage: "Kerusakan fisik",
+  PureDamage: "Pure damage",
+  NeutralDamage: "Kerusakan murni",
+  UnknownDamage: "Kerusakan tidak diketahui",
 
   OneMinuteAgo: "1 menit yang lalu",
   MinutesAgo: "{minutes} menit yang lalu",

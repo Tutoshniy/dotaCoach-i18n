@@ -18,8 +18,11 @@ export default {
   AghanimsShard: "Aghanim's shard",
 
   Hotkey: "Hotkey",
+  Hotkeys: "Mga hotkey",
   HotkeyTooltip: "Hotkey upang ipakita at itago ang app sa laro.",
+  HotkeysTooltip: "Mga hotkey upang ipakita at itago ang app sa laro at pangalawang window.",
   HotkeyCustomize: "I-customize ang key",
+  HotkeysCustomize: "I-customize ang mga susi",
 
   TimersTooltip:
     "Ang timer para sa Roshan, Glyph of Fortification, Buybacks and Ultimates ay pwede ma i-turn off at on dito.",

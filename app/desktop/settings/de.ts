@@ -17,8 +17,11 @@ export default {
   AghanimsShard: "Aghanims Splitter",
 
   Hotkey: "Hotkey",
+  Hotkeys: "Hotkeys",
   HotkeyTooltip: "Hotkey zum Ein- und Ausblenden der App im Spiel.",
+  HotkeysTooltip: "Hotkeys zum Ein- und Ausblenden der App im Spiel und im zweiten Fenster.",
   HotkeyCustomize: "Hotkey anpassen",
+  HotkeysCustomize: "Hotkeys anpassen",
 
   TimersTooltip:
     "Der Timer für Roshan, Glyphe der Befestigung, Rückkäufe und Ultimates kann hier ein- und ausgeschaltet werden.",

@@ -24,18 +24,34 @@ export default {
   SignIn: "Entrar",
   LoggedIn: "Conectado como {username}",
   Videos: "Vídeos",
-  FAQs: "FAQs", // to be reviewed
+  FAQs: "FAQs",
   Subscription: "Inscrição",
   EMail: "O email",
   Items: "Itens",
 
   // Settings
-  ShowHideOverlay: "Mostrar/ocultar sobreposição no jogo:", // to be reviewed
+  showhideOverlay: "Mostrar/ocultar sobreposição no jogo:",
+  showhideSecondWindow: "Mostrar/ocultar segunda janela:",
 
   // Ads
   RemoveAds: "Remover propagandas",
 
   ToggleOverlay: "Alterne a sobreposição no jogo com {hotkey}",
+
+  // Roles
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  // Damage types
+  MagicalDamage: "Dano mágico",
+  PhysicalDamage: "Dano físico",
+  PureDamage: "Dano puro",
+  NeutralDamage: "Dano neutro",
+  UnknownDamage: "Dano desconhecido",
 
   OneMinuteAgo: "1 minuto atrás",
   MinutesAgo: "{minutes} minutos atrás",

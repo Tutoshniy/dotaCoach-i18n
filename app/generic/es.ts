@@ -29,11 +29,25 @@ export default {
   EMail: "Email",
   Items: "Items",
 
-  ShowHideOverlay: "Mostrar/ocultar superposición en el juego:",
+  showhideOverlay: "Mostrar/ocultar superposición en el juego:",
+  showhideSecondWindow: "Mostrar/ocultar segunda ventana:",
 
   RemoveAds: "Remove Ads",
 
   ToggleOverlay: "Alternar superposición en el juego con {hotkey}",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Daño mágico",
+  PhysicalDamage: "Daño físico",
+  PureDamage: "Daño puro",
+  NeutralDamage: "Daño neutral",
+  UnknownDamage: "Daño desconocido",
 
   OneMinuteAgo: "hace 1 minuto",
   MinutesAgo: "hace {minutes} minutos",

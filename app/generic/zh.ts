@@ -29,11 +29,25 @@ export default {
   EMail: "电子邮件", // to be reviewed
   Items: "物品",
 
-  ShowHideOverlay: "显示/隐藏游戏内叠加层：",
+  showhideOverlay: "显示/隐藏游戏内叠加层：",
+  showhideSecondWindow: "显示/隐藏第二个窗口：",
 
   RemoveAds: "移除广告",
 
   ToggleOverlay: "使用 {hotkey} 切换游戏内覆盖",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "魔法伤害",
+  PhysicalDamage: "物理伤害",
+  PureDamage: "纯伤害",
+  NeutralDamage: "中性伤害",
+  UnknownDamage: "未知损坏",
 
   OneMinuteAgo: "1 分钟前",
   MinutesAgo: "{minutes} 分钟前",

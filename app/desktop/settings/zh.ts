@@ -16,8 +16,11 @@ export default {
   AghanimsShard: "阿哈利姆的碎片",
 
   Hotkey: "热键",
+  Hotkeys: "热键",
   HotkeyTooltip: "用于在游戏中显示和隐藏应用程序的热键。",
+  HotkeysTooltip: "在游戏和第二个窗口中显示和隐藏应用程序的热键。",
   HotkeyCustomize: "自定义键",
+  HotkeysCustomize: "自定义键",
 
   TimersTooltip: "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。",
   RoshanAndGlyph: "肉山和防御符文",

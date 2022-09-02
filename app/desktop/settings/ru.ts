@@ -17,8 +17,11 @@ export default {
   AghanimsShard: "Осколок Аганима",
 
   Hotkey: "Клавиши",
+  Hotkeys: "Горячие клавиши",
   HotkeyTooltip: "Горячая клавиша для отображения и скрытия приложения в игре.",
-  HotkeyCustomize: "Настроить ключ", // to be reviewed
+  HotkeysTooltip: "Горячие клавиши для отображения и скрытия приложения в игре и во втором окне.",
+  HotkeyCustomize: "Настроить ключ",
+  HotkeysCustomize: "Настроить ключи",
 
   TimersTooltip: "Таймер для Рошана, Глифа, Выкупа и Ультимейтов можно выключить и включить здесь.",
   RoshanAndGlyph: "Рошан и Глиф",

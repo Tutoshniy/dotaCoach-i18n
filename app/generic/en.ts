@@ -33,15 +33,14 @@ export default {
   Items: "Items",
 
   // Settings
-  ShowHideOverlay: "Show/hide in-game overlay:",
+  showhideOverlay: "Show/hide in-game overlay:", // needs to be small letters (linked to Overwolf hotkey name)
+  showhideSecondWindow: "Show/hide second window:", // needs to be small letters (linked to Overwolf hotkey name)
 
   // Ads
   RemoveAds: "Remove Ads",
 
   // Hotkey
   ToggleOverlay: "Toggle in-game overlay with {hotkey}",
-
-  // ADD TO OTHER LANGUAGES
 
   // Roles
   Carry: "Carry",
@@ -56,7 +55,7 @@ export default {
   PhysicalDamage: "Physical damage",
   PureDamage: "Pure damage",
   NeutralDamage: "Neutral damage",
-  UnknownDamage: "Unknown damage type",
+  UnknownDamage: "Unknown damage",
 
   // Timeframes
   OneMinuteAgo: "1 minute ago",

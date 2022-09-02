@@ -19,9 +19,12 @@ export default {
   AghanimsShard: "Aghanim's shard",
 
   // Hotkey
-  Hotkey: "Hotkey",
-  HotkeyTooltip: "Hotkey to show & hide app in the game.",
-  HotkeyCustomize: "Customize key",
+  Hotkey: "Hotkey", // Currently not used
+  Hotkeys: "Hotkeys",
+  HotkeyTooltip: "Hotkeys to show & hide app in the game.", // Currently not used
+  HotkeysTooltip: "Hotkeys to show & hide app in the game and second window.",
+  HotkeyCustomize: "Customize key", // Currently not used
+  HotkeysCustomize: "Customize keys",
 
   // Timers
   TimersTooltip:

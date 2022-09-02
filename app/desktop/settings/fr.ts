@@ -17,9 +17,13 @@ export default {
   TomeOfKnowledge: "Tome de connaissances",
   AghanimsShard: "Fragment d'Aghanim",
 
-  Hotkey: "Raccourcis clavier",
+  Hotkey: "Raccourci",
+  Hotkeys: "Raccourcis",
   HotkeyTooltip: "Hotkey pour afficher et masquer l'application dans le jeu.",
+  HotkeysTooltip:
+    "Raccourcis clavier pour afficher et masquer l'application dans le jeu et la deuxième fenêtre.",
   HotkeyCustomize: "Personnaliser la clé",
+  HotkeysCustomize: "Personnaliser les clés",
 
   TimersTooltip:
     "Le chronomètre pour Roshan, Glyphe de fortification, Rachats et Ultimates peut être désactivé et activé ici.",

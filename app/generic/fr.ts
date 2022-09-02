@@ -31,13 +31,27 @@ export default {
   Items: "Objets",
 
   // Settings
-  ShowHideOverlay: "Afficher/masquer la superposition dans le jeu :",
+  showhideOverlay: "Afficher/masquer la superposition dans le jeu :",
+  showhideSecondWindow: "Afficher/masquer la deuxième fenêtre :",
 
   // Ads
   RemoveAds: "Supprimez la pub",
 
   // Hotkey
   ToggleOverlay: "Basculer la superposition dans le jeu avec {hotkey}",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Dégâts magiques",
+  PhysicalDamage: "Dégâts physiques",
+  PureDamage: "Dégâts purs",
+  NeutralDamage: "Dégâts neutres",
+  UnknownDamage: "Dégâts inconnus",
 
   OneMinuteAgo: "il y a 1 minute",
   MinutesAgo: "il y a {minutes} minutes",

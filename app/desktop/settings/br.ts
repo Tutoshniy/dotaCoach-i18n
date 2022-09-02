@@ -17,9 +17,13 @@ export default {
   TomeOfKnowledge: "Tomo do conhecimento",
   AghanimsShard: "Fragmento de Aghanim",
 
-  Hotkey: "Teclas de atalho", // Note: English changed from "hotkeys" to "hotkey"
+  Hotkey: "Tecla de atalho",
+  Hotkeys: "Teclas de atalho",
   HotkeyTooltip: "Tecla de atalho para mostrar e ocultar o aplicativo dentro do jogo.",
+  HotkeysTooltip:
+    "Teclas de atalho para mostrar e ocultar o aplicativo no jogo e na segunda janela.",
   HotkeyCustomize: "Personalizar chave",
+  HotkeysCustomize: "Personalizar chaves",
 
   TimersTooltip:
     "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui.",

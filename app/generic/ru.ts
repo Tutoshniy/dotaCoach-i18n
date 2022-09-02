@@ -29,11 +29,25 @@ export default {
   EMail: "Эл. почта", // to be udpated
   Items: "Предметы",
 
-  ShowHideOverlay: "Показать/скрыть внутриигровой оверлей:",
+  showhideOverlay: "Показать/скрыть внутриигровой оверлей:",
+  showhideSecondWindow: "Показать/скрыть второе окно:",
 
   RemoveAds: "Убрать рекламу",
 
   ToggleOverlay: "Переключить внутриигровой оверлей с помощью {hotkey}", // Texted should be shortened by about 30%. It looks bad right now
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Магический урон",
+  PhysicalDamage: "Физическое повреждение",
+  PureDamage: "Чистый урон",
+  NeutralDamage: "Нейтральный урон",
+  UnknownDamage: "Неизвестный ущерб",
 
   OneMinuteAgo: "1 минуту назад",
   MinutesAgo: "{minutes} минут назад",

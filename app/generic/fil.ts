@@ -29,11 +29,25 @@ export default {
   EMail: "E-Mail",
   Items: "Items",
 
-  ShowHideOverlay: "Ipakita/itago ang in-game overlay:",
+  showhideOverlay: "Ipakita/itago ang in-game overlay:",
+  showhideSecondWindow: "Ipakita/itago ang pangalawang window:",
 
   RemoveAds: "Alisin ang Mga Ad",
 
   ToggleOverlay: "I-toggle ang in-game overlay gamit ang {hotkey}",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Mahiwagang pinsala",
+  PhysicalDamage: "Pisikal na pinsala",
+  PureDamage: "Purong pinsala",
+  NeutralDamage: "Neutral na pinsala",
+  UnknownDamage: "Hindi kilalang pinsala",
 
   OneMinuteAgo: "1 minuto ang nakalipas",
   MinutesAgo: "{minutes} minuto ang nakalipas",

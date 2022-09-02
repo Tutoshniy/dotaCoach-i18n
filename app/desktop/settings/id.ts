@@ -17,9 +17,13 @@ export default {
   TomeOfKnowledge: "Tome pengetahuan",
   AghanimsShard: "Shard Aghanim",
 
-  Hotkey: "Hotkeys",
+  Hotkey: "Tombol pintas",
+  Hotkeys: "Tombol pintas",
   HotkeyTooltip: "Hotkey untuk menampilkan & menyembunyikan aplikasi dalam game.",
+  HotkeysTooltip:
+    "Tombol pintas untuk menampilkan & menyembunyikan aplikasi di game dan jendela kedua.",
   HotkeyCustomize: "Sesuaikan kunci",
+  HotkeysCustomize: "Sesuaikan kunci",
 
   TimersTooltip:
     "Timer untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates dapat dimatikan dan di sini.",

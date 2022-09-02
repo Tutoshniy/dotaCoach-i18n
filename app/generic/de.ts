@@ -29,11 +29,25 @@ export default {
   EMail: "Email",
   Items: "Objekte", // "Gegenstände" ist zu lang
 
-  ShowHideOverlay: "Overlay im Spiel ein-/ausblenden:",
+  showhideOverlay: "Overlay im Spiel ein-/ausblenden:",
+  showhideSecondWindow: "Zweites Fenster ein-/ausblenden:",
 
   RemoveAds: "Werbung entfernen",
 
   ToggleOverlay: "Schalte das In-Game-Overlay mit {hotkey} um",
+
+  Carry: "Carry",
+  Mid: "Mid",
+  Offlane: "Offlane",
+  Support: "Support",
+  SoftSupport: "Soft Support",
+  HardSupport: "Hard Support",
+
+  MagicalDamage: "Magischer Schaden",
+  PhysicalDamage: "Physischer Schaden",
+  PureDamage: "Reiner Schaden",
+  NeutralDamage: "Neutraler Schaden",
+  UnknownDamage: "Unbekannter Schaden",
 
   OneMinuteAgo: "vor 1 Minute",
   MinutesAgo: "vor {minutes} Minuten",

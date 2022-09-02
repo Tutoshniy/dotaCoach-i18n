@@ -18,8 +18,12 @@ export default {
   AghanimsShard: "Fragmento de Aghanim",
 
   Hotkey: "Hotkey", // "Teclas de acceso rápido" is too long
+  Hotkeys: "Hotkeys",
   HotkeyTooltip: "Tecla de acceso rápido para mostrar y ocultar la aplicación en el juego.",
+  HotkeysTooltip:
+    "Teclas de acceso rápido para mostrar y ocultar la aplicación en el juego y en la segunda ventana.",
   HotkeyCustomize: "Personalizar clave",
+  HotkeysCustomize: "Personalizar teclas",
 
   TimersTooltip:
     "El temporizador de Roshan, Glifo de fortificación, Buyback y Ultimates se puede activar y desactivar aquí.",
