@@ -17,7 +17,15 @@ import matchAnaylticsFr from "./desktop/matchAnalytics/fr";
 import matchAnaylticsId from "./desktop/matchAnalytics/id";
 import matchAnaylticsRu from "./desktop/matchAnalytics/ru";
 import matchAnaylticsZh from "./desktop/matchAnalytics/zh";
+import bugReportBr from "./desktop/bugReport/br";
+import bugReportDe from "./desktop/bugReport/de";
 import bugReportEn from "./desktop/bugReport/en";
+import bugReportEs from "./desktop/bugReport/es";
+import bugReportFil from "./desktop/bugReport/fil";
+import bugReportFr from "./desktop/bugReport/fr";
+import bugReportId from "./desktop/bugReport/id";
+import bugReportRu from "./desktop/bugReport/ru";
+import bugReportZh from "./desktop/bugReport/zh";
 import settingsBr from "./desktop/settings/br";
 import settingsDe from "./desktop/settings/de";
 import settingsEn from "./desktop/settings/en";
@@ -37,8 +45,20 @@ import genericId from "./generic/id";
 import genericRu from "./generic/ru";
 import genericZh from "./generic/zh";
 
-const langBr = { ...notificationsBr, ...matchAnaylticsBr, ...settingsBr, ...genericBr };
-const langDe = { ...notificationsDe, ...matchAnaylticsDe, ...settingsDe, ...genericDe };
+const langBr = {
+  ...notificationsBr,
+  ...matchAnaylticsBr,
+  ...bugReportBr,
+  ...settingsBr,
+  ...genericBr,
+};
+const langDe = {
+  ...notificationsDe,
+  ...matchAnaylticsDe,
+  ...bugReportDe,
+  ...settingsDe,
+  ...genericDe,
+};
 const langEn = {
   //...messagesEn,
   ...notificationsEn,
@@ -47,12 +67,48 @@ const langEn = {
   ...settingsEn,
   ...genericEn,
 };
-const langEs = { ...notificationsEs, ...matchAnaylticsEs, ...settingsEs, ...genericEs };
-const langFil = { ...notificationsFil, ...matchAnaylticsFil, ...settingsFil, ...genericFil };
-const langFr = { ...notificationsFr, ...matchAnaylticsFr, ...settingsFr, ...genericFr };
-const langId = { ...notificationsId, ...matchAnaylticsId, ...settingsId, ...genericId };
-const langRu = { ...notificationsRu, ...matchAnaylticsRu, ...settingsRu, ...genericRu };
-const langZh = { ...notificationsZh, ...matchAnaylticsZh, ...settingsZh, ...genericZh };
+const langEs = {
+  ...notificationsEs,
+  ...matchAnaylticsEs,
+  ...bugReportEs,
+  ...settingsEs,
+  ...genericEs,
+};
+const langFil = {
+  ...notificationsFil,
+  ...matchAnaylticsFil,
+  ...bugReportFil,
+  ...settingsFil,
+  ...genericFil,
+};
+const langFr = {
+  ...notificationsFr,
+  ...matchAnaylticsFr,
+  ...bugReportFr,
+  ...settingsFr,
+  ...genericFr,
+};
+const langId = {
+  ...notificationsId,
+  ...matchAnaylticsId,
+  ...bugReportId,
+  ...settingsId,
+  ...genericId,
+};
+const langRu = {
+  ...notificationsRu,
+  ...matchAnaylticsRu,
+  ...bugReportRu,
+  ...settingsRu,
+  ...genericRu,
+};
+const langZh = {
+  ...notificationsZh,
+  ...matchAnaylticsZh,
+  ...bugReportZh,
+  ...settingsZh,
+  ...genericZh,
+};
 const messages = {
   br: { ...langEn, ...langBr },
   de: { ...langEn, ...langDe },
