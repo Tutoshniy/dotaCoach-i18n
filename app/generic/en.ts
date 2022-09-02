@@ -65,6 +65,8 @@ export default {
   Yesterday: "1 day ago",
   DaysAgo: "{days} days ago",
 
+  Time: "Time", // Currently used in Google charts, but not visible to user
+
   //Maybe move to generic across platforms?!
   /*
   
