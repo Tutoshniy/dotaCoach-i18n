@@ -17,6 +17,15 @@ import matchAnaylticsFr from "./desktop/matchAnalytics/fr";
 import matchAnaylticsId from "./desktop/matchAnalytics/id";
 import matchAnaylticsRu from "./desktop/matchAnalytics/ru";
 import matchAnaylticsZh from "./desktop/matchAnalytics/zh";
+import appHealthStatusBr from "./desktop/appHealthStatus/br";
+import appHealthStatusDe from "./desktop/appHealthStatus/de";
+import appHealthStatusEn from "./desktop/appHealthStatus/en";
+import appHealthStatusEs from "./desktop/appHealthStatus/es";
+import appHealthStatusFil from "./desktop/appHealthStatus/fil";
+import appHealthStatusFr from "./desktop/appHealthStatus/fr";
+import appHealthStatusId from "./desktop/appHealthStatus/id";
+import appHealthStatusRu from "./desktop/appHealthStatus/ru";
+import appHealthStatusZh from "./desktop/appHealthStatus/zh";
 import bugReportBr from "./desktop/bugReport/br";
 import bugReportDe from "./desktop/bugReport/de";
 import bugReportEn from "./desktop/bugReport/en";
@@ -48,6 +57,7 @@ import genericZh from "./generic/zh";
 const langBr = {
   ...notificationsBr,
   ...matchAnaylticsBr,
+  ...appHealthStatusBr,
   ...bugReportBr,
   ...settingsBr,
   ...genericBr,
@@ -55,6 +65,7 @@ const langBr = {
 const langDe = {
   ...notificationsDe,
   ...matchAnaylticsDe,
+  ...appHealthStatusDe,
   ...bugReportDe,
   ...settingsDe,
   ...genericDe,
@@ -63,6 +74,7 @@ const langEn = {
   //...messagesEn,
   ...notificationsEn,
   ...matchAnaylticsEn,
+  ...appHealthStatusEn,
   ...bugReportEn,
   ...settingsEn,
   ...genericEn,
@@ -70,6 +82,7 @@ const langEn = {
 const langEs = {
   ...notificationsEs,
   ...matchAnaylticsEs,
+  ...appHealthStatusEs,
   ...bugReportEs,
   ...settingsEs,
   ...genericEs,
@@ -77,6 +90,7 @@ const langEs = {
 const langFil = {
   ...notificationsFil,
   ...matchAnaylticsFil,
+  ...appHealthStatusFil,
   ...bugReportFil,
   ...settingsFil,
   ...genericFil,
@@ -84,6 +98,7 @@ const langFil = {
 const langFr = {
   ...notificationsFr,
   ...matchAnaylticsFr,
+  ...appHealthStatusFr,
   ...bugReportFr,
   ...settingsFr,
   ...genericFr,
@@ -91,6 +106,7 @@ const langFr = {
 const langId = {
   ...notificationsId,
   ...matchAnaylticsId,
+  ...appHealthStatusId,
   ...bugReportId,
   ...settingsId,
   ...genericId,
@@ -98,6 +114,7 @@ const langId = {
 const langRu = {
   ...notificationsRu,
   ...matchAnaylticsRu,
+  ...appHealthStatusRu,
   ...bugReportRu,
   ...settingsRu,
   ...genericRu,
@@ -105,6 +122,7 @@ const langRu = {
 const langZh = {
   ...notificationsZh,
   ...matchAnaylticsZh,
+  ...appHealthStatusZh,
   ...bugReportZh,
   ...settingsZh,
   ...genericZh,

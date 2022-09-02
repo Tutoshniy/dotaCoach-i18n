@@ -6,7 +6,7 @@
  */
 import { Languages } from "./i18n-languages";
 import * as DL from "../../submodules/utilities/log";
-import "@overwolf/types";
+//import "@overwolf/types";
 
 export type Translations = {
   [key: string]: Translation;
@@ -62,9 +62,7 @@ let activeTranslations: any = {};
 
 export function setTranslations(translations: Translations) {
   DL.log(
-    `i18n.setTranslations(): Setting translations with ${
-      Object.keys(translations).length
-    } tokens`
+    `i18n.setTranslations(): Setting translations with ${Object.keys(translations).length} tokens`
   );
   activeTranslations = translations;
 }
@@ -78,11 +76,7 @@ export function setTranslations(translations: Translations) {
  * @param tokens Variable values to replace inside i18n string
  * @returns i18n string of current language with replaced variable tokens.
  */
-export function replaceVarTokens(
-  buildSpan: boolean,
-  i18nT: string,
-  ...tokens: string[]
-): string {
+export function replaceVarTokens(buildSpan: boolean, i18nT: string, ...tokens: string[]): string {
   // Builds regex
   DL.log("replaceVarTokens: " + i18nT + " " + JSON.stringify(tokens));
 
@@ -145,21 +139,14 @@ export function t(token: string): string {
     const err = new Error();
     console.warn(err.stack);
 
-    if (
-      Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)
-    ) {
+    if (Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)) {
       return (errorTranslation as any)[currentLanguage];
     } else {
       return errorTranslation.en;
     }
   }
 
-  if (
-    Object.prototype.hasOwnProperty.call(
-      (activeTranslations as any)[token],
-      currentLanguage
-    )
-  ) {
+  if (Object.prototype.hasOwnProperty.call((activeTranslations as any)[token], currentLanguage)) {
     return (activeTranslations as any)[token][currentLanguage];
   } else {
     return (activeTranslations as any)[token].en;
@@ -296,11 +283,7 @@ function updatei18nElement(element: Element) {
 
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
     /*console.log(`*** here we go`);*/
-    element.innerHTML = replaceVarTokens(
-      false,
-      i18nToken,
-      ...i18nVarTokenValues[i18nToken]
-    );
+    element.innerHTML = replaceVarTokens(false, i18nToken, ...i18nVarTokenValues[i18nToken]);
     /*  console.log(`*** element.innerHTML = ${element.innerHTML}`);*/
   } else {
     const innerHTML = t(i18nToken);
@@ -329,9 +312,7 @@ function configureWebLinks(element: Element) {
   // Add listeners for webLinks
   for (let i = 0; i < linkId; i++) {
     //console.log(`*** webLink-${i18nToken}-${i}`);
-    const e = document.getElementById(
-      `webLink-${i18nToken}-${i}`
-    ) as HTMLElement;
+    const e = document.getElementById(`webLink-${i18nToken}-${i}`) as HTMLElement;
     e.addEventListener("click", () => {
       let webLink = activeTranslations[i18nToken].webLinks[i];
       if (webLink == "https://dota-coach.com/video/DotaCoachTutorial.mp4") {
