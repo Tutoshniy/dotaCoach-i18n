@@ -26,6 +26,72 @@ export const AppTranslations: Translations = {
     en: "Dota 2",
   },
 
+  // Ultimate window
+  Ultimate: {
+    en: "Ultimate",
+    de: "Ulti",
+    fr: "Ultime",
+    ru: "Ультимейт",
+    fil: "Ultimate",
+    zh: "最终技能",
+    id: "Ultimate",
+    br: "Ult",
+    es: "Ult",
+  },
+  TIMING_MODIFIERS: {
+    en: "TIMING MODIFIERS",
+    de: "TIMING-MODIFIKATOREN",
+    fr: "MODIFICATEURS DE TEMPORISATION",
+    ru: "МОДИФИКАТОРЫ ТАЙМИНГОВ",
+    id: "PENGUBAH WAKTU",
+    fil: "TIMING MODIFIERS",
+    zh: "时序修饰符",
+    br: "MODIFICADOR DE TEMPORIZADOR",
+    es: "MODIFICADOR DE TEMPORIZADOR",
+  },
+  UltimateLevel: {
+    en: "Ultimate Level",
+    de: "Ultimatives Level",
+    fr: "Niveau ultime",
+    ru: "Уровень Ультимейта",
+    id: "Tingkat Ultimate",
+    fil: "Ultimate Level",
+    zh: "最终技能等级",
+    br: "Nível do ult",
+    es: "Nivel ult",
+  },
+  Items: {
+    en: "Items",
+    de: "Gegenstände",
+    fr: "Objets",
+    ru: "Предметы",
+    id: "Item",
+    fil: "Items",
+    zh: "物品",
+    br: "Itens",
+    es: "Items",
+  },
+  ItemsTooltip: {
+    en: "Item notifications during the game to remind you of events such as neutral items or the availability of observer wards. You can enable or disable the different notifications individually.",
+    de: `Gegenstandsbenachrichtigungen während des Spiels, um dich an Ereignisse wie neutrale Gegenstände oder die Verfügbarkeit von Observer Wards zu erinnern. Du kannst die verschiedenen Benachrichtigungen einzeln aktivieren oder deaktivieren.`,
+    fr: `Notifications d'objets pendant le jeu pour vous rappeler des événements tels que des objets neutres ou la disponibilité des Oberver Wards. Tu peux activer ou désactiver les différentes notifications individuellement.`,
+    ru: `Уведомления о предметах во время игры, напоминающие о таких событиях, как нейтральные предметы или наличие подопечных наблюдателей. Различные уведомления можно включать или отключать по отдельности.`, // #toBeUpdated
+    id: `Pemberitahuan item selama pertandingan untuk mengingatkan Anda tentang peristiwa seperti item netral atau ketersediaan bangsal pengamat. Anda dapat mengaktifkan atau menonaktifkan notifikasi yang berbeda satu per satu.`, // #toBeUpdated
+    fil: `Mga abiso ng item sa panahon ng laro upang ipaalala sa iyo ang mga kaganapan tulad ng mga neutral na item o ang pagkakaroon ng mga tagamasid ward. Maaari mong paganahin o huwag paganahin ang iba't ibang mga notification nang paisa-isa.`, // #toBeUpdated
+    zh: `游戏期间的物品通知，提醒你注意中立物品或观察者守卫的可用性等事件。您可以单独启用或禁用不同的通知。`, // #toBeUpdated
+    br: `Notificações de itens durante o jogo para lembrá-lo de eventos como itens neutrais ou a disponibilidade de sentinelas observadoras. Você pode ativar ou desativar as diferentes notificações individualmente.`,
+    es: `Notificaciones de objetos durante el juego para recordarte eventos como objetos neutrales o la disponibilidad de salas de observadores. Puede activar o desactivar las diferentes notificaciones de forma individual.`, // #toBeUpdated
+    /* OLD TEXT */
+    /*de: "Während des Spiels erhältliche Benachrichtigungen, die dich an Ereignisse wie das Erscheinen von Kopfgeldrunen erinnern. Sie können die verschiedenen Nachrichten einzeln ein- oder ausschalten.",
+    fr: "Notifications fournies pendant le jeu pour vous rappeler des événements tels que l'apparition de runes de prime. Vous pouvez activer ou désactiver les différents messages individuellement.",
+    ru: "Уведомления появляются во время игры, чтобы напомнить вам о таких событиях, как появление Рун Богатства. Эти сообщения можно включать или выключать по отдельности.",
+    id: "Pemberitahuan yang disediakan selama pertandingan untuk mengingatkan Anda tentang peristiwa seperti apprearance dari rune karunia. Anda dapat mengaktifkan atau menonaktifkan pesan yang berbeda secara individual.",
+    fil: "Ang mga notifikasyon na i-provide habang nasa laro ay para ipaalaala sayo ang mga events katulad ng pag labas ng bounty runes. Pwede mo ma enable o i-disable ang iba't ibang mensahe individually.",
+    zh: "游戏期间提供的通知，提醒你注意诸如赏金符文出现之类的事件。您可以单独启用或禁用不同的消息。",
+    br: "Notificações providenciados durante o jogo para te lembrar de eventos como o aparecimento de runas de recompensas. Você pode habilitar ou desabilitar as diferentes mensagens individualmente.",
+    es: "Notificaciones proporcionadas durante el juego para recordarle eventos como la aparición de runas de recompensa. Puede habilitar o deshabilitar los diferentes mensajes individualmente",*/
+  },
+
   // Desktop window
   // 'Notifications' exists already in settings
   MatchAnalytics: {
@@ -884,19 +950,165 @@ export const AppTranslations: Translations = {
   },
 
   // ADDED AS QUICK FIX FOR VIDEO
-  Ultimate: {
-    en: "Ultimate",
-  },
   Team: {
     en: "Team",
+    de: "Team", // #toBeUpdated
+    fr: "L'équipe", // #toBeUpdated
+    ru: "Команда",
+    id: "Tim", // #toBeUpdated
+    fil: "Koponan", // #toBeUpdated
+    zh: "球队", // #toBeUpdated
+    br: "Time",
+    es: "Equipo", // #toBeUpdated
   },
+
+  // Infoboxes windows
   profilePrivacy_public: {
     en: "Public",
+    de: "Publik", // 'öffentlich' ist in-game zu lang
+    fr: "Public",
+    ru: "Открытый",
+    id: "Umum", // #toBeUpdated
+    fil: "Pampubliko", // #toBeUpdated
+    zh: "公众", // #toBeUpdated
+    br: "Público",
+    es: "Público", // #toBeUpdated
   },
   profilePrivacy_private: {
     en: "Private",
+    de: "Privat",
+    fr: "Privé",
+    ru: "Закрытый",
+    id: "Privat", // #toBeUpdated
+    fil: "Pribado", // #toBeUpdated
+    zh: "私人的", // #toBeUpdated
+    br: "Privado",
+    es: "Privado", // #toBeUpdated
   },
-  // ADDED AS QUICK FIX FOR VIDEO
+  profilePrivacy_smurf: {
+    en: "Smurf",
+    de: "Smurf",
+    fr: "Smurf",
+    ru: "Cмурф",
+    id: "Smurf", // #toBeUpdated
+    fil: "Smurf", // #toBeUpdated
+    zh: "蓝精灵", // #toBeUpdated
+    br: "Smurf",
+    es: "Pitufo", // #toBeUpdated
+  },
+  statsTooltip: {
+    en: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
+    de: "In den letzten 30 Tagen gespielte Spiele |<br>Siege - Niederlagen |<br>Gewinnrate", // #toBeUpdated
+    fr: "Matches joués au cours des 30 derniers jours |<br>victoires - défaites |<br>taux de victoire", // #toBeUpdated
+    ru: "Матчи, сыгранные за последние 30 дней |<br>победы - поражения |<br>процент побед",
+    id: "Pertandingan yang dimainkan selama 30 hari terakhir |<br>menang - kalah |<br>tingkat kemenangan", // #toBeUpdated
+    fil: "Mga tugma na nilalaro sa loob ng huling 30 araw |<br>panalo - pagkalugi |<br>manalo rate", // #toBeUpdated
+    zh: "过去 30 天内的比赛 |<br>胜负 |<br>赢率", // #toBeUpdated
+    br: "Jogos disputados durante os últimos 30 dias |<br>vitórias - derrotas |<br>taxa de vitórias",
+    es: "Partidos jugados durante los últimos 30 días |<br>victorias y derrotas |<br>índice de victorias", // #toBeUpdated
+  },
+
+  // Mouse click modifiers
+  MouseClickModifier: {
+    en: "Mouse click modifier",
+    de: "Mausklickschutz",
+    fr: "Modificateur de clic souris", // #toBeUpdated
+    ru: "Модификатор щелчка мыши",
+    id: "Pengubah klik mouse", // #toBeUpdated
+    fil: "Mouse click modifier", // #toBeUpdated
+    zh: "鼠标点击组合键",
+    br: "Modificador do clique do mouse",
+    es: "Modificador de clic del ratón", // #toBeUpdated
+  },
+  MouseClickModifierTooltip: {
+    en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
+    de: "Die Mausklickschutz wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist der Schutz aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Schutzknopf gedrückt werden.",
+    fr: "L'intégration du modificateur de clic de souris nécessite que l'utilisateur appuie sur une touche de modification lorsqu'il clique sur la superposition. Cela fournit une protection contre les interférences avec le jeu.", // #toBeUpdated
+    ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.",
+    id: "Integrasi pengubah klik mouse mengharuskan pengguna untuk menekan tombol pengubah saat mengklik overlay. Ini memberikan perlindungan terhadap gangguan dengan permainan.", // #toBeUpdated
+    fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
+    zh: "鼠标点击组合键功能要求用户在点击DotaCoach悬浮窗时，需要按下特定的组合键，以避免游戏操作导致的干扰。",
+    br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
+    es: "La integración del modificador de clic del ratón requiere que el usuario presione una tecla modificadora al hacer clic en la superposición. Esto proporciona protección contra interferencias con el juego.", // #toBeUpdated
+  },
+  Modifier: {
+    en: "Modifier",
+    de: "Schutz",
+    fr: "Modificateur",
+    ru: "Модификатор",
+    id: "Pengubah", // #toBeUpdated
+    fil: "Modifier", // #toBeUpdated
+    zh: "组合键选择",
+    br: "Modificador",
+    es: "Modificador", // #toBeUpdated
+  },
+  MouseClickModifierNone: {
+    en: "None",
+    de: "Keiner",
+    fr: "Aucun",
+    ru: "Отсутствует",
+    id: "Tidak ada",
+    fil: "None",
+    zh: "无",
+    br: "Nenhum",
+    es: "Ninguna",
+  },
+  MouseClickModifierAlt: {
+    en: "Alt",
+    de: "Alt", // #toBeUpdated
+    fr: "Alt", // #toBeUpdated
+    ru: "Alt",
+    id: "Alt", // #toBeUpdated
+    fil: "Alt", // #toBeUpdated
+    zh: "Alt", // #toBeUpdated
+    br: "Alt",
+    es: "Alt", // #toBeUpdated
+  },
+  MouseClickModifierCtrl: {
+    en: "Ctrl",
+    de: "Strg", // #toBeUpdated
+    fr: "Ctrl", // #toBeUpdated
+    ru: "Ctrl",
+    id: "Ctrl", // #toBeUpdated
+    fil: "Ctrl", // #toBeUpdated
+    zh: "Ctrl", // #toBeUpdated
+    br: "Ctrl",
+    es: "Ctrl", // #toBeUpdated
+  },
+  MouseClickModifierShift: {
+    en: "Shift",
+    de: "Umschalttaste", // #toBeUpdated
+    fr: "Shift", // #toBeUpdated
+    ru: "Shift",
+    id: "Pergeseran", // #toBeUpdated
+    fil: "Shift", // #toBeUpdated
+    zh: "Shift", // #toBeUpdated
+    br: "Shift",
+    es: "Turno", // #toBeUpdated
+  },
+
+  InfoboxesTooltip: {
+    en: "Infoboxes are positioned on top of players in matches and provide insights on items and abilities.",
+    de: "Infoboxen sind während Spielen über den Spielern positioniert und bieten Einblicke in Gegenstände und Fähigkeiten.",
+    fr: "Les boîtes d'information sont placées au-dessus des joueurs lors des matchs et fournissent des informations sur les objets et les capacités.",
+    ru: "Инфобоксы расположены поверх игроков в матчах и показывают информацию о предметах и способностях.",
+    id: "Infobox diposisikan di atas pemain dalam pertandingan dan memberikan wawasan tentang item dan kemampuan.",
+    fil: "Infoboxes ay naka position sa taas ng players in matches at para mag provide ng insights sa items and abilities.",
+    zh: "文本提示框位于比赛中玩家的顶部，提供有关物品和技能的说明。",
+    br: "Caixas de informação são posicionadas acima dos jogadores em partidas e provêem insights em itens e habilidades",
+    es: "Las cajas de información se colocan encima de los jugadores en los partidos y brindan información sobre elementos y habilidades.",
+  },
+  InfoboxesCheckbox: {
+    en: "Show infoboxes",
+    de: "Infoboxen einblenden",
+    fr: "Afficher les infoboxes",
+    ru: "Показать инфобоксы",
+    id: "Tampilkan kotak informasi",
+    fil: "Ipakita ang mga infobox",
+    zh: "显示文本提示框",
+    br: "Mostrar caixas de informações",
+    es: "Mostrar cuadros de información",
+  },
 
   FullyOperational: {
     en: "Dota 2 is running and connection is fully operational.",
@@ -1491,6 +1703,40 @@ export const AppTranslations: Translations = {
     zh: "鼠标点击修改器用于防止在播放时未点击界面组件。<br />如果从列表中选择一个，则必须在单击 UI 元素的同时按下修饰键。<br />你可以稍后在 “设置” 菜单中更改修改器", // #toBeUpdated
     br: "O modificador de clique do mouse é usado para evitar cliques errados nos componentes da interface do usuário durante a reprodução. <br />Se você selecionar um na lista, terá que pressionar a tecla modificadora enquanto clica nos elementos da interface do usuário. <br />Você pode alterar o modificador posteriormente no menu Configurações",
     es: "El modificador de clic del ratón se utiliza para evitar clics fallidos en los componentes de la interfaz de usuario mientras se juega <br />Si selecciona uno de la lista, debe presionar la tecla modificadora mientras hace clic en los elementos de la interfaz de usuario. <br />Puedes cambiar el modificador más adelante en el menú de configuración", // #toBeUpdated
+  },
+
+  Speaker: {
+    en: "Speaker",
+    de: "Lautsprecher",
+    fr: "haut-parleur",
+    ru: "Ус-во вывода",
+    id: "pengeras suara",
+    fil: "Speaker",
+    zh: "扬声器",
+    br: "Dispositivo de som",
+    es: "Altavoz",
+  },
+  Volume: {
+    en: "Volume",
+    de: "Volumen",
+    fr: "Volume",
+    ru: "Громкость",
+    id: "Volume",
+    fil: "Volume",
+    zh: "音量",
+    br: "Volume",
+    es: "Volumen",
+  },
+  Test: {
+    en: "Test",
+    de: "Testen",
+    fr: "Test",
+    ru: "Тест",
+    id: "Tes",
+    fil: "Test",
+    zh: "测试",
+    br: "Teste",
+    es: "Test",
   },
 
   audioText: {
