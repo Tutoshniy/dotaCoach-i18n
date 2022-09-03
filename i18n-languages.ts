@@ -8,7 +8,7 @@
 import { Language } from "./i18n";
 
 /**
- * Function to transform locale to language cdoe
+ * Function transforms locale to dota coach language code
  * 
  * Currently used in dotacoach.gg
  * 
