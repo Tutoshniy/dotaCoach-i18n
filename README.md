@@ -1,6 +1,6 @@
 # dotaCoach-i18n
 
-This repository contains all translation files for the Dota Coach App and Websites (https://dota-coach.com and https://dota-coach.github.io).
+This repository contains all translation files for the Dota Coach App and Websites (https://dotacoach.gg).
 
 # How to contribute
 
@@ -25,12 +25,12 @@ How to add variables to translations?
 
 ## i18n files
 
-There are currently 4 translation files:
+There are currently 4 relevant categories of files for translations:
 
-- i18n-languages.ts: List of supported languages
-- i18n-app.ts: Translation of the app
-- i18n-website.ts: Translation of the main website (https://dota-coach.com)
-- i18n-faq.js: Translations of the FAQ webpage (https://dota-coach.github.io/faqs.html; this page is also opened when a users clicks on FAQ in the app)
+- Supported languages: i18n-languages.ts
+- Dota Coach App: All files in folder ./app and in file i18n-app.ts
+- dotacoach.gg: All files in folder ./dotacoach.gg
+- Video Guide: i18n-video_guide.ts
 
 ## Dota 2 languages
 
@@ -38,7 +38,7 @@ Dota 2 provides audio for the following 4 languages: English, Korean, Simplified
 
 ## Contact
 
-You can contact us via e-mail (info@dota-coach.com) or on discord (https://discord.gg/K5kPrh4z / **Dota Coach#4076**).
+You can contact us via e-mail (info@dotacoach.gg) or on discord (https://discord.gg/CvTUQKg2nt / **Dota Coach#4076**).
 
 ## Current translators
 

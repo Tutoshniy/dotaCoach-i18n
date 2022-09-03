@@ -1,5 +1,5 @@
 /**
- * This file contains all english localized strings for the uninstall page (https://dota-coach.com/uninstall?lang=en)
+ * This file contains all english localized strings for the uninstall page (https://dotacoach.gg/app/uninstall)
  * 
  * (C) Dota Coach, 2022
  */

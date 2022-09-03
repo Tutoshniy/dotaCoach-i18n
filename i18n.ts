@@ -315,11 +315,11 @@ function configureWebLinks(element: Element) {
     const e = document.getElementById(`webLink-${i18nToken}-${i}`) as HTMLElement;
     e.addEventListener("click", () => {
       let webLink = activeTranslations[i18nToken].webLinks[i];
-      if (webLink == "https://dota-coach.com/video/DotaCoachTutorial.mp4") {
+      if (webLink == "http://download.dotacoach.gg/video/DotaCoachTutorial.mp4") {
         if (getLanguage() == "ru") {
-          webLink = "https://dota-coach.com/video/DotaCoachTutorial-ru.mp4";
+          webLink = "http://download.dotacoach.gg/video/DotaCoachTutorial-ru.mp4";
         } else {
-          webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
+          webLink = "http://download.dotacoach.gg/video/DotaCoachTutorial-en.mp4";
         }
       }
       //overwolf.utils.openUrlInOverwolfBrowser(webLink);
