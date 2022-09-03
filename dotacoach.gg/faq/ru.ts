@@ -1,17 +1,15 @@
 export default {
-	// Headers
-	"app.faqs.title": "Часто задаваемые вопросы (FAQ)",
+  // Headers
+  "app.faqs.title": "Часто задаваемые вопросы (FAQ)",
 
-	// Sections
-	"app.faqs.popular": "Самые популярные вопросы",
+  // Sections
+  "app.faqs.popular": "Самые популярные вопросы",
 
-	// Application FAQs
-	"app.faqs.application": "Приложение",
+  // Application FAQs
+  "app.faqs.application": "Приложение",
 
-	"app.faqs.application.getStarted.question":
-		"С чего мне начать?",
-	"app.faqs.application.getStarted.answer":
-		`<p>
+  "app.faqs.application.getStarted.question": "С чего мне начать?",
+  "app.faqs.application.getStarted.answer": `<p>
 			Первым делом нужно добавить «-gamestateintegration» в параметры запуска Dota 2. Если вы уже добавили его и по-прежнему получаете предупреждающее сообщение, обязательно войдите в свой аккаунт steam. Руководство по добавлению параметров запуска Dota2 можно найти <a_GSI>здесь</a_GSI>.
 		</p>
 		<p>
@@ -58,15 +56,11 @@ export default {
 			Хочешь поговорить с нами? Нет проблем: <a_discord>присоединяйтесь к нашему серверу сообщества Discord</a_discord>!
 		</p>`,
 
-	"app.faqs.application.videoGuide.question":
-		"У вас есть видеогайд?",
-	"app.faqs.application.videoGuide.answer":
-		`<p>Наш 3-минутный видеогайд вы можете найти <a_tutorial_video>здесь</a_tutorial_video>.</p>`,
+  "app.faqs.application.videoGuide.question": "У вас есть видеогайд?",
+  "app.faqs.application.videoGuide.answer": `<p>Наш 3-минутный видеогайд вы можете найти <a_tutorial_video>здесь</a_tutorial_video>.</p>`,
 
-	"app.faqs.application.gameStateIntegration.question":
-		"Что такое Game State Integration?",
-	"app.faqs.application.gameStateIntegration.answer":
-		`<p>
+  "app.faqs.application.gameStateIntegration.question": "Что такое Game State Integration?",
+  "app.faqs.application.gameStateIntegration.answer": `<p>
 			Game State Integration является неотъемлемой частью Dota Coach. Он предоставляется Valve для доступа ко всем событиям в игре Dota 2.
 		</p>
 		<p>
@@ -76,10 +70,8 @@ export default {
 			Для получения дополнительной информации о том, как включить его, нажмите 	<a_GSI>здесь</a_GSI>.
 		</p>`,
 
-	"app.faqs.application.getBanned.question":
-		"Могу ли я получить бан за использование Dota Coach?",
-	"app.faqs.application.getBanned.answer":
-		`<p>
+  "app.faqs.application.getBanned.question": "Могу ли я получить бан за использование Dota Coach?",
+  "app.faqs.application.getBanned.answer": `<p>
 			<b>Приложение Dota Coach НЕ заблокирует вас.</b>
 		</p>
 		<p>
@@ -89,20 +81,16 @@ export default {
 			Вы можете прочитать больше здесь: <a_overwolf_banned>Overwolf не забанит вас</a_overwolf_banned>
 		</p>`,
 
-	"app.faqs.application.update.question":
-		"Как обновить до последней версии?", // #toBeUpdated
-	"app.faqs.application.update.answer":
-		`<p>
+  "app.faqs.application.update.question": "Как обновить до последней версии?", // #toBeUpdated
+  "app.faqs.application.update.answer": `<p>
 			Когда выйдет новая версия, просто закройте Dota Coach и Overwolf. После этого перезапустите Overwolf, а также тренера по Dota. Как только Dota Coach полностью загрузится, его следует обновить до последней версии!
 		</p>
 		<p>
 			Версию вы можете проверить в меню настроек!
 		</p>`, // #toBeUpdated
 
-	"app.faqs.application.languages.question":
-		"Как изменить язык?",
-	"app.faqs.application.languages.answer":
-		`<p>
+  "app.faqs.application.languages.question": "Как изменить язык?",
+  "app.faqs.application.languages.answer": `<p>
 			Откройте окно настроек. Вы можете найти его в меню в правом верхнем углу окна Dota Coach. Настройка языка расположена в правом нижнем углу.
 		</p>
 		<p>
@@ -115,27 +103,21 @@ export default {
 			<img_settings_language></img_settings_language>
 		</p>`, // #toBeUpdated
 
-	"app.faqs.application.translations.question":
-		"Могу ли я помочь с переводом?",
-	"app.faqs.application.translations.answer":
-		`<p>Да, конечно! Свяжитесь с нами здесь:</p>
+  "app.faqs.application.translations.question": "Могу ли я помочь с переводом?",
+  "app.faqs.application.translations.answer": `<p>Да, конечно! Свяжитесь с нами здесь:</p>
 		<ul>
 			<li><a_discord>Discord</a_discord></li>
 			<li><a_github_i18n>информация</a_github_i18n></li>
-			<li>info(at)dota-coach.com</li>
+			<li>info(at)dotacoach.gg</li>
 		</ul>`,
 
-	"app.faqs.application.getHelp.question":
-		"Где можно получить дополнительную помощь?",
-	"app.faqs.application.getHelp.answer":
-		`<p>
+  "app.faqs.application.getHelp.question": "Где можно получить дополнительную помощь?",
+  "app.faqs.application.getHelp.answer": `<p>
 			Присоединяйтесь к нашему Discord для поддержки в реальном времени <a_discord>здесь</a_discord>.
 		</p>`,
 
-	"app.faqs.application.money.question":
-		"Как Dota Coach зарабатывает деньги?",
-	"app.faqs.application.money.answer":
-		`<p>
+  "app.faqs.application.money.question": "Как Dota Coach зарабатывает деньги?",
+  "app.faqs.application.money.answer": `<p>
 			Большинство функций приложения доступны всем игрокам бесплатно.
 		</p>
 		<p>
@@ -145,13 +127,11 @@ export default {
 			Также игроки могут платить ежемесячную абонентскую плату, чтобы получить доступ к некоторым эксклюзивным функциям. Профессиональная подписка также отключает рекламу.
 		</p>`,
 
-	// Timers FAQs
-	"app.faqs.timers": "Таймеры",
+  // Timers FAQs
+  "app.faqs.timers": "Таймеры",
 
-	"app.faqs.timers.start.question":
-		"Как запустить таймер?",
-	"app.faqs.timers.start.answer":
-		`<p>
+  "app.faqs.timers.start.question": "Как запустить таймер?",
+  "app.faqs.timers.start.answer": `<p>
 			Нажмите на таймеры левой кнопкой мыши, чтобы активировать их. Это работает для Рошана, Глифа, выкупа и ультимейтов.
 		</p>
 		<div_flex>
@@ -168,15 +148,11 @@ export default {
 		</div_flex>
 		`,
 
-	"app.faqs.timers.stop.question":
-		"Как остановить таймер?",
-	"app.faqs.timers.stop.answer":
-		`<p>Нажмите на красный крестик, чтобы остановить таймер.</p>`,
+  "app.faqs.timers.stop.question": "Как остановить таймер?",
+  "app.faqs.timers.stop.answer": `<p>Нажмите на красный крестик, чтобы остановить таймер.</p>`,
 
-	"app.faqs.timers.sharing.question":
-		"Как сообщить о таймере?",
-	"app.faqs.timers.sharing.answer":
-		`<p>
+  "app.faqs.timers.sharing.question": "Как сообщить о таймере?",
+  "app.faqs.timers.sharing.answer": `<p>
 			Вы можете поделиться активными таймерами, щелкнув по ним левой кнопкой мыши. Затем приложение автоматически публикует статус таймера в командном чате.
 		</p>
 		<p>
@@ -195,10 +171,8 @@ export default {
 			Это работает для Рошана, Аегиса, Глифа, выкупа и ультимейтов.
 		</p>`,
 
-	"app.faqs.timers.disable.question":
-		"Как убрать таймер?",
-	"app.faqs.timers.disable.answer":
-		`<p>
+  "app.faqs.timers.disable.question": "Как убрать таймер?",
+  "app.faqs.timers.disable.answer": `<p>
 			Откройте окно настроек. Вы можете найти его в правом верхнем углу в разделе «Настройки».
 		</p>
 		<p>
@@ -208,10 +182,8 @@ export default {
 			<img_settings_timers></img_settings_timers>
 		</p>`,
 
-	"app.faqs.timers.missing.question":
-		"Почему я не вижу таймеры?",
-	"app.faqs.timers.missing.answer":
-		`<p>
+  "app.faqs.timers.missing.question": "Почему я не вижу таймеры?",
+  "app.faqs.timers.missing.answer": `<p>
 			Таймеры не отображаются по нескольким причинам. 
 		</p>
 		<p>
@@ -227,10 +199,8 @@ export default {
 			<img_reset_position></img_reset_position>
 		</p>`,
 
-	"app.faqs.timers.ultimate.question":
-		"Почему я не вижу таймеры Ультимейтов?",
-	"app.faqs.timers.ultimate.answer":
-		`<p>
+  "app.faqs.timers.ultimate.question": "Почему я не вижу таймеры Ультимейтов?",
+  "app.faqs.timers.ultimate.answer": `<p>
 			Таймеры Ultimate — это премиум-функция, доступная только нашим подписчикам.
 		</p>
 		<p>
@@ -240,33 +210,28 @@ export default {
 			<img_subscribe></img_subscribe>
 		</p>`, // #toBeUpdated
 
-	// Game Modes FAQs
-	"app.faqs.gameModes": "Игровые режимы",
+  // Game Modes FAQs
+  "app.faqs.gameModes": "Игровые режимы",
 
-	"app.faqs.gameModes.supported.question":
-		"Какие игровые режимы вы поддерживаете?",
-	"app.faqs.gameModes.supported.answer":
-		`<p>
+  "app.faqs.gameModes.supported.question": "Какие игровые режимы вы поддерживаете?",
+  "app.faqs.gameModes.supported.answer": `<p>
 			Dota Coach работает во всех игровых режимах.
 		</p>
 		<p>
 			Но имейте в виду, что некоторые таймеры и тайминги могут работать не в полной мере в Турбо-матчах. Abilitu Draft также не полностью поддерживается.
 		</p>`,
 
-	"app.faqs.gameModes.spectating.question":
-		"Могу ли я наблюдать за играми?",
-	"app.faqs.gameModes.spectating.answer":
-		`<p>
+  "app.faqs.gameModes.spectating.question": "Могу ли я наблюдать за играми?",
+  "app.faqs.gameModes.spectating.answer": `<p>
 			Да, можете! Dota Coach работает в режиме зрителя.
 		</p>
 		<p>
 			Это улучшит общее впечатление от зрителей за счет предоставления дополнительной информации. Попробуй!
 		</p>`,
 
-	"app.faqs.gameModes.trounament.question":
-		"Могу ли я использовать приложение в официальных турнирах/играх с билетами?",
-	"app.faqs.gameModes.trounament.answer":
-		`<p>
+  "app.faqs.gameModes.trounament.question":
+    "Могу ли я использовать приложение в официальных турнирах/играх с билетами?",
+  "app.faqs.gameModes.trounament.answer": `<p>
 			Короткий ответ — нет.
 		</p>
 		<p>
@@ -276,13 +241,11 @@ export default {
 			Вы не можете использовать Dota Coach во время официальных турнирных игр (игры с билетами).
 		</p>`,
 
-	// Audio FAQs
-	"app.faqs.audio": "Аудио",
+  // Audio FAQs
+  "app.faqs.audio": "Аудио",
 
-	"app.faqs.audio.enable.question":
-		"Звук не воспроизводится, как его включить?",
-	"app.faqs.audio.enable.answer":
-		`<p>
+  "app.faqs.audio.enable.question": "Звук не воспроизводится, как его включить?",
+  "app.faqs.audio.enable.answer": `<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки».
 		</p>
 		<p>
@@ -292,10 +255,8 @@ export default {
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
-	"app.faqs.audio.volume.question":
-		"Как настроить громкость звука?",
-	"app.faqs.audio.volume.answer":
-		`<p>
+  "app.faqs.audio.volume.question": "Как настроить громкость звука?",
+  "app.faqs.audio.volume.answer": `<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки».
 		</p>
 		<p>
@@ -305,10 +266,8 @@ export default {
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
-	"app.faqs.audio.disable.question":
-		"Как отключить звуковые сообщения?",
-	"app.faqs.audio.disable.answer":
-		`<p>
+  "app.faqs.audio.disable.question": "Как отключить звуковые сообщения?",
+  "app.faqs.audio.disable.answer": `<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки».
 		</p>
 		<p>
@@ -320,30 +279,24 @@ export default {
 			<li>Голосовой коучинг вражеских героев</li>
 		</ul>`,
 
-	// Windows FAQs
-	"app.faqs.windows": "Окно Dota Coach",
+  // Windows FAQs
+  "app.faqs.windows": "Окно Dota Coach",
 
-	"app.faqs.windows.ban.question":
-		"Как посмотреть предложения по выбору или бану?",
-	"app.faqs.windows.ban.answer":
-		`<p>
+  "app.faqs.windows.ban.question": "Как посмотреть предложения по выбору или бану?",
+  "app.faqs.windows.ban.answer": `<p>
 			Как только вы войдете в игру и начнёте драфт, в левом верхнем углу появится логотип Dota Coach. Нажмите на нее, чтобы показать или скрыть информацию о драфте.
 		</p>
 		<p>
 			<img_buttondraft></img_buttondraft>
 		</p>`,
 
-	"app.faqs.windows.role.question":
-		"Как открыть выбор ролей?",
-	"app.faqs.windows.role.answer":
-		`<p>
+  "app.faqs.windows.role.question": "Как открыть выбор ролей?",
+  "app.faqs.windows.role.answer": `<p>
 			Как только вы войдете в игру, над мини-картой появится логотип Dota Coach. Нажмите на нее, чтобы показать или скрыть информацию о выборе роли и лайнинге.
 		</p>`,
 
-	"app.faqs.windows.secondScreen.question":
-		"Как мне включить режим второго окна?",
-	"app.faqs.windows.secondScreen.answer":
-		`<p>
+  "app.faqs.windows.secondScreen.question": "Как мне включить режим второго окна?",
+  "app.faqs.windows.secondScreen.answer": `<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки». 
 		</p>
 		<p>
@@ -353,10 +306,8 @@ export default {
 			<img_settings_secondscreen></img_settings_secondscreen>
 		</p>`,
 
-	"app.faqs.windows.reposition.question":
-		"Как переместить окна?",
-	"app.faqs.windows.reposition.answer":
-		`<p>
+  "app.faqs.windows.reposition.question": "Как переместить окна?",
+  "app.faqs.windows.reposition.answer": `<p>
 			Откройте меню настроек в правом верхнем углу окна.
 		</p>
 		<p>
@@ -366,10 +317,8 @@ export default {
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
-	"app.faqs.windows.green.question":
-		"Почему все окна зеленые?",
-	"app.faqs.windows.green.answer":
-		`<p>
+  "app.faqs.windows.green.question": "Почему все окна зеленые?",
+  "app.faqs.windows.green.answer": `<p>
 			Окна станут зелеными, если ползунок изменения положения в меню настроек установлен в активное положение.
 		</p>
 		<p>
@@ -382,10 +331,8 @@ export default {
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
-	"app.faqs.windows.showHide.question":
-		"Как скрыть/показать окна во время игры?", // #toBeUpdated
-	"app.faqs.windows.showHide.answer":
-		`<p>
+  "app.faqs.windows.showHide.question": "Как скрыть/показать окна во время игры?", // #toBeUpdated
+  "app.faqs.windows.showHide.answer": `<p>
 			Чтобы скрыть/показать внутриигровые окна во время игры, нажмите назначенную горячую клавишу.
 		</p>
 		<p>
@@ -398,10 +345,8 @@ export default {
 			Periksa FAQ kami di bawah 'Hotkeys' jika Anda tidak yakin di mana menemukannya.
 		</p>`, // #toBeUpdated
 
-	"app.faqs.windows.missing.question":
-		"Почему некоторые окна отсутствуют?",
-	"app.faqs.windows.missing.answer":
-		`<p>
+  "app.faqs.windows.missing.question": "Почему некоторые окна отсутствуют?",
+  "app.faqs.windows.missing.answer": `<p>
 			Таймеры не отображаются по нескольким причинам:
 		</p>
 		<ul>
@@ -417,10 +362,8 @@ export default {
 			</li>
 		</ul>`,
 
-	"app.faqs.windows.disable.question":
-		"Как отключить окна, которые мне не нравятся?",
-	"app.faqs.windows.disable.answer":
-		`<p>
+  "app.faqs.windows.disable.question": "Как отключить окна, которые мне не нравятся?",
+  "app.faqs.windows.disable.answer": `<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки».
 		</p>
 		<p>
@@ -434,13 +377,11 @@ export default {
 			<li>субтитров</li>
 		</ul>`,
 
-	// Hotkeys FAQs
-	"app.faqs.hotkeys": "Горячие клавиши", // toBeUpdate : add "& misclick protection"
+  // Hotkeys FAQs
+  "app.faqs.hotkeys": "Горячие клавиши", // toBeUpdate : add "& misclick protection"
 
-	"app.faqs.hotkeys.change.question":
-		"Где можно поменять горячие клавиши?",
-	"app.faqs.hotkeys.change.answer":
-		`<p>
+  "app.faqs.hotkeys.change.question": "Где можно поменять горячие клавиши?",
+  "app.faqs.hotkeys.change.answer": `<p>
 			Горячие клавиши приложения изменяются в настройках приложения Overwolf.
 		</p>
 		<ul>
@@ -455,10 +396,8 @@ export default {
 			<img_overwolf_hotkeys></img_overwolf_hotkeys>
 		</p>`,
 
-	"app.faqs.hotkeys.misclick.question":
-		"Как включить защиту от промахов?",
-	"app.faqs.hotkeys.misclick.answer":
-		`<p>
+  "app.faqs.hotkeys.misclick.question": "Как включить защиту от промахов?",
+  "app.faqs.hotkeys.misclick.answer": `<p>
 			Чтобы избежать случайных нажатий по внутриигровым окнам, вы можете включить модификатор защиты от промахов. Окна станут интерактивными только в том случае, если модификатор нажат во время щелчка мышью. Мы поддерживаем «alt», «ctrl» и «shift».
 		</p>
 		<p>
@@ -471,30 +410,24 @@ export default {
 			<img_settings_mouseclieckmod></img_settings_mouseclieckmod>
 		</p>`,
 
-	"app.faqs.hotkeys.modifier.question":
-		"Что такое клавиша-модификатор?",
-	"app.faqs.hotkeys.modifier.answer":
-		`<p>
+  "app.faqs.hotkeys.modifier.question": "Что такое клавиша-модификатор?",
+  "app.faqs.hotkeys.modifier.answer": `<p>
 			Клавиша-модификатор была введена, чтобы избежать промахов по элементам окна.
 		</p>
 		<p>
 			Если у вас возникли проблемы с пропусками кликов в окнах, обязательно включите клавишу-модификатор.
 		</p>`,
 
-	// Streaming
-	"app.faqs.streaming": "Трансляция",
+  // Streaming
+  "app.faqs.streaming": "Трансляция",
 
-	"app.faqs.streaming.allowed.question":
-		"Могу ли я стримить вместе с приложением?",
-	"app.faqs.streaming.allowed.answer":
-		`<p>
+  "app.faqs.streaming.allowed.question": "Могу ли я стримить вместе с приложением?",
+  "app.faqs.streaming.allowed.answer": `<p>
 			Вы можете стримить с нашим приложением в любое время!
 		</p>`,
 
-	"app.faqs.streaming.windows.question":
-		"Почему некоторые окна пропадали во время трансляции?",
-	"app.faqs.streaming.windows.answer":
-		`<p>
+  "app.faqs.streaming.windows.question": "Почему некоторые окна пропадали во время трансляции?",
+  "app.faqs.streaming.windows.answer": `<p>
 			OBS предлагает множество возможностей для захвата игровых оверлеев.
 		</p>
 		<p>
@@ -505,29 +438,23 @@ export default {
 			<li>Откройте окно Dota2 с захватом монитора (щелкните правой кнопкой мыши Источник -> Добавить -> Захват монитора)</li>
 		</ul>`,
 
-	"app.faqs.streaming.partnership.question":
-		"Могу ли я сторудничать с вами?",
-	"app.faqs.streaming.partnership.answer":
-		`<p>
+  "app.faqs.streaming.partnership.question": "Могу ли я сторудничать с вами?",
+  "app.faqs.streaming.partnership.answer": `<p>
 			Конечно, мы предлагаем сотрудничества стримерам, тренерам и создателям контента! Пожалуйста, свяжитесь с нами:
 		</p>
 		<ul>
-			<li>E-Mail: info(at)dota-coach.com</li>
+			<li>E-Mail: info(at)dotacoach.gg</li>
 			<li>Discord: Dota Coach#4076</li>
 		</ul>`,
 
-	// Account FAQs
-	"app.faqs.account": "Учетная запись",
+  // Account FAQs
+  "app.faqs.account": "Учетная запись",
 
-	"app.faqs.account.create.question":
-		"Как мне создать аккаунт?",
-	"app.faqs.account.create.answer":
-		`<p>Следуйте <a_overwolf_account>пошаговому руководству Overwolf</a_overwolf_account> о том, как создать учетную запись.</p>`, // #toBeUpdated
+  "app.faqs.account.create.question": "Как мне создать аккаунт?",
+  "app.faqs.account.create.answer": `<p>Следуйте <a_overwolf_account>пошаговому руководству Overwolf</a_overwolf_account> о том, как создать учетную запись.</p>`, // #toBeUpdated
 
-	"app.faqs.account.login.question":
-		"Как мне войти в систему?",
-	"app.faqs.account.login.answer":
-		`<p>
+  "app.faqs.account.login.question": "Как мне войти в систему?",
+  "app.faqs.account.login.answer": `<p>
 			Вы можете войти в систему через клиент Overwolf или непосредственно в нашем приложении.
 		</p>
 		<p>
@@ -540,10 +467,8 @@ export default {
 			<img_loginout></img_loginout>
 		</p>`,
 
-	"app.faqs.account.logout.question":
-		"Как мне выйти из системы?",
-	"app.faqs.account.logout.answer":
-		`<p>
+  "app.faqs.account.logout.question": "Как мне выйти из системы?",
+  "app.faqs.account.logout.answer": `<p>
 			Вы можете выйти из системы через клиент Overwolf или непосредственно в нашем приложении.
 		</p>
 		<p>
@@ -553,10 +478,8 @@ export default {
 			<img_loginout></img_loginout>
 		</p>`,
 
-	"app.faqs.account.manage.question":
-		"Где я могу управлять своей учетной записью?",
-	"app.faqs.account.manage.answer":
-		`<p>
+  "app.faqs.account.manage.question": "Где я могу управлять своей учетной записью?",
+  "app.faqs.account.manage.answer": `<p>
 			Управлять аккаунтом Overwolf можно прямо в клиенте Overwolf.
 		</p>
 		<p>
@@ -566,13 +489,11 @@ export default {
 			<img_overwolf_accmgmt></img_overwolf_accmgmt>
 		</p>`,
 
-	// Subscription FAQs
-	"app.faqs.subscription": "Подписка",
+  // Subscription FAQs
+  "app.faqs.subscription": "Подписка",
 
-	"app.faqs.subscription.features.question":
-		"Какие возможности я получу?",
-	"app.faqs.subscription.features.answer":
-		`<p>
+  "app.faqs.subscription.features.question": "Какие возможности я получу?",
+  "app.faqs.subscription.features.answer": `<p>
 			Наша версия профессиональная версия Dota Coach имеет ряд функций:
 		</p>
 		<ul>
@@ -582,10 +503,8 @@ export default {
 			<li>Роль подписчика в Discord.</li>
 		</ul>`,
 
-	"app.faqs.subscription.payment.question":
-		"Какие варианты оплаты существуют?",
-	"app.faqs.subscription.payment.answer":
-		`<p>
+  "app.faqs.subscription.payment.question": "Какие варианты оплаты существуют?",
+  "app.faqs.subscription.payment.answer": `<p>
 			Все платежи осуществляются через платформу <a_overwolf_subscription>Overwolf</a_overwolf_subscription> которая сотрудничает с широким спектром платежных систем.
 		</p>
 		<p>
@@ -603,10 +522,8 @@ export default {
 			Имейте в виду, что варианты оплаты могут быть ограничены в зависимости от вашей текущей страны проживания.
 		</p>`,
 
-	"app.faqs.subscription.proCoach.question":
-		"Как я могу получить профессиональную версию?",
-	"app.faqs.subscription.proCoach.answer":
-		`<p>
+  "app.faqs.subscription.proCoach.question": "Как я могу получить профессиональную версию?",
+  "app.faqs.subscription.proCoach.answer": `<p>
 			После установки Dota Coach с клиентом overwolf вы можете подписаться на наши услуги.
 		</p>
 		<ul>
@@ -624,30 +541,24 @@ export default {
 			<img_subscribesteps></img_subscribesteps>
 		</p>`,
 
-	"app.faqs.subscription.cancel.question":
-		"Как я могу отменить подписку?",
-	"app.faqs.subscription.cancel.answer":
-		`<p>
+  "app.faqs.subscription.cancel.question": "Как я могу отменить подписку?",
+  "app.faqs.subscription.cancel.answer": `<p>
 			Все подписки обрабатываются Overwolf.
 		</p>
 		<p>
 			Если вы хотите отменить подписку, вернуть деньги или забыли ее отменить, пожалуйста, следуйте инструкциям на <a_overwolf_subscription>странице часто задаваемых вопросов(FAQ) Приложение Overwolf.</a_overwolf_subscription>.
 		</p>`,
 
-	// Issue FAQs
-	"app.faqs.issues": "Проблемы",
+  // Issue FAQs
+  "app.faqs.issues": "Проблемы",
 
-	"app.faqs.issues.appNotWorking.question":
-		"Почему приложение не работает?",
-	"app.faqs.issues.appNotWorking.answer":
-		`<p>
+  "app.faqs.issues.appNotWorking.question": "Почему приложение не работает?",
+  "app.faqs.issues.appNotWorking.answer": `<p>
 			Для работы приложения необходимо добавить «-gamestateintegration» в параметры запуска Dota 2. Дополнительную информацию о том, как добавить параметр запуска, можно найти <a_GSI>здесь</a_GSI>.
 		</p>`,
 
-	"app.faqs.issues.bug.question":
-		"Как мне сообщить о проблеме или баге?",
-	"app.faqs.issues.bug.answer":
-		`<p>
+  "app.faqs.issues.bug.question": "Как мне сообщить о проблеме или баге?",
+  "app.faqs.issues.bug.answer": `<p>
 			Кнопка «Отчёт о проблеме» находится в верхнем меню окна приложения.
 		</p>
 		<p>
@@ -657,10 +568,8 @@ export default {
 			<img_send_bug_report></img_send_bug_report>
 		</p>`,
 
-	"app.faqs.issues.fps.question":
-		"Как улучшить количество кадров в секунду (FPS)?",
-	"app.faqs.issues.fps.answer":
-		`<p>
+  "app.faqs.issues.fps.question": "Как улучшить количество кадров в секунду (FPS)?",
+  "app.faqs.issues.fps.answer": `<p>
 			Если во время игры вы сталкиваетесь с низкой частотой кадров в секунду, перезапустите Dota 2, в большинстве случаев это решит проблемы с частотой кадров без каких-либо дальнейших действий.
 		</p>
 		<p>
@@ -678,43 +587,35 @@ export default {
 			<img_steam_notifications></img_steam_notifications>
 		</p>`,
 
-	"app.faqs.issues.windowNotShowing.question":
-		"Почему окно не отображается?",
-	"app.faqs.issues.windowNotShowing.answer":
-		`<p>
+  "app.faqs.issues.windowNotShowing.question": "Почему окно не отображается?",
+  "app.faqs.issues.windowNotShowing.answer": `<p>
 			Это может произойти, когда вы настраиваете расположение таймеров, а затем меняете разрешение экрана. Мы предлагаем вам сбросить положение таймеров в меню настроек.
 		</p>
 		<p>
 			<img_reset_position></img_reset_position>
 		</p>`,
 
-	"app.faqs.issues.fitScreen.question":
-		"Почему окно не подходит для моего экрана?", // #toBeUpdated
-	"app.faqs.issues.fitScreen.answer":
-		`<p>
+  "app.faqs.issues.fitScreen.question": "Почему окно не подходит для моего экрана?", // #toBeUpdated
+  "app.faqs.issues.fitScreen.answer": `<p>
 			Убедитесь, что масштабирование операционной системы Windows установлено на 100%. Обязательно перезагрузите операционную систему после внесения этих изменений!
 		</p>
 		<p>
 			Если вы установили его на 100%, а окна все еще не подходят для вашего экрана, имейте в виду, что Dota Coach не поддерживает разрешение экрана ниже 1150 пикселей.
 		</p>`, // #toBeUpdated
 
-	// Hero Guides FAQs
-	"app.faqs.heroGuides": "Руководства по героям",
+  // Hero Guides FAQs
+  "app.faqs.heroGuides": "Руководства по героям",
 
-	"app.faqs.heroGuides.quality.question":
-		"Хороши ли ваши гайды для героев?",
-	"app.faqs.heroGuides.quality.answer":
-		`<p>
+  "app.faqs.heroGuides.quality.question": "Хороши ли ваши гайды для героев?",
+  "app.faqs.heroGuides.quality.answer": `<p>
 			Все предоставляемые нами руководства по героям созданы и поддерживаются профессиональными тренерами и игроками Dota 2. Их внутриигровые ранги находятся в диапазоне от 1000 до 100 ранга Immortal (8000 - 10000 MMR).
 		</p>
 		<p>
 			Их рейтинги можно посмотреть в официальных <a_dota_leaderboard_europe>списках лидеров</a_dota_leaderboard_europe> Dota 2.
 		</p>`,
 
-	"app.faqs.heroGuides.get.question":
-		"Как получить гайды по героям?",
-	"app.faqs.heroGuides.get.answer":
-		`<p>
+  "app.faqs.heroGuides.get.question": "Как получить гайды по героям?",
+  "app.faqs.heroGuides.get.answer": `<p>
 			Мы создали внутриигровые руководства для каждого героя игры. Они содержат все советы и сборки предметов, которые есть в «Dota Coach App».
 		</p>
 		<p>
@@ -735,10 +636,8 @@ export default {
 		</ul>
 		<carousel_heroGuides></carousel_heroGuides>`,
 
-	"app.faqs.heroGuides.missing.question":
-		"Почему не отображаются руководства для героев?",
-	"app.faqs.heroGuides.missing.answer":
-		`<p>
+  "app.faqs.heroGuides.missing.question": "Почему не отображаются руководства для героев?",
+  "app.faqs.heroGuides.missing.answer": `<p>
 			Если вы уже подписались на наши руководства по героям, но они не отображаются в игре, обязательно перезапустите Dota 2!
 		</p>
 		<p>

@@ -1,17 +1,15 @@
 export default {
-	// Headers
-	"app.faqs.title": "Pertanyaan yang Sering Diajukan",
+  // Headers
+  "app.faqs.title": "Pertanyaan yang Sering Diajukan",
 
-	// Sections
-	"app.faqs.popular": "Pertanyaan Paling Populer",
+  // Sections
+  "app.faqs.popular": "Pertanyaan Paling Populer",
 
-	// Application FAQs
-	"app.faqs.application": "Aplikasi",
+  // Application FAQs
+  "app.faqs.application": "Aplikasi",
 
-	"app.faqs.application.getStarted.question":
-		"Bagaimana cara memulai?",
-	"app.faqs.application.getStarted.answer":
-		`<p>
+  "app.faqs.application.getStarted.question": "Bagaimana cara memulai?",
+  "app.faqs.application.getStarted.answer": `<p>
 			Langkah pertama adalah menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 Anda. Jika Anda menambahkannya dan masih mendapatkan pesan peringatan, pastikan untuk masuk ke akun uap Anda. Panduan tentang cara menambahkan parameter peluncuran Dota 2 dapat ditemukan <a_GSI>di sini</a_GSI>.
 		</p>
 		<p>
@@ -57,17 +55,13 @@ export default {
 			ingin melihat aplikasi dalam tindakan dan belajar tentang fitur-fiturnya? <a_tutorial_video>Tonton video tutorial kami</a_tutorial_video>!<br></br> Mau bicara dengan kami? Tidak masalah: <a_discord>Bergabunglah dengan server komunitas Discord kami</a_discord>!
 		</p>`,
 
-	"app.faqs.application.videoGuide.question":
-		"Apakah Anda memiliki panduan video?",
-	"app.faqs.application.videoGuide.answer":
-		`<p>
+  "app.faqs.application.videoGuide.question": "Apakah Anda memiliki panduan video?",
+  "app.faqs.application.videoGuide.answer": `<p>
 			Anda dapat menemukan panduan video 3 menit kami <a_tutorial_video>di sini</a_tutorial_video>.
 		</p>`,
 
-	"app.faqs.application.gameStateIntegration.question":
-		"Apa itu Gamestateintegration?",
-	"app.faqs.application.gameStateIntegration.answer":
-		`<p>
+  "app.faqs.application.gameStateIntegration.question": "Apa itu Gamestateintegration?",
+  "app.faqs.application.gameStateIntegration.answer": `<p>
 			The gamestateintegration merupakan bagian integral dari Dota Coach. Ini disediakan oleh Valve untuk mengakses semua acara dalam permainan Dota 2.
 		</p>
 		<p>
@@ -77,10 +71,8 @@ export default {
 			Untuk informasi lebih lanjut tentang cara mengaktifkannya klik <a_GSI>di sini</a_GSI>.
 		</p>`,
 
-	"app.faqs.application.getBanned.question":
-		"Bisakah saya dilarang menggunakan Dota Coach?",
-	"app.faqs.application.getBanned.answer":
-		`<p>
+  "app.faqs.application.getBanned.question": "Bisakah saya dilarang menggunakan Dota Coach?",
+  "app.faqs.application.getBanned.answer": `<p>
 			<b>Aplikasi Dota Coach TIDAK akan membuat Anda dilarang.</b>
 		</p>
 		<p>
@@ -90,20 +82,16 @@ export default {
 			Anda dapat membaca lebih lanjut di sini: <a_overwolf_banned>Overwolf Overwolf Tidak Akan Mendapatkan Anda Dilarang</a_overwolf_banned>
 		</p>`,
 
-	"app.faqs.application.update.question":
-		"Bagaimana cara memperbarui ke Versi terbaru?",
-	"app.faqs.application.update.answer":
-		`<p>
+  "app.faqs.application.update.question": "Bagaimana cara memperbarui ke Versi terbaru?",
+  "app.faqs.application.update.answer": `<p>
 			Ketika versi baru dirilis, cukup matikan Dota Coach dan Overwolf. Setelah itu, restart Overwolf, serta Dota Coach. Setelah Dota Coach telah terisi penuh, itu harus diperbarui ke versi terbaru!
 		</p>
 		<p>
 			Anda dapat memeriksa versi di menu pengaturan!
 		</p>`,
 
-	"app.faqs.application.languages.question":
-		"Bagaimana saya bisa mengubah bahasa?",
-	"app.faqs.application.languages.answer":
-		`<p>
+  "app.faqs.application.languages.question": "Bagaimana saya bisa mengubah bahasa?",
+  "app.faqs.application.languages.answer": `<p>
 			Buka jendela pengaturan. Anda dapat menemukannya di menu di sudut kanan atas jendela desktop. Pengaturan languge terletak di sudut kanan bawah.
 		</p>
 		<p>
@@ -116,27 +104,21 @@ export default {
 			<img_settings_language></img_settings_language>
 		</p>`,
 
-	"app.faqs.application.translations.question":
-		"Dapatkah saya membantu dengan terjemahan?",
-	"app.faqs.application.translations.answer":
-		`<p>Ya tentu saja! Hubungi kami di sini:</p>
+  "app.faqs.application.translations.question": "Dapatkah saya membantu dengan terjemahan?",
+  "app.faqs.application.translations.answer": `<p>Ya tentu saja! Hubungi kami di sini:</p>
 		<ul>
 			<li><a_discord>Discord</a_discord></li>
 			<li><a_github_i18n>Github</a_github_i18n></li>
-			<li>info(at)dota-coach.com</li>
+			<li>info(at)dotacoach.gg</li>
 		</ul>`,
 
-	"app.faqs.application.getHelp.question":
-		"Di mana saya bisa mendapatkan bantuan tambahan?",
-	"app.faqs.application.getHelp.answer":
-		`<p>
+  "app.faqs.application.getHelp.question": "Di mana saya bisa mendapatkan bantuan tambahan?",
+  "app.faqs.application.getHelp.answer": `<p>
 			Bergabunglah dengan Discord kami untuk dukungan langsung <a_discord>di sini</a_discord>.
 		</p>`,
 
-	"app.faqs.application.money.question":
-		"Bagaimana Dota Coach menghasilkan uang?",
-	"app.faqs.application.money.answer":
-		`<p>
+  "app.faqs.application.money.question": "Bagaimana Dota Coach menghasilkan uang?",
+  "app.faqs.application.money.answer": `<p>
 			Sebagian besar fitur aplikasi tersedia untuk semua pemain secara gratis. 
 		</p>
 		<p>
@@ -146,13 +128,11 @@ export default {
 			Juga pemain dapat membayar biaya berlangganan bulanan untuk mendapatkan akses ke beberapa fitur eksklusif. Langganan pro juga mematikan iklan.
 		</p>`,
 
-	// Timers FAQs
-	"app.faqs.timers": "Timer",
+  // Timers FAQs
+  "app.faqs.timers": "Timer",
 
-	"app.faqs.timers.start.question":
-		"Bagaimana cara memulai timer?",
-	"app.faqs.timers.start.answer":
-		`<p>
+  "app.faqs.timers.start.question": "Bagaimana cara memulai timer?",
+  "app.faqs.timers.start.answer": `<p>
 			Klik kiri pada timer untuk mengaktifkannya. Ini bekerja untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates.
 		</p>
 		<div_flex>
@@ -169,17 +149,13 @@ export default {
 		</div_flex>
 		`,
 
-	"app.faqs.timers.stop.question":
-		"Bagaimana cara menghentikan timer?",
-	"app.faqs.timers.stop.answer":
-		`<p>
+  "app.faqs.timers.stop.question": "Bagaimana cara menghentikan timer?",
+  "app.faqs.timers.stop.answer": `<p>
 			Klik pada salib merah untuk menghentikan timer.
 		</p>`,
 
-	"app.faqs.timers.sharing.question":
-		"Bagaimana cara mengumumkan timer?",
-	"app.faqs.timers.sharing.answer":
-		`<p>
+  "app.faqs.timers.sharing.question": "Bagaimana cara mengumumkan timer?",
+  "app.faqs.timers.sharing.answer": `<p>
 			Anda dapat berbagi timer aktif dengan mengklik kiri pada mereka. < br > Aplikasi kemudian secara otomatis memposting status timer ke obrolan tim.
 		</p>
 		<p>
@@ -198,10 +174,8 @@ export default {
 			Ini bekerja untuk Roshan, Aegis, Glyph of Fortification, Buybacks dan Ultimates.
 		</p>`,
 
-	"app.faqs.timers.disable.question":
-		"Bagaimana cara menonaktifkan timer?",
-	"app.faqs.timers.disable.answer":
-		`<p>
+  "app.faqs.timers.disable.question": "Bagaimana cara menonaktifkan timer?",
+  "app.faqs.timers.disable.answer": `<p>
 			Buka jendela pengaturan. Anda dapat menemukannya di sudut kanan atas di bawah 'perubahan pengaturan'.
 		</p>
 		<p>
@@ -211,10 +185,8 @@ export default {
 			<img_settings_timers></img_settings_timers>
 		</p>`,
 
-	"app.faqs.timers.missing.question":
-		"Mengapa saya tidak melihat timer?",
-	"app.faqs.timers.missing.answer":
-		`<p>
+  "app.faqs.timers.missing.question": "Mengapa saya tidak melihat timer?",
+  "app.faqs.timers.missing.answer": `<p>
 			Ada beberapa alasan mengapa timer Anda tidak ditampilkan.
 		</p>
 		<p>
@@ -230,10 +202,8 @@ export default {
 			<img_reset_position></img_reset_position>
 		</p>`,
 
-	"app.faqs.timers.ultimate.question":
-		"Mengapa saya tidak melihat timer Ultimate?",
-	"app.faqs.timers.ultimate.answer":
-		`<p>
+  "app.faqs.timers.ultimate.question": "Mengapa saya tidak melihat timer Ultimate?",
+  "app.faqs.timers.ultimate.answer": `<p>
 			Ultimate timer adalah fitur premium yang hanya tersedia untuk pelanggan kami.
 		</p>
 		<p>
@@ -243,33 +213,28 @@ export default {
 			<img_subscribe></img_subscribe>
 		</p>`,
 
-	// Game Modes FAQs
-	"app.faqs.gameModes": "Mode Permainan",
+  // Game Modes FAQs
+  "app.faqs.gameModes": "Mode Permainan",
 
-	"app.faqs.gameModes.supported.question":
-		"Mode Game apa yang Anda dukung?",
-	"app.faqs.gameModes.supported.answer":
-		`<p>
+  "app.faqs.gameModes.supported.question": "Mode Game apa yang Anda dukung?",
+  "app.faqs.gameModes.supported.answer": `<p>
 			Dota Coach bekerja di semua Mode Game.
 		</p>
 		<p>
 			Namun perlu diketahui bahwa beberapa timer dan timing mungkin tidak beroperasi penuh dalam pertandingan Turbo. Kemampuan Draft juga tidak sepenuhnya didukung.
 		</p>`,
 
-	"app.faqs.gameModes.spectating.question":
-		"Dapatkah saya melihat permainan?",
-	"app.faqs.gameModes.spectating.answer":
-		`<p>
+  "app.faqs.gameModes.spectating.question": "Dapatkah saya melihat permainan?",
+  "app.faqs.gameModes.spectating.answer": `<p>
 			Ya, Anda bisa! Dota Coach bekerja dalam mode penonton.
 		</p>
 		<p>
 			Ini akan meningkatkan pengalaman penonton Anda secara keseluruhan karena memberikan informasi tambahan. Mencobanya!
 		</p>`,
 
-	"app.faqs.gameModes.trounament.question":
-		"Dapatkah saya menggunakan aplikasi di turnamen offical/game tiket?",
-	"app.faqs.gameModes.trounament.answer":
-		`<p>
+  "app.faqs.gameModes.trounament.question":
+    "Dapatkah saya menggunakan aplikasi di turnamen offical/game tiket?",
+  "app.faqs.gameModes.trounament.answer": `<p>
 			Jawaban singkatnya adalah tidak.
 		</p>
 		<p>
@@ -279,13 +244,11 @@ export default {
 			Anda tidak dapat menggunakan Dota Coach selama pertandingan turnamen resmi (game tiket).
 		</p>`,
 
-	// Audio FAQs
-	"app.faqs.audio": "Audio",
+  // Audio FAQs
+  "app.faqs.audio": "Audio",
 
-	"app.faqs.audio.enable.question":
-		"Audio tidak diputar, bagaimana saya bisa mengaktifkannya?",
-	"app.faqs.audio.enable.answer":
-		`<p>
+  "app.faqs.audio.enable.question": "Audio tidak diputar, bagaimana saya bisa mengaktifkannya?",
+  "app.faqs.audio.enable.answer": `<p>
 			Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'
 		</p>
 		<p>
@@ -295,10 +258,8 @@ export default {
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
-	"app.faqs.audio.volume.question":
-		"Bagaimana saya bisa menyesuaikan volume suara?",
-	"app.faqs.audio.volume.answer":
-		`<p>
+  "app.faqs.audio.volume.question": "Bagaimana saya bisa menyesuaikan volume suara?",
+  "app.faqs.audio.volume.answer": `<p>
 			Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'.
 		</p>
 		<p>
@@ -308,10 +269,8 @@ export default {
 			<img_settings_audio></img_settings_audio>
 		</p>`,
 
-	"app.faqs.audio.disable.question":
-		"Bagaimana cara menonaktifkan pesan audio?",
-	"app.faqs.audio.disable.answer":
-		`<p>
+  "app.faqs.audio.disable.question": "Bagaimana cara menonaktifkan pesan audio?",
+  "app.faqs.audio.disable.answer": `<p>
 			Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'.
 		</p>
 		<p>
@@ -323,30 +282,25 @@ export default {
 			<li>Musuh pelatih suara</li>
 		</ul>`,
 
-	// Windows FAQs
-	"app.faqs.windows": "Windows",
+  // Windows FAQs
+  "app.faqs.windows": "Windows",
 
-	"app.faqs.windows.ban.question":
-		"Bagaimana saya bisa melihat saran pick/ban?",
-	"app.faqs.windows.ban.answer":
-		`<p>
+  "app.faqs.windows.ban.question": "Bagaimana saya bisa melihat saran pick/ban?",
+  "app.faqs.windows.ban.answer": `<p>
 			Setelah Anda memasukkan permainan dan draft dimulai, logo Dota Coach akan muncul di pojok kiri atas. Klik untuk menampilkan atau menyembunyikan draf informasi.
 		</p>
 		<p>
 			<img_buttondraft></img_buttondraft>
 		</p>`,
 
-	"app.faqs.windows.role.question":
-		"Bagaimana cara membuka pemilihan Peran?",
-	"app.faqs.windows.role.answer":
-		`<p>
+  "app.faqs.windows.role.question": "Bagaimana cara membuka pemilihan Peran?",
+  "app.faqs.windows.role.answer": `<p>
 			Setelah Anda memasukkan game, logo Dota Coach akan muncul di atas minimap. Klik untuk menampilkan atau menyembunyikan pemilihan peran dan informasi laning.
 		</p>`,
 
-	"app.faqs.windows.secondScreen.question":
-		"Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?",
-	"app.faqs.windows.secondScreen.answer":
-		`<p>
+  "app.faqs.windows.secondScreen.question":
+    "Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?",
+  "app.faqs.windows.secondScreen.answer": `<p>
 			Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'.
 		</p>
 		<p>
@@ -356,10 +310,8 @@ export default {
 			<img_settings_secondscreen></img_settings_secondscreen>
 		</p>`,
 
-	"app.faqs.windows.reposition.question":
-		"Bagaimana saya bisa memposisikan ulang jendela??",
-	"app.faqs.windows.reposition.answer":
-		`<p>
+  "app.faqs.windows.reposition.question": "Bagaimana saya bisa memposisikan ulang jendela??",
+  "app.faqs.windows.reposition.answer": `<p>
 			Buka menu pengaturan di sudut kanan atas jendela desktop.
 		</p>
 		<p>
@@ -369,10 +321,8 @@ export default {
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
-	"app.faqs.windows.green.question":
-		"Mengapa semua jendela hijau?",
-	"app.faqs.windows.green.answer":
-		`<p>
+  "app.faqs.windows.green.question": "Mengapa semua jendela hijau?",
+  "app.faqs.windows.green.answer": `<p>
 			Jendela Anda berubah menjadi hijau jika slider reposisi di menu pengaturan diatur ke aktif.
 		</p>
 		<p>
@@ -385,10 +335,9 @@ export default {
 			<img_settings_reposition></img_settings_reposition>
 		</p>`,
 
-	"app.faqs.windows.showHide.question":
-		"Bagaimana saya bisa menyembunyikan/menampilkan jendela saat bermain?",
-	"app.faqs.windows.showHide.answer":
-		`<p>
+  "app.faqs.windows.showHide.question":
+    "Bagaimana saya bisa menyembunyikan/menampilkan jendela saat bermain?",
+  "app.faqs.windows.showHide.answer": `<p>
 			Untuk Sembunyikan/Tampilkan jendela dalam game saat bermain, tekan hotkey asigned.
 		</p>
 		<p>
@@ -401,10 +350,8 @@ export default {
 			Periksa FAQ kami di bawah 'Hotkeys' jika Anda tidak yakin di mana menemukannya.
 		</p>`,
 
-	"app.faqs.windows.missing.question":
-		"Mengapa beberapa jendela hilang?",
-	"app.faqs.windows.missing.answer":
-		`<p>
+  "app.faqs.windows.missing.question": "Mengapa beberapa jendela hilang?",
+  "app.faqs.windows.missing.answer": `<p>
 			Ada beberapa alasan mengapa timer Anda tidak ditampilkan:
 		</p>
 		<ul>
@@ -420,10 +367,9 @@ export default {
 			</li>
 		</ul>`,
 
-	"app.faqs.windows.disable.question":
-		"Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?",
-	"app.faqs.windows.disable.answer":
-		`<p>
+  "app.faqs.windows.disable.question":
+    "Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?",
+  "app.faqs.windows.disable.answer": `<p>
 			Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'.
 		</p>
 		<p>
@@ -437,13 +383,11 @@ export default {
 			<li>Subtitle Window</li>
 		</ul>`,
 
-	// Hotkeys FAQs
-	"app.faqs.hotkeys": "Hotkeys & Perlindungan Salah Klik",
+  // Hotkeys FAQs
+  "app.faqs.hotkeys": "Hotkeys & Perlindungan Salah Klik",
 
-	"app.faqs.hotkeys.change.question":
-		"Dimana saya bisa mengganti hotkeys?",
-	"app.faqs.hotkeys.change.answer":
-		`<p>
+  "app.faqs.hotkeys.change.question": "Dimana saya bisa mengganti hotkeys?",
+  "app.faqs.hotkeys.change.answer": `<p>
 			Hotkey aplikasi diubah dalam pengaturan aplikasi overwolf.
 		</p>
 		<ul>
@@ -458,10 +402,8 @@ export default {
 			<img_overwolf_hotkeys></img_overwolf_hotkeys>
 		</p>`,
 
-	"app.faqs.hotkeys.misclick.question":
-		"Bagaimana cara mengaktifkan perlindungan miss-click?",
-	"app.faqs.hotkeys.misclick.answer":
-		`<p>
+  "app.faqs.hotkeys.misclick.question": "Bagaimana cara mengaktifkan perlindungan miss-click?",
+  "app.faqs.hotkeys.misclick.answer": `<p>
 			Untuk menghindari miss-klik pada jendela dalam game, Anda dapat mengaktifkan pengubah perlindungan miss-click. Ini akan membuat jendela hanya interaktif jika pengubah ditekan saat mengklik mouse. Kami mendukung 'alt', 'ctrl' dan 'shift'.
 		</p>
 		<p>
@@ -474,30 +416,24 @@ export default {
 			<img_settings_mouseclieckmod></img_settings_mouseclieckmod>
 		</p>`,
 
-	"app.faqs.hotkeys.modifier.question":
-		"Apa kunci pengubah?",
-	"app.faqs.hotkeys.modifier.answer":
-		`<p>
+  "app.faqs.hotkeys.modifier.question": "Apa kunci pengubah?",
+  "app.faqs.hotkeys.modifier.answer": `<p>
 			Kunci pengubah diperkenalkan untuk menghindari miss-click pada elemen jendela.
 		</p>
 		<p>
 			Jika Anda mengalami masalah dengan miss-click pada windows, pastikan untuk mengaktifkan tombol modifier.
 		</p>`,
 
-	// Streaming
-	"app.faqs.streaming": "Streaming",
+  // Streaming
+  "app.faqs.streaming": "Streaming",
 
-	"app.faqs.streaming.allowed.question":
-		"Apakah saya diizinkan untuk streaming dengan aplikasi?",
-	"app.faqs.streaming.allowed.answer":
-		`<p>
+  "app.faqs.streaming.allowed.question": "Apakah saya diizinkan untuk streaming dengan aplikasi?",
+  "app.faqs.streaming.allowed.answer": `<p>
 			Anda diizinkan untuk streaming dengan aplikasi kami kapan saja!
 		</p>`,
 
-	"app.faqs.streaming.windows.question":
-		"Mengapa beberapa jendela hilang saat streaming?",
-	"app.faqs.streaming.windows.answer":
-		`<p>
+  "app.faqs.streaming.windows.question": "Mengapa beberapa jendela hilang saat streaming?",
+  "app.faqs.streaming.windows.answer": `<p>
 			OBS menawarkan berbagai kemungkinan untuk menangkap overlay dalam game.
 		</p>
 		<p>
@@ -508,34 +444,28 @@ export default {
 			<li>Dapatkan jendela Dota2 dengan tangkapan monitor (klik kanan Sumber -> Tambah -> Monitorcapture)</li>
 		</ul>`,
 
-	"app.faqs.streaming.partnership.question":
-		"Bisakah saya mendapatkan kemitraan?",
-	"app.faqs.streaming.partnership.answer":
-		`<p>
+  "app.faqs.streaming.partnership.question": "Bisakah saya mendapatkan kemitraan?",
+  "app.faqs.streaming.partnership.answer": `<p>
 			Ya, kami menawarkan kemitraan kepada streamer, pelatih, dan pembuat konten!
 		</p> 
 		<p>
 			Silahkan hubungi kami dengan proposal Anda:
 		</p>
 		<ul>
-			<li>Email: info(at)dota-coach.com</li>
+			<li>Email: info(at)dotacoach.gg</li>
 			<li>Discord: Dota Coach#4076</li>
 		</ul>`,
 
-	// Account FAQs
-	"app.faqs.account": "Akun",
+  // Account FAQs
+  "app.faqs.account": "Akun",
 
-	"app.faqs.account.create.question":
-		"Bagaimana cara membuat akun?",
-	"app.faqs.account.create.answer":
-		`<p>
+  "app.faqs.account.create.question": "Bagaimana cara membuat akun?",
+  "app.faqs.account.create.answer": `<p>
 			Ikuti langkah Overwolf demi langkah <a_overwolf_account>tutorial</a_overwolf_account> tentang cara membuat akun.
 		</p>`,
 
-	"app.faqs.account.login.question":
-		"Bagaimana cara masuk?",
-	"app.faqs.account.login.answer":
-		`<p>
+  "app.faqs.account.login.question": "Bagaimana cara masuk?",
+  "app.faqs.account.login.answer": `<p>
 			Anda dapat login melalui klien overwolf, atau langsung dalam aplikasi kami.
 		</p>
 		<p>
@@ -548,10 +478,8 @@ export default {
 			<img_loginout></img_loginout>
 		</p>`,
 
-	"app.faqs.account.logout.question":
-		"Bagaimana cara log out?",
-	"app.faqs.account.logout.answer":
-		`<p>
+  "app.faqs.account.logout.question": "Bagaimana cara log out?",
+  "app.faqs.account.logout.answer": `<p>
 			Anda dapat log out melalui klien overwolf, atau langsung dalam aplikasi kami.
 		</p>
 		<p>
@@ -561,10 +489,8 @@ export default {
 			<img_loginout></img_loginout>
 		</p>`,
 
-	"app.faqs.account.manage.question":
-		"Di mana saya dapat mengelola akun saya?",
-	"app.faqs.account.manage.answer":
-		`<p>
+  "app.faqs.account.manage.question": "Di mana saya dapat mengelola akun saya?",
+  "app.faqs.account.manage.answer": `<p>
 			Anda dapat mengelola akun overwolf Anda langsung di klien overwolf.
 		</p>
 		<p>
@@ -574,13 +500,11 @@ export default {
 			<img_overwolf_accmgmt></img_overwolf_accmgmt>
 		</p>`,
 
-	// Subscription FAQs
-	"app.faqs.subscription": "Berlangganan",
+  // Subscription FAQs
+  "app.faqs.subscription": "Berlangganan",
 
-	"app.faqs.subscription.features.question":
-		"Fitur apa yang saya dapatkan?",
-	"app.faqs.subscription.features.answer":
-		`<p>
+  "app.faqs.subscription.features.question": "Fitur apa yang saya dapatkan?",
+  "app.faqs.subscription.features.answer": `<p>
 			Versi pelatih pro kami hadir lama dengan sejumlah fitur:
 		</p>
 		<ul>
@@ -590,10 +514,8 @@ export default {
 			<li>Peran pendukung Discord.</li>
 		</ul>`,
 
-	"app.faqs.subscription.payment.question":
-		"Pilihan pembayaran apa yang saya miliki?",
-	"app.faqs.subscription.payment.answer":
-		`<p>
+  "app.faqs.subscription.payment.question": "Pilihan pembayaran apa yang saya miliki?",
+  "app.faqs.subscription.payment.answer": `<p>
 			Semua pembayaran dilakukan melalui platform <a_overwolf_subscription>Overwolf</a_overwolf_subscription> yang berkolaborasi dengan berbagai penyedia pembayaran.
 		</p>
 		<p>
@@ -611,10 +533,8 @@ export default {
 			Sadarilah bahwa opsi pembayaran dapat dibatasi tergantung pada negara tempat tinggal Anda saat ini.
 		</p>`,
 
-	"app.faqs.subscription.proCoach.question":
-		"Bagaimana saya bisa mendapatkan Versi pro?",
-	"app.faqs.subscription.proCoach.answer":
-		`<p>
+  "app.faqs.subscription.proCoach.question": "Bagaimana saya bisa mendapatkan Versi pro?",
+  "app.faqs.subscription.proCoach.answer": `<p>
 			Setelah menginstal Dota Coach dengan klien overwolf, Anda dapat berlangganan layanan kami.
 		</p>
 		<ul>
@@ -632,30 +552,24 @@ export default {
 			<img_subscribesteps></img_subscribesteps>
 		</p>`,
 
-	"app.faqs.subscription.cancel.question":
-		"Bagaimana cara membatalkan langganan saya?",
-	"app.faqs.subscription.cancel.answer":
-		`<p>
+  "app.faqs.subscription.cancel.question": "Bagaimana cara membatalkan langganan saya?",
+  "app.faqs.subscription.cancel.answer": `<p>
 			Semua langganan ditangani oleh Overwolf.
 		</p>
 		<p>
 			Jika Anda ingin membatalkan langganan, mengembalikan uang, atau lupa membatalkan, ikuti <a_overwolf_subscription>FAQ Overwolf resmi</a_overwolf_subscription>.
 		</p>`,
 
-	// Issue FAQs
-	"app.faqs.issues": "Masalah",
+  // Issue FAQs
+  "app.faqs.issues": "Masalah",
 
-	"app.faqs.issues.appNotWorking.question":
-		"Mengapa aplikasi tidak bekerja?",
-	"app.faqs.issues.appNotWorking.answer":
-		`<p>
+  "app.faqs.issues.appNotWorking.question": "Mengapa aplikasi tidak bekerja?",
+  "app.faqs.issues.appNotWorking.answer": `<p>
 			Anda harus menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 agar aplikasi berfungsi. Informasi tambahan cara menambahkan parameter peluncuran dapat ditemukan <a_GSI>di sini</a_GSI>.
 		</p>`,
 
-	"app.faqs.issues.bug.question":
-		"Bagaimana cara melaporkan masalah atau bug?",
-	"app.faqs.issues.bug.answer":
-		`<p>
+  "app.faqs.issues.bug.question": "Bagaimana cara melaporkan masalah atau bug?",
+  "app.faqs.issues.bug.answer": `<p>
 			Anda dapat menemukan tombol 'laporan masalah' di menu atas jendela aplikasi desktop.
 		</p>
 		<p>
@@ -665,10 +579,8 @@ export default {
 			<img_send_bug_report></img_send_bug_report>
 		</p>`,
 
-	"app.faqs.issues.fps.question":
-		"Bagaimana cara meningkatkan frame saya per detik (FPS)?",
-	"app.faqs.issues.fps.answer":
-		`<p>
+  "app.faqs.issues.fps.question": "Bagaimana cara meningkatkan frame saya per detik (FPS)?",
+  "app.faqs.issues.fps.answer": `<p>
 			Jika Anda menemukan frame rendah per detik selama pertandingan, silakan restart Dota 2, dalam banyak kasus ini akan memperbaiki masalah frame rate tanpa tindakan lebih lanjut.
 		</p>
 		<p>
@@ -686,43 +598,35 @@ export default {
 			<img_steam_notifications></img_steam_notifications>
 		</p>`,
 
-	"app.faqs.issues.windowNotShowing.question":
-		"Mengapa jendela tidak ditampilkan?",
-	"app.faqs.issues.windowNotShowing.answer":
-		`<p>
+  "app.faqs.issues.windowNotShowing.question": "Mengapa jendela tidak ditampilkan?",
+  "app.faqs.issues.windowNotShowing.answer": `<p>
 			Hal ini dapat terjadi ketika Anda menyesuaikan lokasi timer dan kemudian mengubah resolusi layar. Kami menyarankan agar Anda mengatur ulang posisi timer di menu pengaturan.
 		</p>
 		<p>
 			<img_reset_position></img_reset_position>
 		</p>`,
 
-	"app.faqs.issues.fitScreen.question":
-		"Mengapa jendela tidak sesuai dengan layar saya?",
-	"app.faqs.issues.fitScreen.answer":
-		`<p>
+  "app.faqs.issues.fitScreen.question": "Mengapa jendela tidak sesuai dengan layar saya?",
+  "app.faqs.issues.fitScreen.answer": `<p>
 			Pastikan bahwa penskalaan sistem operasi windows diatur ke 100%. Pastikan untuk me-restart sistem operasi Anda setelah Anda membuat perubahan ini! 
 		</p>
 		<p>
 			Jika Anda telah mengaturnya ke 100%, dan jendela masih tidak cocok untuk layar Anda, perlu diketahui bahwa Dota Coach tidak mendukung resolusi layar di bawah lebar 1150px.
 		</p>`,
 
-	// Hero Guides FAQs
-	"app.faqs.heroGuides": "Panduan Pahlawan",
+  // Hero Guides FAQs
+  "app.faqs.heroGuides": "Panduan Pahlawan",
 
-	"app.faqs.heroGuides.quality.question":
-		"Apakah Panduan Pahlawan Anda bagus?",
-	"app.faqs.heroGuides.quality.answer":
-		`<p>
+  "app.faqs.heroGuides.quality.question": "Apakah Panduan Pahlawan Anda bagus?",
+  "app.faqs.heroGuides.quality.answer": `<p>
 			Semua Panduan Pahlawan yang kami sediakan dibuat dan dikelola oleh pelatih dan pemain Dota 2 profesional. Peringkat dalam game mereka adalah bewteen Immortal Rank 1000 dan Immortal Rank 100 (8000 - 10000 MMR).
 		</p>
 		<p>
 			Anda dapat mencari peringkat mereka di resmi Dota 2 <a_dota_leaderboard_europe>Leaderboards</a_dota_leaderboard_europe>.
 		</p>`,
 
-	"app.faqs.heroGuides.get.question":
-		"Bagaimana saya bisa mendapatkan Panduan Pahlawan Anda?",
-	"app.faqs.heroGuides.get.answer":
-		`<p>
+  "app.faqs.heroGuides.get.question": "Bagaimana saya bisa mendapatkan Panduan Pahlawan Anda?",
+  "app.faqs.heroGuides.get.answer": `<p>
 			Kami telah membuat panduan dalam game untuk setiap pahlawan dalam permainan. < br > Mereka berisi semua tips dan item membangun yang disediakan di 'Dota Coach App'.
 		</p>
 		<p>
@@ -743,10 +647,8 @@ export default {
 		</ul>
 		<carousel_heroGuides></carousel_heroGuides>`,
 
-	"app.faqs.heroGuides.missing.question":
-		"Mengapa Hero Guides tidak ditampilkan?",
-	"app.faqs.heroGuides.missing.answer":
-		`<p>
+  "app.faqs.heroGuides.missing.question": "Mengapa Hero Guides tidak ditampilkan?",
+  "app.faqs.heroGuides.missing.answer": `<p>
 			Jika Anda sudah berlangganan Hero Guides kami dan mereka tidak menunjukkan dalam game, pastikan untuk me-restart Dota 2!
 		</p>
 		<p>

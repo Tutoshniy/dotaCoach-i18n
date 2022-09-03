@@ -1,6 +1,6 @@
 /**
- * This file contains all english localized strings for the uninstall page (https://dota-coach.com/uninstall?lang=en)
- * 
+ * This file contains all english localized strings for the uninstall page (https://dotacoach.gg/app/uninstall/{installationId})
+ *
  * (C) Dota Coach, 2022
  */
 
@@ -26,11 +26,11 @@ export default {
   "uninstall.whatDoneBetter.placeholder": "E.g. bugs, not enough features, etc.",
 
   // Final text & submit button
-  "uninstall.thankYouForMarkingAppBetter": "We hope you can try us out again in the future. Thank you for making Dota Coach better.",
+  "uninstall.thankYouForMarkingAppBetter":
+    "We hope you can try us out again in the future. Thank you for making Dota Coach better.",
   "uninstall.thankYouForFeedback": "Thank you for your feedback!",
 
   // Thank you content
   uninstall_thankYou: "Thank you!",
   uninstall_sending: "We are sending your feedback to our server...",
-
 };
