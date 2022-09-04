@@ -107,6 +107,13 @@ export default {
   AppUpgraded: "App upgraded to Version {version}",
   Release_1_3_0: `
     <p>
-      App was upgraded to bla bla
-    </p>`,
+      App was upgraded and there are various improvements:
+    </p>
+    <ul>
+      <li>Desktop and in-game windows redesigned.</li>
+      <li>Coaching updated to patch 7.32b.</li>
+      <li>Translations significantly extended.</li>
+      <li>Various other improvements implemented.</li>
+    </ul>
+    `,
 };
