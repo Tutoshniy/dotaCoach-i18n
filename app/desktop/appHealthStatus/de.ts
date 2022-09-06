@@ -7,7 +7,7 @@ export default {
 	Running: "Running",
 	NotRunning: "Läuft nicht",
 	OverwolfPlugin: "Overwolf-Plugin",
-	Operational: "Operative",
+	Operational: "Operativ",
 	PluginFailedInitializing: "Initialisierung fehlgeschlagen",
 	PluginCrashed: "Abgestürzt",
 	PluginUnknownError: "Unbekannter Fehler",

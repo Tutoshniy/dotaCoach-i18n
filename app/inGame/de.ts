@@ -28,7 +28,7 @@ export default {
   WinningLosingStreaks: "Sieges- / Niederlagenserien",
   NoStreak: "Keine Sieges- und Pechsträhne",
   PlayerTeam: "Dein Team",
-  EnemyTeam: "Gegnerisches Team",
+  EnemyTeam: "Die Gegner",
   Victory: "Sieg",
   Defeat: "Niederlage",
 
