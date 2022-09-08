@@ -26,8 +26,9 @@ export default {
   HotkeysCustomize: "Personalizar chaves",
 
   TimersTooltip:
-    "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui.",
+    "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui. Ativar o minimapa à direita trocará os temporizadores roshan e aegis.",
   RoshanAndGlyph: "Roshan e glifo",
+  MinimapRight: "Minimapa à direita",
   TeamBuybacks: "Reviver aliados",
   TeamUltimates: "Ultis aliados",
   EnemyBuybacks: "Reviver inimigos",

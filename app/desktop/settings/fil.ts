@@ -25,8 +25,9 @@ export default {
   HotkeysCustomize: "I-customize ang mga susi",
 
   TimersTooltip:
-    "Ang timer para sa Roshan, Glyph of Fortification, Buybacks and Ultimates ay pwede ma i-turn off at on dito.",
+    "Ang timer para sa Roshan, Glyph of Fortification, Buybacks and Ultimates ay pwede ma i-turn off at on dito. Ang pag-activate ng minimap sa kanan ay magpapalitan ng mga roshan at aegis timer.",
   RoshanAndGlyph: "Roshan at glyph",
+  MinimapRight: "Minimap kanan",
   TeamBuybacks: "Team buybacks",
   TeamUltimates: "Team ultimates",
   EnemyBuybacks: "Enemy buybacks",

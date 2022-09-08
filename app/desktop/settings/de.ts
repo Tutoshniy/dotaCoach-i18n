@@ -24,8 +24,9 @@ export default {
   HotkeysCustomize: "Hotkeys anpassen",
 
   TimersTooltip:
-    "Der Timer für Roshan, Glyphe der Befestigung, Rückkäufe und Ultimates kann hier ein- und ausgeschaltet werden.",
+    "Der Timer für Roshan, Glyphe der Befestigung, Rückkäufe und Ultimates kann hier ein- und ausgeschaltet werden. Das Aktivieren der Minikarte rechts vertauscht die Roshan- und Aegis-Timer.",
   RoshanAndGlyph: "Roshan & Glyphe",
+  MinimapRight: "Minikarte rechts",
   TeamBuybacks: "Team Rückkäufe",
   TeamUltimates: "Team Ultimates",
   EnemyBuybacks: "Gegner Rückkäufe",

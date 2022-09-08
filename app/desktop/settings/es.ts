@@ -26,8 +26,9 @@ export default {
   HotkeysCustomize: "Personalizar teclas",
 
   TimersTooltip:
-    "El temporizador de Roshan, Glifo de fortificación, Buyback y Ultimates se puede activar y desactivar aquí.",
+    "El temporizador de Roshan, Glifo de fortificación, Buyback y Ultimates se puede activar y desactivar aquí. Activar el minimapa a la derecha cambiará los temporizadores de roshan y aegis.",
   RoshanAndGlyph: "Roshan y glifo",
+  MinimapRight: "Minimapa a la derecha",
   TeamBuybacks: "Buyback de aliados",
   TeamUltimates: "Ultis de aliados",
   EnemyBuybacks: "Buyback de los enemigos",

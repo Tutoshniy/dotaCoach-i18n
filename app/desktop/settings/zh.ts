@@ -22,8 +22,10 @@ export default {
   HotkeyCustomize: "自定义键",
   HotkeysCustomize: "自定义键",
 
-  TimersTooltip: "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。",
+  TimersTooltip:
+    "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。激活小地图右侧将交换肉山和神盾计时器。",
   RoshanAndGlyph: "肉山和防御符文",
+  MinimapRight: "小地图右边",
   TeamBuybacks: "团队买活情况",
   TeamUltimates: "团队终极技能使用情况",
   EnemyBuybacks: "敌人买活情况",

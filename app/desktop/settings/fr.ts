@@ -26,8 +26,9 @@ export default {
   HotkeysCustomize: "Personnaliser les clés",
 
   TimersTooltip:
-    "Le chronomètre pour Roshan, Glyphe de fortification, Rachats et Ultimates peut être désactivé et activé ici.",
+    "Le chronomètre pour Roshan, Glyphe de fortification, Rachats et Ultimates peut être désactivé et activé ici. L'activation de la minicarte à droite permutera les minuteries de roshan et d'égide.",
   RoshanAndGlyph: "Roshan & Glyphe",
+  MinimapRight: "Mini-carte à droite",
   TeamBuybacks: "Rachats d'équipe",
   TeamUltimates: "Ultimes d'équipe",
   EnemyBuybacks: "Rachats d'ennemis",

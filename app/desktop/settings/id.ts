@@ -26,8 +26,9 @@ export default {
   HotkeysCustomize: "Sesuaikan kunci",
 
   TimersTooltip:
-    "Timer untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates dapat dimatikan dan di sini.",
+    "Timer untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates dapat dimatikan dan di sini. Mengaktifkan hak minimap akan menukar timer roshan dan aegis.",
   RoshanAndGlyph: "Roshan & mesin terbang",
+  MinimapRight: "Minimap kanan",
   TeamBuybacks: "Buyback tim",
   TeamUltimates: "Ultimates tim",
   EnemyBuybacks: "Buyback musuh",
