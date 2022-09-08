@@ -28,8 +28,9 @@ export default {
 
   // Timers
   TimersTooltip:
-    "The timer for Roshan, Glyph of Fortification, Buybacks and Ultimates can be turned off and on here.",
+    "The timer for Roshan, Glyph of Fortification, Buybacks and Ultimates can be turned off and on here. Activating minimap right will swap the roshan and aegis timers.",
   RoshanAndGlyph: "Roshan & glyph",
+  MinimapRight: "Minimap right",
   TeamBuybacks: "Team buybacks",
   TeamUltimates: "Team ultimates",
   EnemyBuybacks: "Enemy buybacks",
