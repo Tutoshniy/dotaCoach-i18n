@@ -17,16 +17,16 @@ export default {
   Shift: "Shift",
 
   Settings: "Настройки",
-  MatchAnalytics: "Аналитика матчей", // to be udpated
+  MatchAnalytics: "Аналитика матчей",
   Notifications: "Уведомления",
-  AppHealthStatus: "Состояние работоспособности приложения", // to be udpated
-  ReportBug: "Сообщить об ошибке или проблеме", // to be udpated
-  SignIn: "Войти", // to be udpated
-  LoggedIn: "Вы вошли как {username}", // to be udpated
-  Videos: "Видео", // to be udpated
-  FAQs: "FAQs", // to be udpated
-  Subscription: "Подписка", // to be udpated
-  EMail: "Эл. почта", // to be udpated
+  AppHealthStatus: "Состояние работы приложения",
+  ReportBug: "Сообщить об ошибке или проблеме",
+  SignIn: "Войти",
+  LoggedIn: "Вы вошли как {username}",
+  Videos: "Видео",
+  FAQs: "FAQs",
+  Subscription: "Подписка",
+  EMail: "Эл. почта",
   Items: "Предметы",
 
   showhideOverlay: "Показать/скрыть внутриигровой оверлей:",
@@ -34,7 +34,7 @@ export default {
 
   RemoveAds: "Убрать рекламу",
 
-  ToggleOverlay: "Переключить внутриигровой оверлей с помощью {hotkey}", // Texted should be shortened by about 30%. It looks bad right now
+  ToggleOverlay: "Переключать оверлей - {hotkey}",
 
   Carry: "Carry",
   Mid: "Mid",
@@ -44,10 +44,10 @@ export default {
   HardSupport: "Hard Support",
 
   MagicalDamage: "Магический урон",
-  PhysicalDamage: "Физическое повреждение",
+  PhysicalDamage: "Физическое урон",
   PureDamage: "Чистый урон",
   NeutralDamage: "Нейтральный урон",
-  UnknownDamage: "Неизвестный ущерб",
+  UnknownDamage: "Неизвестный урон",
 
   OneMinuteAgo: "1 минуту назад",
   MinutesAgo: "{minutes} минут назад",

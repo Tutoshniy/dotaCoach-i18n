@@ -28,7 +28,7 @@ export default {
 			<img_hero_selection></img_hero_selection>
 		</p>
 		<p>
-			После выбора героев вы можете выбрать свою роль (керри/лёгкая линия, средняя, оффлайн, основная или саппорт 4 (soft) или 5(hard) позиции) и героев, против которых вы ожидаете стоять на линии. Исходя из этого, Dota Coach будет рекомендовать контр-предметы для фазы лайнинга. Обратите внимание, что вы должны сочетать эти предметы с предметами, рекомендованными нашими гайдами в Dota 2.
+			После выбора героев вы можете выбрать свою роль (керри/лёгкая линия, средняя, оффлейн, основная или саппорт 4 (soft) или 5(hard) позиции) и героев, против которых вы ожидаете стоять на линии. Исходя из этого, Dota Coach будет рекомендовать контр-предметы для фазы лайнинга. Обратите внимание, что вы должны сочетать эти предметы с предметами, рекомендованными нашими гайдами в Dota 2.
 		</p>
 		<p>
 			<img_items_recommendation></img_items_recommendation>
@@ -40,7 +40,7 @@ export default {
 			<img_buyback_timers></img_buyback_timers>
 		</p>
 		<p>
-			И следующее для Рошана и Глифа:
+			И следующие для Рошана и Глифа:
 		</p>
 		<p>
 			<img_roshan_timer_active_32></img_roshan_timer_active_32>
@@ -81,13 +81,13 @@ export default {
 			Вы можете прочитать больше здесь: <a_overwolf_banned>Overwolf не забанит вас</a_overwolf_banned>
 		</p>`,
 
-  "app.faqs.application.update.question": "Как обновить до последней версии?", // #toBeUpdated
+  "app.faqs.application.update.question": "Как обновиться до последней версии?",
   "app.faqs.application.update.answer": `<p>
-			Когда выйдет новая версия, просто закройте Dota Coach и Overwolf. После этого перезапустите Overwolf, а также тренера по Dota. Как только Dota Coach полностью загрузится, его следует обновить до последней версии!
+			Когда выйдет новая версия, просто закройте Dota Coach и Overwolf. После этого перезапустите Overwolf, а также Dota Coach. Как только Dota Coach полностью загрузится, его следует обновить до последней версии!
 		</p>
 		<p>
-			Версию вы можете проверить в меню настроек!
-		</p>`, // #toBeUpdated
+			Версию можно проверить в меню настроек!
+		</p>`,
 
   "app.faqs.application.languages.question": "Как изменить язык?",
   "app.faqs.application.languages.answer": `<p>
@@ -101,7 +101,7 @@ export default {
 		</p>
 		<p>
 			<img_settings_language></img_settings_language>
-		</p>`, // #toBeUpdated
+		</p>`,
 
   "app.faqs.application.translations.question": "Могу ли я помочь с переводом?",
   "app.faqs.application.translations.answer": `<p>Да, конечно! Свяжитесь с нами здесь:</p>
@@ -201,14 +201,14 @@ export default {
 
   "app.faqs.timers.ultimate.question": "Почему я не вижу таймеры Ультимейтов?",
   "app.faqs.timers.ultimate.answer": `<p>
-			Таймеры Ultimate — это премиум-функция, доступная только нашим подписчикам.
+			Таймеры Ультимейтов — это премиум-функция, доступная только нашим подписчикам.
 		</p>
 		<p>
 			Подписка составляет 1,99$ в месяц. Откройте меню приложения и нажмите «Управление подпиской».
 		</p>
 		<p>
 			<img_subscribe></img_subscribe>
-		</p>`, // #toBeUpdated
+		</p>`,
 
   // Game Modes FAQs
   "app.faqs.gameModes": "Игровые режимы",
@@ -336,13 +336,13 @@ export default {
 			Чтобы скрыть/показать внутриигровые окна во время игры, нажмите назначенную горячую клавишу.
 		</p>
 		<p>
-			Стандартная горячая клавиша — «CTRL + b».
+			По умолчанию — «CTRL + b».
 		</p>
 		<p>
-			Jika Anda ingin mengubah hotkey, pergilah ke pengaturan aplikasi overwolf.
+			Если вы хотите поменять горячую клавишу, то это можно сделать в настройках.
 		</p>
 		<p>
-			Periksa FAQ kami di bawah 'Hotkeys' jika Anda tidak yakin di mana menemukannya.
+			Посмотрете "Горячие клавиши" в FAQ, если вы не знаете, где это найти.
 		</p>`, // #toBeUpdated
 
   "app.faqs.windows.missing.question": "Почему некоторые окна отсутствуют?",
@@ -378,7 +378,7 @@ export default {
 		</ul>`,
 
   // Hotkeys FAQs
-  "app.faqs.hotkeys": "Горячие клавиши", // toBeUpdate : add "& misclick protection"
+  "app.faqs.hotkeys": "Горячие клавиши",
 
   "app.faqs.hotkeys.change.question": "Где можно поменять горячие клавиши?",
   "app.faqs.hotkeys.change.answer": `<p>
@@ -396,9 +396,9 @@ export default {
 			<img_overwolf_hotkeys></img_overwolf_hotkeys>
 		</p>`,
 
-  "app.faqs.hotkeys.misclick.question": "Как включить защиту от промахов?",
+  "app.faqs.hotkeys.misclick.question": "Как включить защиту от мисс кликов?",
   "app.faqs.hotkeys.misclick.answer": `<p>
-			Чтобы избежать случайных нажатий по внутриигровым окнам, вы можете включить модификатор защиты от промахов. Окна станут интерактивными только в том случае, если модификатор нажат во время щелчка мышью. Мы поддерживаем «alt», «ctrl» и «shift».
+			Чтобы избежать случайных нажатий по внутриигровым окнам, вы можете включить модификатор защиты от мисс кликов. Окна станут интерактивными только в том случае, если модификатор нажат во время щелчка мышью. Мы поддерживаем «alt», «ctrl» и «shift».
 		</p>
 		<p>
 			Откройте настройки в правом верхнем углу окна и выберите «настройки». Клавиша «Модификатор щелчка мышью» находится в правом верхнем углу окна настроек.
@@ -415,7 +415,7 @@ export default {
 			Клавиша-модификатор была введена, чтобы избежать промахов по элементам окна.
 		</p>
 		<p>
-			Если у вас возникли проблемы с пропусками кликов в окнах, обязательно включите клавишу-модификатор.
+			Если у вас возникли проблемы с мисс кликом по окнам, обязательно включите клавишу-модификатор.
 		</p>`,
 
   // Streaming
@@ -451,7 +451,7 @@ export default {
   "app.faqs.account": "Учетная запись",
 
   "app.faqs.account.create.question": "Как мне создать аккаунт?",
-  "app.faqs.account.create.answer": `<p>Следуйте <a_overwolf_account>пошаговому руководству Overwolf</a_overwolf_account> о том, как создать учетную запись.</p>`, // #toBeUpdated
+  "app.faqs.account.create.answer": `<p>Следуйте <a_overwolf_account>пошаговому руководству Overwolf</a_overwolf_account> о том, как создать учетную запись.</p>`,
 
   "app.faqs.account.login.question": "Как мне войти в систему?",
   "app.faqs.account.login.answer": `<p>
@@ -595,14 +595,14 @@ export default {
 			<img_reset_position></img_reset_position>
 		</p>`,
 
-  "app.faqs.issues.fitScreen.question": "Почему окно не подходит для моего экрана?", // #toBeUpdated
+  "app.faqs.issues.fitScreen.question": "Почему окно не подходит для моего экрана?",
   "app.faqs.issues.fitScreen.answer": `<p>
 			Убедитесь, что масштабирование операционной системы Windows установлено на 100%. Обязательно перезагрузите операционную систему после внесения этих изменений!
 		</p>
 		<p>
 			Если вы установили его на 100%, а окна все еще не подходят для вашего экрана, имейте в виду, что Dota Coach не поддерживает разрешение экрана ниже 1150 пикселей.
-		</p>`, // #toBeUpdated
-
+		</p>`,
+		
   // Hero Guides FAQs
   "app.faqs.heroGuides": "Руководства по героям",
 

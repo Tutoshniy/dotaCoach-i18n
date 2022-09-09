@@ -2,14 +2,14 @@
 export default {
   // Navigation bar
   "navbar.app": "Приложение",
-  "navbar.app.features": "Особенности",
+  "navbar.app.features": "Возможности",
   "navbar.app.videos": "Видео",
   "navbar.app.FAQs": "Часто задаваемые вопросы",
   "navbar.app.Pricing": "Цены",
   "navbar.heroes": "Герои",
   "navbar.heroes.heropedia": "Геропедия",
   "navbar.heroes.herobuilds": "Сборки героев",
-  "navbar.dpc": "Профессиональная трасса",
+  "navbar.dpc": "Профессиональная сцена",
   "navbar.stats": "Статистика",
   "navbar.articles": "Статьи",
   "navbar.selectLanguage": "Выберите язык",
